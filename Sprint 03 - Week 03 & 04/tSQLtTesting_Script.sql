@@ -99,7 +99,6 @@ BEGIN
 	-- EXPECTED CORRECT ANSWER --
 
 	EXEC tSQLt.AssertEqualsTable 'Expected', 'Actual', 'Incorrect Answer!';
-	EXEC tSQLt.Fail 'Invalid random value returned: ';
 
 END;
 GO
