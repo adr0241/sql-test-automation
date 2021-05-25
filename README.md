@@ -1,4 +1,4 @@
-# SQLTestAutomation
+# SQL Test Automation
 *by Aditya Raj - Student at Ara Institute of Canterbury*
 
 The tutors of the Department of Enterprise and Digital Innovation at Ara Institute of Canterbury in Christchurch, New Zealand are the industry clients of this project.
