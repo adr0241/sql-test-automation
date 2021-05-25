@@ -1,5 +1,5 @@
 # Running Sprint 4 Instructions
-This sprint contains 2 sets of work, the first is MyLunchTest and the second os SQLPracticalTest2020.
+This sprint contains 2 sets of work, the first is MyLunchTest and the second is SQLPracticalTest2020.
 These are instructions for checking the work of 2 students, one with all correct answers and the other with all incorrect answers included in each set of work folder.
 
 ## Improvements from Sprint 3
