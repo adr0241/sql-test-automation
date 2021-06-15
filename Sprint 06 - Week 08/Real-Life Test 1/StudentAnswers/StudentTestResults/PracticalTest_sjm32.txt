@@ -1,0 +1,49 @@
+C:\Users\adity\Documents\ADITYA SCHOOL WORK\PROJECT\INDUSTRY\Sprint 06 - Week 08\Real-Life Test 1\StudentAnswers\PracticalTest_sjm32.sql
+Test Case Summary: 18 test case(s) executed, 8 succeeded, 0 skipped, 1 failed, 9 errored.
+[testDE103PracticalTest].[TEST QUESTION 05] failed: (Error) Column name or number of supplied values does not match table definition.[16,7]{Question5,4} (There was also a ROLLBACK ERROR --> The current transaction cannot be committed and cannot be rolled back to a savepoint. Roll back the entire transaction.{tSQLt.Private_RunTest,187})
+[testDE103PracticalTest].[TEST QUESTION 08] failed: (Failure) Incorrect Answer!
+Unexpected/missing resultset rows!
+|_m_|FirstName|LastName |City    |
++---+---------+---------+--------+
+|<  |Janet    |Leverling|Kirkland|
+|=  |Laura    |Callahan |Seattle |
+|=  |Michael  |Suyama   |London  |
+|=  |Nancy    |Davolio  |Seattle |
+|=  |Robert   |King     |London  |
+|=  |Steven   |Buchanan |London  |
+|=  |Anne     |Dodsworth|London  |
+[testDE103PracticalTest].[TEST QUESTION 12] failed: (Error) Could not find stored procedure 'Question12'.[16,62]{testDE103PracticalTest.TEST QUESTION 12,11}
+[testDE103PracticalTest].[TEST QUESTION 13] failed: (Error) Could not find stored procedure 'Question13'.[16,62]{testDE103PracticalTest.TEST QUESTION 13,11}
+[testDE103PracticalTest].[TEST QUESTION 14] failed: (Error) Could not find stored procedure 'Question14'.[16,62]{testDE103PracticalTest.TEST QUESTION 14,14}
+[testDE103PracticalTest].[TEST QUESTION 15] failed: (Error) Could not find stored procedure 'Question15'.[16,62]{testDE103PracticalTest.TEST QUESTION 15,12}
+[testDE103PracticalTest].[TEST QUESTION 16] failed: (Error) Could not find stored procedure 'Question16'.[16,62]{testDE103PracticalTest.TEST QUESTION 16,11}
+[testDE103PracticalTest].[TEST QUESTION 17] failed: (Error) Could not find stored procedure 'Question17'.[16,62]{testDE103PracticalTest.TEST QUESTION 17,12}
+[testDE103PracticalTest].[TEST QUESTION 18] failed: (Error) Could not find stored procedure 'Question18'.[16,62]{testDE103PracticalTest.TEST QUESTION 18,11}
+[testDE103PracticalTest].[TEST QUESTION 19] failed: (Error) Could not find stored procedure 'Question19'.[16,62]{testDE103PracticalTest.TEST QUESTION 19,11}
+ 
++----------------------+
+|Test Execution Summary|
++----------------------+
+ 
+|No|Test Case Name                             |Dur(ms)|Result |
++--+-------------------------------------------+-------+-------+
+|1 |[testDE103PracticalTest].[TEST QUESTION 02]|     16|Success|
+|2 |[testDE103PracticalTest].[TEST QUESTION 03]|     20|Success|
+|3 |[testDE103PracticalTest].[TEST QUESTION 04]|     20|Success|
+|4 |[testDE103PracticalTest].[TEST QUESTION 05]|      3|Error  |
+|5 |[testDE103PracticalTest].[TEST QUESTION 06]|     20|Success|
+|6 |[testDE103PracticalTest].[TEST QUESTION 07]|     16|Success|
+|7 |[testDE103PracticalTest].[TEST QUESTION 08]|     20|Failure|
+|8 |[testDE103PracticalTest].[TEST QUESTION 09]|     20|Success|
+|9 |[testDE103PracticalTest].[TEST QUESTION 10]|     16|Success|
+|10|[testDE103PracticalTest].[TEST QUESTION 11]|     16|Success|
+|11|[testDE103PracticalTest].[TEST QUESTION 12]|      3|Error  |
+|12|[testDE103PracticalTest].[TEST QUESTION 13]|      3|Error  |
+|13|[testDE103PracticalTest].[TEST QUESTION 14]|      3|Error  |
+|14|[testDE103PracticalTest].[TEST QUESTION 15]|      0|Error  |
+|15|[testDE103PracticalTest].[TEST QUESTION 16]|      3|Error  |
+|16|[testDE103PracticalTest].[TEST QUESTION 17]|      3|Error  |
+|17|[testDE103PracticalTest].[TEST QUESTION 18]|      0|Error  |
+|18|[testDE103PracticalTest].[TEST QUESTION 19]|      3|Error  |
+-----------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------

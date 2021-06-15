@@ -1,0 +1,240 @@
+C:\Users\adity\Documents\ADITYA SCHOOL WORK\PROJECT\INDUSTRY\Sprint 06 - Week 08\Real-Life Test 1\StudentAnswers\PracticalTest_sap0685.sql
+Test Case Summary: 18 test case(s) executed, 9 succeeded, 0 skipped, 3 failed, 6 errored.
+[testDE103PracticalTest].[TEST QUESTION 02] failed: (Error) Column name or number of supplied values does not match table definition.[16,7]{Question2,4} (There was also a ROLLBACK ERROR --> The current transaction cannot be committed and cannot be rolled back to a savepoint. Roll back the entire transaction.{tSQLt.Private_RunTest,187})
+[testDE103PracticalTest].[TEST QUESTION 03] failed: (Error) Column name or number of supplied values does not match table definition.[16,7]{Question3,4} (There was also a ROLLBACK ERROR --> The current transaction cannot be committed and cannot be rolled back to a savepoint. Roll back the entire transaction.{tSQLt.Private_RunTest,187})
+[testDE103PracticalTest].[TEST QUESTION 04] failed: (Error) Column name or number of supplied values does not match table definition.[16,7]{Question4,4} (There was also a ROLLBACK ERROR --> The current transaction cannot be committed and cannot be rolled back to a savepoint. Roll back the entire transaction.{tSQLt.Private_RunTest,187})
+[testDE103PracticalTest].[TEST QUESTION 07] failed: (Error) Column name or number of supplied values does not match table definition.[16,7]{Question7,4} (There was also a ROLLBACK ERROR --> The current transaction cannot be committed and cannot be rolled back to a savepoint. Roll back the entire transaction.{tSQLt.Private_RunTest,187})
+[testDE103PracticalTest].[TEST QUESTION 08] failed: (Error) Column name or number of supplied values does not match table definition.[16,7]{Question8,4} (There was also a ROLLBACK ERROR --> The current transaction cannot be committed and cannot be rolled back to a savepoint. Roll back the entire transaction.{tSQLt.Private_RunTest,187})
+[testDE103PracticalTest].[TEST QUESTION 09] failed: (Error) Column name or number of supplied values does not match table definition.[16,7]{Question9,4} (There was also a ROLLBACK ERROR --> The current transaction cannot be committed and cannot be rolled back to a savepoint. Roll back the entire transaction.{tSQLt.Private_RunTest,187})
+[testDE103PracticalTest].[TEST QUESTION 13] failed: (Failure) Incorrect Answer!
+Unexpected/missing resultset rows!
+|_m_|CompanyName                   |NumberOfPurchases|
++---+------------------------------+-----------------+
+|<  |Great Lakes Food Market       |11               |
+|<  |Blondesddsl père et fils      |11               |
+|<  |Ricardo Adocicados            |11               |
+|<  |Vaffeljernet                  |11               |
+|<  |Bottom-Dollar Markets         |14               |
+|<  |Hanari Carnes                 |14               |
+|<  |Königlich Essen               |14               |
+|<  |La maison d'Asie              |14               |
+|<  |LILA-Supermercado             |14               |
+|<  |Reggiani Caseifici            |12               |
+|<  |Suprêmes délices              |12               |
+|<  |Around the Horn               |13               |
+|<  |Mère Paillarde                |13               |
+|<  |Queen Cozinha                 |13               |
+|<  |White Clover Markets          |14               |
+|<  |Frankenversand                |15               |
+|<  |Lehmanns Marktstand           |15               |
+|<  |Wartian Herkku                |15               |
+|<  |LINO-Delicateses              |12               |
+|<  |Bon app'                      |17               |
+|<  |Hungry Owl All-Night Grocers  |19               |
+|<  |Save-a-lot Markets            |31               |
+|<  |Berglunds snabbköp            |18               |
+|<  |HILARION-Abastos              |18               |
+|<  |Rattlesnake Canyon Grocery    |18               |
+|<  |QUICK-Stop                    |28               |
+|<  |Folk och fä HB                |19               |
+|<  |Ernst Handel                  |30               |
+|>  |Richter Supermarkt            |30               |
+|>  |La maison d'Asie              |31               |
+|>  |Gourmet Lanchonetes           |19               |
+|>  |Ottilies Käseladen            |29               |
+|>  |Tortuga Restaurante           |29               |
+|>  |Around the Horn               |30               |
+|>  |Familia Arquibaldo            |19               |
+|>  |Vaffeljernet                  |31               |
+|>  |Hanari Carnes                 |32               |
+|>  |Mère Paillarde                |32               |
+|>  |LILA-Supermercado             |34               |
+|>  |Bottom-Dollar Markets         |35               |
+|>  |LINO-Delicateses              |35               |
+|>  |Wartian Herkku                |37               |
+|>  |Königlich Essen               |39               |
+|>  |Lehmanns Marktstand           |39               |
+|>  |Suprêmes délices              |39               |
+|>  |Queen Cozinha                 |40               |
+|>  |White Clover Markets          |40               |
+|>  |Bon app'                      |44               |
+|>  |Folk och fä HB                |45               |
+|>  |HILARION-Abastos              |45               |
+|>  |Frankenversand                |48               |
+|>  |Berglunds snabbköp            |52               |
+|>  |Hungry Owl All-Night Grocers  |55               |
+|>  |Rattlesnake Canyon Grocery    |71               |
+|>  |QUICK-Stop                    |86               |
+|>  |Ernst Handel                  |102              |
+|>  |Save-a-lot Markets            |116              |
+|>  |Wellington Importadora        |19               |
+|>  |Furia Bacalhau e Frutos do Mar|20               |
+|>  |Split Rail Beer & Ale         |20               |
+|>  |Eastern Connection            |21               |
+|>  |Magazzini Alimentari Riuniti  |21               |
+|>  |B's Beverages                 |22               |
+|>  |Chop-suey Chinese             |22               |
+|>  |Great Lakes Food Market       |22               |
+|>  |Reggiani Caseifici            |22               |
+|>  |Island Trading                |23               |
+|>  |Piccolo und mehr              |23               |
+|>  |Old World Delicatessen        |24               |
+|>  |Que Delícia                   |24               |
+|>  |Victuailles en stock          |25               |
+|>  |Blondesddsl père et fils      |26               |
+|>  |Die Wandernde Kuh             |26               |
+|>  |Godos Cocina Típica           |26               |
+|>  |Seven Seas Imports            |26               |
+|>  |Ricardo Adocicados            |27               |
+|>  |Maison Dewey                  |17               |
+|>  |Wilman Kala                   |17               |
+|>  |Rancho grande                 |12               |
+|>  |Folies gourmandes             |16               |
+|>  |Santé Gourmet                 |16               |
+|>  |Wolski  Zajazd                |16               |
+|>  |Antonio Moreno Taquería       |17               |
+|>  |Simons bistro                 |15               |
+|>  |Tradição Hipermercados        |13               |
+|>  |Blauer See Delikatessen       |14               |
+|>  |Lonesome Pine Restaurant      |14               |
+|>  |Pericles Comidas clásicas     |14               |
+|>  |Romero y tomillo              |14               |
+|>  |Toms Spezialitäten            |14               |
+|>  |Alfreds Futterkiste           |12               |
+|>  |Cactus Comidas para llevar    |11               |
+|>  |La corne d'abondance          |11               |
+|>  |Morgenstern Gesundkost        |11               |
+|>  |Océano Atlántico Ltda.        |11               |
+Warning: Null value is eliminated by an aggregate or other SET operation.
+[testDE103PracticalTest].[TEST QUESTION 16] failed: (Failure) Incorrect Answer!
+Unexpected/missing resultset rows!
+|_m_|CompanyName                         |NumberOfOrders|
++---+------------------------------------+--------------+
+|=  |Centro comercial Moctezuma          |1             |
+|=  |GROSELLA-Restaurante                |2             |
+|=  |Lazy K Kountry Store                |2             |
+|=  |Bólido Comidas preparadas           |3             |
+|=  |Consolidated Holdings               |3             |
+|=  |France restauration                 |3             |
+|=  |Laughing Bacchus Wine Cellars       |3             |
+|=  |North/South                         |3             |
+|=  |The Cracker Box                     |3             |
+|=  |Trail's Head Gourmet Provisioners   |3             |
+|=  |Ana Trujillo Emparedados y helados  |4             |
+|=  |Du monde entier                     |4             |
+|=  |La corne d'abondance                |4             |
+|=  |Let's Stop N Shop                   |4             |
+|=  |Spécialités du monde                |4             |
+|=  |The Big Cheese                      |4             |
+|=  |Comércio Mineiro                    |5             |
+|=  |Folies gourmandes                   |5             |
+|=  |Galería del gastrónomo              |5             |
+|=  |Hungry Coyote Import Store          |5             |
+|=  |Morgenstern Gesundkost              |5             |
+|=  |Océano Atlántico Ltda.              |5             |
+|=  |Princesa Isabel Vinhos              |5             |
+|=  |Rancho grande                       |5             |
+|=  |Romero y tomillo                    |5             |
+|=  |Vins et alcools Chevalier           |5             |
+|=  |Alfreds Futterkiste                 |6             |
+|=  |Cactus Comidas para llevar          |6             |
+|=  |Drachenblut Delikatessen            |6             |
+|=  |Franchi S.p.A.                      |6             |
+|=  |Pericles Comidas clásicas           |6             |
+|=  |Santé Gourmet                       |6             |
+|=  |Toms Spezialitäten                  |6             |
+|=  |Tradição Hipermercados              |6             |
+|=  |Antonio Moreno Taquería             |7             |
+|=  |Blauer See Delikatessen             |7             |
+|=  |Familia Arquibaldo                  |7             |
+|=  |Maison Dewey                        |7             |
+|=  |Simons bistro                       |7             |
+|=  |Wilman Kala                         |7             |
+|=  |Wolski  Zajazd                      |7             |
+|=  |Chop-suey Chinese                   |8             |
+|=  |Eastern Connection                  |8             |
+|=  |Furia Bacalhau e Frutos do Mar      |8             |
+|=  |Lonesome Pine Restaurant            |8             |
+|=  |Gourmet Lanchonetes                 |9             |
+|=  |Que Delícia                         |9             |
+|=  |Seven Seas Imports                  |9             |
+|=  |Split Rail Beer & Ale               |9             |
+|=  |Wellington Importadora              |9             |
+|=  |B's Beverages                       |10            |
+|=  |Die Wandernde Kuh                   |10            |
+|=  |Godos Cocina Típica                 |10            |
+|=  |Island Trading                      |10            |
+|=  |Magazzini Alimentari Riuniti        |10            |
+|=  |Old World Delicatessen              |10            |
+|=  |Ottilies Käseladen                  |10            |
+|=  |Piccolo und mehr                    |10            |
+|=  |Richter Supermarkt                  |10            |
+|=  |Tortuga Restaurante                 |10            |
+|=  |Victuailles en stock                |10            |
+|=  |Blondesddsl père et fils            |11            |
+|=  |Great Lakes Food Market             |11            |
+|=  |Ricardo Adocicados                  |11            |
+|=  |Vaffeljernet                        |11            |
+|=  |LINO-Delicateses                    |12            |
+|=  |Reggiani Caseifici                  |12            |
+|=  |Suprêmes délices                    |12            |
+|=  |Around the Horn                     |13            |
+|=  |Mère Paillarde                      |13            |
+|=  |Queen Cozinha                       |13            |
+|=  |Bottom-Dollar Markets               |14            |
+|=  |Hanari Carnes                       |14            |
+|=  |Königlich Essen                     |14            |
+|=  |La maison d'Asie                    |14            |
+|=  |LILA-Supermercado                   |14            |
+|=  |White Clover Markets                |14            |
+|=  |Frankenversand                      |15            |
+|=  |Lehmanns Marktstand                 |15            |
+|=  |Wartian Herkku                      |15            |
+|=  |Bon app'                            |17            |
+|=  |Berglunds snabbköp                  |18            |
+|=  |HILARION-Abastos                    |18            |
+|=  |Rattlesnake Canyon Grocery          |18            |
+|=  |Folk och fä HB                      |19            |
+|=  |Hungry Owl All-Night Grocers        |19            |
+|=  |QUICK-Stop                          |28            |
+|=  |Ernst Handel                        |30            |
+|=  |Save-a-lot Markets                  |31            |
+|>  |FISSA Fabrica Inter. Salchichas S.A.|0             |
+|>  |Paris spécialités                   |0             |
+[testDE103PracticalTest].[TEST QUESTION 19] failed: (Failure) Incorrect Answer!
+Unexpected/missing resultset rows!
+|_m_|EmployeeName  |City   |
++---+--------------+-------+
+|<  |Laura Callahan|Seattle|
+|<  |Nancy Davolio |Seattle|
+|<  |Andrew Fuller |Tacoma |
+|>  |AndrewFuller  |Tacoma |
+|>  |NancyDavolio  |Seattle|
+|>  |LauraCallahan |Seattle|
+ 
++----------------------+
+|Test Execution Summary|
++----------------------+
+ 
+|No|Test Case Name                             |Dur(ms)|Result |
++--+-------------------------------------------+-------+-------+
+|1 |[testDE103PracticalTest].[TEST QUESTION 02]|      3|Error  |
+|2 |[testDE103PracticalTest].[TEST QUESTION 03]|      3|Error  |
+|3 |[testDE103PracticalTest].[TEST QUESTION 04]|      6|Error  |
+|4 |[testDE103PracticalTest].[TEST QUESTION 05]|     16|Success|
+|5 |[testDE103PracticalTest].[TEST QUESTION 06]|     16|Success|
+|6 |[testDE103PracticalTest].[TEST QUESTION 07]|      3|Error  |
+|7 |[testDE103PracticalTest].[TEST QUESTION 08]|      6|Error  |
+|8 |[testDE103PracticalTest].[TEST QUESTION 09]|      3|Error  |
+|9 |[testDE103PracticalTest].[TEST QUESTION 10]|     16|Success|
+|10|[testDE103PracticalTest].[TEST QUESTION 11]|     16|Success|
+|11|[testDE103PracticalTest].[TEST QUESTION 12]|     13|Success|
+|12|[testDE103PracticalTest].[TEST QUESTION 13]|     26|Failure|
+|13|[testDE103PracticalTest].[TEST QUESTION 14]|     16|Success|
+|14|[testDE103PracticalTest].[TEST QUESTION 15]|     16|Success|
+|15|[testDE103PracticalTest].[TEST QUESTION 16]|     16|Failure|
+|16|[testDE103PracticalTest].[TEST QUESTION 17]|     13|Success|
+|17|[testDE103PracticalTest].[TEST QUESTION 18]|     16|Success|
+|18|[testDE103PracticalTest].[TEST QUESTION 19]|     13|Failure|
+-----------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------

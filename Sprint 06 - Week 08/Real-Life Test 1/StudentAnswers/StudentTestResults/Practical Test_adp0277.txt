@@ -1,0 +1,98 @@
+C:\Users\adity\Documents\ADITYA SCHOOL WORK\PROJECT\INDUSTRY\Sprint 06 - Week 08\Real-Life Test 1\StudentAnswers\Practical Test_adp0277.sql
+Test Case Summary: 18 test case(s) executed, 8 succeeded, 0 skipped, 1 failed, 9 errored.
+[testDE103PracticalTest].[TEST QUESTION 02] failed: (Error) Column name or number of supplied values does not match table definition.[16,7]{Question2,4} (There was also a ROLLBACK ERROR --> The current transaction cannot be committed and cannot be rolled back to a savepoint. Roll back the entire transaction.{tSQLt.Private_RunTest,187})
+[testDE103PracticalTest].[TEST QUESTION 03] failed: (Error) Column name or number of supplied values does not match table definition.[16,7]{Question3,4} (There was also a ROLLBACK ERROR --> The current transaction cannot be committed and cannot be rolled back to a savepoint. Roll back the entire transaction.{tSQLt.Private_RunTest,187})
+[testDE103PracticalTest].[TEST QUESTION 04] failed: (Error) Column name or number of supplied values does not match table definition.[16,7]{Question4,4} (There was also a ROLLBACK ERROR --> The current transaction cannot be committed and cannot be rolled back to a savepoint. Roll back the entire transaction.{tSQLt.Private_RunTest,187})
+[testDE103PracticalTest].[TEST QUESTION 06] failed: (Error) Column name or number of supplied values does not match table definition.[16,7]{Question6,4} (There was also a ROLLBACK ERROR --> The current transaction cannot be committed and cannot be rolled back to a savepoint. Roll back the entire transaction.{tSQLt.Private_RunTest,187})
+[testDE103PracticalTest].[TEST QUESTION 07] failed: (Error) Column name or number of supplied values does not match table definition.[16,7]{Question7,4} (There was also a ROLLBACK ERROR --> The current transaction cannot be committed and cannot be rolled back to a savepoint. Roll back the entire transaction.{tSQLt.Private_RunTest,187})
+[testDE103PracticalTest].[TEST QUESTION 08] failed: (Error) Column name or number of supplied values does not match table definition.[16,7]{Question8,4} (There was also a ROLLBACK ERROR --> The current transaction cannot be committed and cannot be rolled back to a savepoint. Roll back the entire transaction.{tSQLt.Private_RunTest,187})
+[testDE103PracticalTest].[TEST QUESTION 09] failed: (Error) Column name or number of supplied values does not match table definition.[16,7]{Question9,4} (There was also a ROLLBACK ERROR --> The current transaction cannot be committed and cannot be rolled back to a savepoint. Roll back the entire transaction.{tSQLt.Private_RunTest,187})
+[testDE103PracticalTest].[TEST QUESTION 10] failed: (Error) Column name or number of supplied values does not match table definition.[16,7]{Question10,4} (There was also a ROLLBACK ERROR --> The current transaction cannot be committed and cannot be rolled back to a savepoint. Roll back the entire transaction.{tSQLt.Private_RunTest,187})
+[testDE103PracticalTest].[TEST QUESTION 12] failed: (Error) Error converting data type nvarchar to int.[16,1]{Question12,4} (There was also a ROLLBACK ERROR --> The current transaction cannot be committed and cannot be rolled back to a savepoint. Roll back the entire transaction.{tSQLt.Private_RunTest,187})
+[testDE103PracticalTest].[TEST QUESTION 13] failed: (Failure) Incorrect Answer!
+Unexpected/missing resultset rows!
+|_m_|CompanyName                 |NumberOfPurchases|
++---+----------------------------+-----------------+
+|<  |Blondesddsl père et fils    |11               |
+|<  |Great Lakes Food Market     |11               |
+|<  |Vaffeljernet                |11               |
+|<  |LINO-Delicateses            |12               |
+|<  |Ricardo Adocicados          |11               |
+|<  |Reggiani Caseifici          |12               |
+|<  |Suprêmes délices            |12               |
+|<  |Around the Horn             |13               |
+|<  |Mère Paillarde              |13               |
+|<  |Queen Cozinha               |13               |
+|<  |Bottom-Dollar Markets       |14               |
+|<  |Hanari Carnes               |14               |
+|<  |Königlich Essen             |14               |
+|<  |La maison d'Asie            |14               |
+|<  |LILA-Supermercado           |14               |
+|<  |White Clover Markets        |14               |
+|<  |Frankenversand              |15               |
+|<  |Lehmanns Marktstand         |15               |
+|<  |Wartian Herkku              |15               |
+|<  |Bon app'                    |17               |
+|<  |Berglunds snabbköp          |18               |
+|<  |Rattlesnake Canyon Grocery  |18               |
+|<  |Folk och fä HB              |19               |
+|<  |HILARION-Abastos            |18               |
+|<  |Hungry Owl All-Night Grocers|19               |
+|<  |QUICK-Stop                  |28               |
+|<  |Ernst Handel                |30               |
+|<  |Save-a-lot Markets          |31               |
+|>  |SAVEA                       |31               |
+|>  |ERNSH                       |30               |
+|>  |QUICK                       |28               |
+|>  |RATTC                       |18               |
+|>  |FOLKO                       |19               |
+|>  |HUNGO                       |19               |
+|>  |BERGS                       |18               |
+|>  |HILAA                       |18               |
+|>  |BONAP                       |17               |
+|>  |LEHMS                       |15               |
+|>  |WARTH                       |15               |
+|>  |FRANK                       |15               |
+|>  |LILAS                       |14               |
+|>  |WHITC                       |14               |
+|>  |LAMAI                       |14               |
+|>  |KOENE                       |14               |
+|>  |HANAR                       |14               |
+|>  |BOTTM                       |14               |
+|>  |MEREP                       |13               |
+|>  |QUEEN                       |13               |
+|>  |AROUT                       |13               |
+|>  |SUPRD                       |12               |
+|>  |VAFFE                       |11               |
+|>  |LINOD                       |12               |
+|>  |REGGC                       |12               |
+|>  |RICAR                       |11               |
+|>  |BLONP                       |11               |
+|>  |GREAL                       |11               |
+ 
++----------------------+
+|Test Execution Summary|
++----------------------+
+ 
+|No|Test Case Name                             |Dur(ms)|Result |
++--+-------------------------------------------+-------+-------+
+|1 |[testDE103PracticalTest].[TEST QUESTION 02]|      3|Error  |
+|2 |[testDE103PracticalTest].[TEST QUESTION 03]|      3|Error  |
+|3 |[testDE103PracticalTest].[TEST QUESTION 04]|      3|Error  |
+|4 |[testDE103PracticalTest].[TEST QUESTION 05]|     16|Success|
+|5 |[testDE103PracticalTest].[TEST QUESTION 06]|      6|Error  |
+|6 |[testDE103PracticalTest].[TEST QUESTION 07]|      6|Error  |
+|7 |[testDE103PracticalTest].[TEST QUESTION 08]|     10|Error  |
+|8 |[testDE103PracticalTest].[TEST QUESTION 09]|      6|Error  |
+|9 |[testDE103PracticalTest].[TEST QUESTION 10]|      3|Error  |
+|10|[testDE103PracticalTest].[TEST QUESTION 11]|     30|Success|
+|11|[testDE103PracticalTest].[TEST QUESTION 12]|      6|Error  |
+|12|[testDE103PracticalTest].[TEST QUESTION 13]|     13|Failure|
+|13|[testDE103PracticalTest].[TEST QUESTION 14]|     26|Success|
+|14|[testDE103PracticalTest].[TEST QUESTION 15]|     16|Success|
+|15|[testDE103PracticalTest].[TEST QUESTION 16]|     20|Success|
+|16|[testDE103PracticalTest].[TEST QUESTION 17]|     13|Success|
+|17|[testDE103PracticalTest].[TEST QUESTION 18]|     16|Success|
+|18|[testDE103PracticalTest].[TEST QUESTION 19]|     13|Success|
+-----------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------

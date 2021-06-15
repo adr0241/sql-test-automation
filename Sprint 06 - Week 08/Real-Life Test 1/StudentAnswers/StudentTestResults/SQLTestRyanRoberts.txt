@@ -1,0 +1,34 @@
+C:\Users\adity\Documents\ADITYA SCHOOL WORK\PROJECT\INDUSTRY\Sprint 06 - Week 08\Real-Life Test 1\StudentAnswers\SQLTestRyanRoberts.sql
+Test Case Summary: 18 test case(s) executed, 13 succeeded, 0 skipped, 0 failed, 5 errored.
+[testDE103PracticalTest].[TEST QUESTION 06] failed: (Error) Could not find stored procedure 'Question6'.[16,62]{testDE103PracticalTest.TEST QUESTION 06,13}
+[testDE103PracticalTest].[TEST QUESTION 08] failed: (Error) Could not find stored procedure 'Question8'.[16,62]{testDE103PracticalTest.TEST QUESTION 08,12}
+[testDE103PracticalTest].[TEST QUESTION 09] failed: (Error) Could not find stored procedure 'Question9'.[16,62]{testDE103PracticalTest.TEST QUESTION 09,16}
+[testDE103PracticalTest].[TEST QUESTION 12] failed: (Error) Error converting data type nvarchar to int.[16,1]{Question12,4} (There was also a ROLLBACK ERROR --> The current transaction cannot be committed and cannot be rolled back to a savepoint. Roll back the entire transaction.{tSQLt.Private_RunTest,187})
+[testDE103PracticalTest].[TEST QUESTION 14] failed: (Error) Column name or number of supplied values does not match table definition.[16,7]{Question14,4} (There was also a ROLLBACK ERROR --> The current transaction cannot be committed and cannot be rolled back to a savepoint. Roll back the entire transaction.{tSQLt.Private_RunTest,187})
+ 
++----------------------+
+|Test Execution Summary|
++----------------------+
+ 
+|No|Test Case Name                             |Dur(ms)|Result |
++--+-------------------------------------------+-------+-------+
+|1 |[testDE103PracticalTest].[TEST QUESTION 02]|     16|Success|
+|2 |[testDE103PracticalTest].[TEST QUESTION 03]|     16|Success|
+|3 |[testDE103PracticalTest].[TEST QUESTION 04]|     20|Success|
+|4 |[testDE103PracticalTest].[TEST QUESTION 05]|     30|Success|
+|5 |[testDE103PracticalTest].[TEST QUESTION 06]|      3|Error  |
+|6 |[testDE103PracticalTest].[TEST QUESTION 07]|     16|Success|
+|7 |[testDE103PracticalTest].[TEST QUESTION 08]|      3|Error  |
+|8 |[testDE103PracticalTest].[TEST QUESTION 09]|      3|Error  |
+|9 |[testDE103PracticalTest].[TEST QUESTION 10]|     13|Success|
+|10|[testDE103PracticalTest].[TEST QUESTION 11]|     16|Success|
+|11|[testDE103PracticalTest].[TEST QUESTION 12]|      3|Error  |
+|12|[testDE103PracticalTest].[TEST QUESTION 13]|     16|Success|
+|13|[testDE103PracticalTest].[TEST QUESTION 14]|      6|Error  |
+|14|[testDE103PracticalTest].[TEST QUESTION 15]|     13|Success|
+|15|[testDE103PracticalTest].[TEST QUESTION 16]|     16|Success|
+|16|[testDE103PracticalTest].[TEST QUESTION 17]|     13|Success|
+|17|[testDE103PracticalTest].[TEST QUESTION 18]|     13|Success|
+|18|[testDE103PracticalTest].[TEST QUESTION 19]|     16|Success|
+------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------

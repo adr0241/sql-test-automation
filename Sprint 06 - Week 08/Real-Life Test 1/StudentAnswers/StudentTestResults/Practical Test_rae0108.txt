@@ -1,0 +1,215 @@
+C:\Users\adity\Documents\ADITYA SCHOOL WORK\PROJECT\INDUSTRY\Sprint 06 - Week 08\Real-Life Test 1\StudentAnswers\Practical Test_rae0108.sql
+Test Case Summary: 18 test case(s) executed, 3 succeeded, 0 skipped, 2 failed, 13 errored.
+[testDE103PracticalTest].[TEST QUESTION 03] failed: (Error) Column name or number of supplied values does not match table definition.[16,7]{Question3,4} (There was also a ROLLBACK ERROR --> The current transaction cannot be committed and cannot be rolled back to a savepoint. Roll back the entire transaction.{tSQLt.Private_RunTest,187})
+[testDE103PracticalTest].[TEST QUESTION 04] failed: (Error) Column name or number of supplied values does not match table definition.[16,7]{Question4,4} (There was also a ROLLBACK ERROR --> The current transaction cannot be committed and cannot be rolled back to a savepoint. Roll back the entire transaction.{tSQLt.Private_RunTest,187})
+[testDE103PracticalTest].[TEST QUESTION 06] failed: (Failure) Incorrect Answer!
+Unexpected/missing resultset rows!
+|_m_|FirstName|LastName |CompanyName |CompanyName2  |
++---+---------+---------+------------+--------------+
+|<  |Janet    |Leverling|Maison Dewey|Speedy Express|
+|<  |Margaret |Peacock  |Maison Dewey|Speedy Express|
+[testDE103PracticalTest].[TEST QUESTION 07] failed: (Error) Column name or number of supplied values does not match table definition.[16,7]{Question7,13} (There was also a ROLLBACK ERROR --> The current transaction cannot be committed and cannot be rolled back to a savepoint. Roll back the entire transaction.{tSQLt.Private_RunTest,187})
+[testDE103PracticalTest].[TEST QUESTION 08] failed: (Failure) Incorrect Answer!
+Unexpected/missing resultset rows!
+|_m_|FirstName|LastName |City    |
++---+---------+---------+--------+
+|=  |Anne     |Dodsworth|London  |
+|=  |Michael  |Suyama   |London  |
+|=  |Robert   |King     |London  |
+|=  |Steven   |Buchanan |London  |
+|=  |Laura    |Callahan |Seattle |
+|=  |Nancy    |Davolio  |Seattle |
+|=  |Janet    |Leverling|Kirkland|
+|>  |Janet    |Leverling|Kirkland|
+|>  |Janet    |Leverling|Kirkland|
+|>  |Nancy    |Davolio  |Seattle |
+|>  |Nancy    |Davolio  |Seattle |
+|>  |Nancy    |Davolio  |Seattle |
+|>  |Nancy    |Davolio  |Seattle |
+|>  |Nancy    |Davolio  |Seattle |
+|>  |Nancy    |Davolio  |Seattle |
+|>  |Nancy    |Davolio  |Seattle |
+|>  |Nancy    |Davolio  |Seattle |
+|>  |Nancy    |Davolio  |Seattle |
+|>  |Nancy    |Davolio  |Seattle |
+|>  |Nancy    |Davolio  |Seattle |
+|>  |Nancy    |Davolio  |Seattle |
+|>  |Nancy    |Davolio  |Seattle |
+|>  |Laura    |Callahan |Seattle |
+|>  |Laura    |Callahan |Seattle |
+|>  |Laura    |Callahan |Seattle |
+|>  |Laura    |Callahan |Seattle |
+|>  |Laura    |Callahan |Seattle |
+|>  |Laura    |Callahan |Seattle |
+|>  |Laura    |Callahan |Seattle |
+|>  |Laura    |Callahan |Seattle |
+|>  |Laura    |Callahan |Seattle |
+|>  |Laura    |Callahan |Seattle |
+|>  |Laura    |Callahan |Seattle |
+|>  |Laura    |Callahan |Seattle |
+|>  |Laura    |Callahan |Seattle |
+|>  |Steven   |Buchanan |London  |
+|>  |Steven   |Buchanan |London  |
+|>  |Steven   |Buchanan |London  |
+|>  |Steven   |Buchanan |London  |
+|>  |Steven   |Buchanan |London  |
+|>  |Steven   |Buchanan |London  |
+|>  |Steven   |Buchanan |London  |
+|>  |Steven   |Buchanan |London  |
+|>  |Steven   |Buchanan |London  |
+|>  |Steven   |Buchanan |London  |
+|>  |Steven   |Buchanan |London  |
+|>  |Steven   |Buchanan |London  |
+|>  |Steven   |Buchanan |London  |
+|>  |Steven   |Buchanan |London  |
+|>  |Steven   |Buchanan |London  |
+|>  |Steven   |Buchanan |London  |
+|>  |Steven   |Buchanan |London  |
+|>  |Steven   |Buchanan |London  |
+|>  |Steven   |Buchanan |London  |
+|>  |Steven   |Buchanan |London  |
+|>  |Steven   |Buchanan |London  |
+|>  |Steven   |Buchanan |London  |
+|>  |Steven   |Buchanan |London  |
+|>  |Steven   |Buchanan |London  |
+|>  |Steven   |Buchanan |London  |
+|>  |Steven   |Buchanan |London  |
+|>  |Steven   |Buchanan |London  |
+|>  |Steven   |Buchanan |London  |
+|>  |Steven   |Buchanan |London  |
+|>  |Steven   |Buchanan |London  |
+|>  |Steven   |Buchanan |London  |
+|>  |Steven   |Buchanan |London  |
+|>  |Robert   |King     |London  |
+|>  |Robert   |King     |London  |
+|>  |Robert   |King     |London  |
+|>  |Robert   |King     |London  |
+|>  |Robert   |King     |London  |
+|>  |Robert   |King     |London  |
+|>  |Robert   |King     |London  |
+|>  |Robert   |King     |London  |
+|>  |Robert   |King     |London  |
+|>  |Robert   |King     |London  |
+|>  |Robert   |King     |London  |
+|>  |Robert   |King     |London  |
+|>  |Robert   |King     |London  |
+|>  |Robert   |King     |London  |
+|>  |Robert   |King     |London  |
+|>  |Robert   |King     |London  |
+|>  |Robert   |King     |London  |
+|>  |Robert   |King     |London  |
+|>  |Robert   |King     |London  |
+|>  |Robert   |King     |London  |
+|>  |Robert   |King     |London  |
+|>  |Robert   |King     |London  |
+|>  |Robert   |King     |London  |
+|>  |Robert   |King     |London  |
+|>  |Robert   |King     |London  |
+|>  |Robert   |King     |London  |
+|>  |Robert   |King     |London  |
+|>  |Robert   |King     |London  |
+|>  |Robert   |King     |London  |
+|>  |Robert   |King     |London  |
+|>  |Robert   |King     |London  |
+|>  |Robert   |King     |London  |
+|>  |Michael  |Suyama   |London  |
+|>  |Michael  |Suyama   |London  |
+|>  |Michael  |Suyama   |London  |
+|>  |Michael  |Suyama   |London  |
+|>  |Michael  |Suyama   |London  |
+|>  |Michael  |Suyama   |London  |
+|>  |Michael  |Suyama   |London  |
+|>  |Michael  |Suyama   |London  |
+|>  |Michael  |Suyama   |London  |
+|>  |Michael  |Suyama   |London  |
+|>  |Michael  |Suyama   |London  |
+|>  |Michael  |Suyama   |London  |
+|>  |Michael  |Suyama   |London  |
+|>  |Michael  |Suyama   |London  |
+|>  |Michael  |Suyama   |London  |
+|>  |Michael  |Suyama   |London  |
+|>  |Michael  |Suyama   |London  |
+|>  |Michael  |Suyama   |London  |
+|>  |Michael  |Suyama   |London  |
+|>  |Michael  |Suyama   |London  |
+|>  |Michael  |Suyama   |London  |
+|>  |Michael  |Suyama   |London  |
+|>  |Michael  |Suyama   |London  |
+|>  |Michael  |Suyama   |London  |
+|>  |Michael  |Suyama   |London  |
+|>  |Michael  |Suyama   |London  |
+|>  |Michael  |Suyama   |London  |
+|>  |Michael  |Suyama   |London  |
+|>  |Michael  |Suyama   |London  |
+|>  |Michael  |Suyama   |London  |
+|>  |Michael  |Suyama   |London  |
+|>  |Michael  |Suyama   |London  |
+|>  |Anne     |Dodsworth|London  |
+|>  |Anne     |Dodsworth|London  |
+|>  |Anne     |Dodsworth|London  |
+|>  |Anne     |Dodsworth|London  |
+|>  |Anne     |Dodsworth|London  |
+|>  |Anne     |Dodsworth|London  |
+|>  |Anne     |Dodsworth|London  |
+|>  |Anne     |Dodsworth|London  |
+|>  |Anne     |Dodsworth|London  |
+|>  |Anne     |Dodsworth|London  |
+|>  |Anne     |Dodsworth|London  |
+|>  |Anne     |Dodsworth|London  |
+|>  |Anne     |Dodsworth|London  |
+|>  |Anne     |Dodsworth|London  |
+|>  |Anne     |Dodsworth|London  |
+|>  |Anne     |Dodsworth|London  |
+|>  |Anne     |Dodsworth|London  |
+|>  |Anne     |Dodsworth|London  |
+|>  |Anne     |Dodsworth|London  |
+|>  |Anne     |Dodsworth|London  |
+|>  |Anne     |Dodsworth|London  |
+|>  |Anne     |Dodsworth|London  |
+|>  |Anne     |Dodsworth|London  |
+|>  |Anne     |Dodsworth|London  |
+|>  |Anne     |Dodsworth|London  |
+|>  |Anne     |Dodsworth|London  |
+|>  |Anne     |Dodsworth|London  |
+|>  |Anne     |Dodsworth|London  |
+|>  |Anne     |Dodsworth|London  |
+|>  |Anne     |Dodsworth|London  |
+|>  |Anne     |Dodsworth|London  |
+|>  |Anne     |Dodsworth|London  |
+[testDE103PracticalTest].[TEST QUESTION 09] failed: (Error) Implicit conversion from data type datetime to int is not allowed. Use the CONVERT function to run this query.[16,3]{Question9,4}
+[testDE103PracticalTest].[TEST QUESTION 10] failed: (Error) Could not find stored procedure 'Question10'.[16,62]{testDE103PracticalTest.TEST QUESTION 10,12}
+[testDE103PracticalTest].[TEST QUESTION 11] failed: (Error) Could not find stored procedure 'Question11'.[16,62]{testDE103PracticalTest.TEST QUESTION 11,12}
+[testDE103PracticalTest].[TEST QUESTION 12] failed: (Error) Could not find stored procedure 'Question12'.[16,62]{testDE103PracticalTest.TEST QUESTION 12,11}
+[testDE103PracticalTest].[TEST QUESTION 13] failed: (Error) Could not find stored procedure 'Question13'.[16,62]{testDE103PracticalTest.TEST QUESTION 13,11}
+[testDE103PracticalTest].[TEST QUESTION 14] failed: (Error) Could not find stored procedure 'Question14'.[16,62]{testDE103PracticalTest.TEST QUESTION 14,14}
+[testDE103PracticalTest].[TEST QUESTION 15] failed: (Error) Could not find stored procedure 'Question15'.[16,62]{testDE103PracticalTest.TEST QUESTION 15,12}
+[testDE103PracticalTest].[TEST QUESTION 16] failed: (Error) Could not find stored procedure 'Question16'.[16,62]{testDE103PracticalTest.TEST QUESTION 16,11}
+[testDE103PracticalTest].[TEST QUESTION 17] failed: (Error) Could not find stored procedure 'Question17'.[16,62]{testDE103PracticalTest.TEST QUESTION 17,12}
+[testDE103PracticalTest].[TEST QUESTION 18] failed: (Error) Could not find stored procedure 'Question18'.[16,62]{testDE103PracticalTest.TEST QUESTION 18,11}
+ 
++----------------------+
+|Test Execution Summary|
++----------------------+
+ 
+|No|Test Case Name                             |Dur(ms)|Result |
++--+-------------------------------------------+-------+-------+
+|1 |[testDE103PracticalTest].[TEST QUESTION 02]|     16|Success|
+|2 |[testDE103PracticalTest].[TEST QUESTION 03]|      3|Error  |
+|3 |[testDE103PracticalTest].[TEST QUESTION 04]|      3|Error  |
+|4 |[testDE103PracticalTest].[TEST QUESTION 05]|     16|Success|
+|5 |[testDE103PracticalTest].[TEST QUESTION 06]|     16|Failure|
+|6 |[testDE103PracticalTest].[TEST QUESTION 07]|      6|Error  |
+|7 |[testDE103PracticalTest].[TEST QUESTION 08]|     16|Failure|
+|8 |[testDE103PracticalTest].[TEST QUESTION 09]|      3|Error  |
+|9 |[testDE103PracticalTest].[TEST QUESTION 10]|      3|Error  |
+|10|[testDE103PracticalTest].[TEST QUESTION 11]|      0|Error  |
+|11|[testDE103PracticalTest].[TEST QUESTION 12]|      3|Error  |
+|12|[testDE103PracticalTest].[TEST QUESTION 13]|      3|Error  |
+|13|[testDE103PracticalTest].[TEST QUESTION 14]|      0|Error  |
+|14|[testDE103PracticalTest].[TEST QUESTION 15]|      3|Error  |
+|15|[testDE103PracticalTest].[TEST QUESTION 16]|      3|Error  |
+|16|[testDE103PracticalTest].[TEST QUESTION 17]|      3|Error  |
+|17|[testDE103PracticalTest].[TEST QUESTION 18]|      3|Error  |
+|18|[testDE103PracticalTest].[TEST QUESTION 19]|     13|Success|
+------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------

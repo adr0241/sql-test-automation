@@ -1,0 +1,364 @@
+C:\Users\adity\Documents\ADITYA SCHOOL WORK\PROJECT\INDUSTRY\Sprint 06 - Week 08\Real-Life Test 1\StudentAnswers\PracticalTest_kil0097.sql
+Test Case Summary: 18 test case(s) executed, 7 succeeded, 0 skipped, 3 failed, 8 errored.
+[testDE103PracticalTest].[TEST QUESTION 02] failed: (Error) Column name or number of supplied values does not match table definition.[16,7]{Question2,4} (There was also a ROLLBACK ERROR --> The current transaction cannot be committed and cannot be rolled back to a savepoint. Roll back the entire transaction.{tSQLt.Private_RunTest,187})
+[testDE103PracticalTest].[TEST QUESTION 03] failed: (Error) Column name or number of supplied values does not match table definition.[16,7]{Question3,4} (There was also a ROLLBACK ERROR --> The current transaction cannot be committed and cannot be rolled back to a savepoint. Roll back the entire transaction.{tSQLt.Private_RunTest,187})
+[testDE103PracticalTest].[TEST QUESTION 04] failed: (Error) Column name or number of supplied values does not match table definition.[16,7]{Question4,4} (There was also a ROLLBACK ERROR --> The current transaction cannot be committed and cannot be rolled back to a savepoint. Roll back the entire transaction.{tSQLt.Private_RunTest,187})
+[testDE103PracticalTest].[TEST QUESTION 08] failed: (Failure) Incorrect Answer!
+Unexpected/missing resultset rows!
+|_m_|FirstName|LastName |City    |
++---+---------+---------+--------+
+|<  |Janet    |Leverling|Kirkland|
+|=  |Laura    |Callahan |Seattle |
+|=  |Anne     |Dodsworth|London  |
+|=  |Michael  |Suyama   |London  |
+|=  |Nancy    |Davolio  |Seattle |
+|=  |Robert   |King     |London  |
+|=  |Steven   |Buchanan |London  |
+|>  |Steven   |Buchanan |London  |
+|>  |Robert   |King     |London  |
+|>  |Robert   |King     |London  |
+|>  |Robert   |King     |London  |
+|>  |Robert   |King     |London  |
+|>  |Michael  |Suyama   |London  |
+|>  |Michael  |Suyama   |London  |
+|>  |Michael  |Suyama   |London  |
+|>  |Anne     |Dodsworth|London  |
+|>  |Anne     |Dodsworth|London  |
+|>  |Laura    |Callahan |Seattle |
+[testDE103PracticalTest].[TEST QUESTION 09] failed: (Error) Column name or number of supplied values does not match table definition.[16,7]{Question9,4} (There was also a ROLLBACK ERROR --> The current transaction cannot be committed and cannot be rolled back to a savepoint. Roll back the entire transaction.{tSQLt.Private_RunTest,187})
+[testDE103PracticalTest].[TEST QUESTION 11] failed: (Error) Invalid object name 'CPN'.[16,1]{Question11,9}
+[testDE103PracticalTest].[TEST QUESTION 12] failed: (Error) Error converting data type nvarchar to int.[16,1]{Question12,4} (There was also a ROLLBACK ERROR --> The current transaction cannot be committed and cannot be rolled back to a savepoint. Roll back the entire transaction.{tSQLt.Private_RunTest,187})
+[testDE103PracticalTest].[TEST QUESTION 13] failed: (Failure) Incorrect Answer!
+Unexpected/missing resultset rows!
+|_m_|CompanyName                 |NumberOfPurchases|
++---+----------------------------+-----------------+
+|<  |Blondesddsl père et fils    |11               |
+|<  |Great Lakes Food Market     |11               |
+|<  |Ricardo Adocicados          |11               |
+|<  |Vaffeljernet                |11               |
+|<  |LINO-Delicateses            |12               |
+|<  |Reggiani Caseifici          |12               |
+|<  |Suprêmes délices            |12               |
+|<  |Around the Horn             |13               |
+|<  |Mère Paillarde              |13               |
+|<  |Queen Cozinha               |13               |
+|<  |Bottom-Dollar Markets       |14               |
+|<  |Hanari Carnes               |14               |
+|<  |Königlich Essen             |14               |
+|<  |La maison d'Asie            |14               |
+|<  |LILA-Supermercado           |14               |
+|<  |White Clover Markets        |14               |
+|<  |Frankenversand              |15               |
+|<  |Lehmanns Marktstand         |15               |
+|<  |Wartian Herkku              |15               |
+|<  |Bon app'                    |17               |
+|<  |Berglunds snabbköp          |18               |
+|<  |HILARION-Abastos            |18               |
+|<  |Rattlesnake Canyon Grocery  |18               |
+|<  |Folk och fä HB              |19               |
+|<  |Hungry Owl All-Night Grocers|19               |
+|<  |QUICK-Stop                  |28               |
+|<  |Ernst Handel                |30               |
+|<  |Save-a-lot Markets          |31               |
+|>  |Alejandra Camino            |1                |
+|>  |Alexander Feuer             |1                |
+|>  |Ana Trujillo                |1                |
+|>  |Anabela Domingues           |1                |
+|>  |André Fonseca               |1                |
+|>  |Ann Devon                   |1                |
+|>  |Annette Roulet              |1                |
+|>  |Antonio Moreno              |1                |
+|>  |Aria Cruz                   |1                |
+|>  |Art Braunschweiger          |1                |
+|>  |Bernardo Batista            |1                |
+|>  |Carine Schmitt              |1                |
+|>  |Carlos González             |1                |
+|>  |Carlos Hernández            |1                |
+|>  |Catherine Dewey             |1                |
+|>  |Christina Berglund          |1                |
+|>  |Daniel Tonini               |1                |
+|>  |Diego Roel                  |1                |
+|>  |Dominique Perrier           |1                |
+|>  |Eduardo Saavedra            |1                |
+|>  |Elizabeth Brown             |1                |
+|>  |Elizabeth Lincoln           |1                |
+|>  |Felipe Izquierdo            |1                |
+|>  |Fran Wilson                 |1                |
+|>  |Francisco Chang             |1                |
+|>  |Frédérique Citeaux          |1                |
+|>  |Georg Pipps                 |1                |
+|>  |Giovanni Rovelli            |1                |
+|>  |Guillermo Fernández         |1                |
+|>  |Hanna Moos                  |1                |
+|>  |Hari Kumar                  |1                |
+|>  |Helen Bennett               |1                |
+|>  |Helvetius Nagy              |1                |
+|>  |Henriette Pfalzheim         |1                |
+|>  |Horst Kloss                 |1                |
+|>  |Howard Snyder               |1                |
+|>  |Isabel de Castro            |1                |
+|>  |Jaime Yorres                |1                |
+|>  |Janete Limeira              |1                |
+|>  |Janine Labrune              |1                |
+|>  |Jean Fresnière              |1                |
+|>  |John Steel                  |1                |
+|>  |Jonas Bergulfsen            |1                |
+|>  |Jose Pavarotti              |1                |
+|>  |José Pedro Freyre           |1                |
+|>  |Jytte Petersen              |1                |
+|>  |Karin Josephs               |1                |
+|>  |Karl Jablonski              |1                |
+|>  |Laurence Lebihan            |1                |
+|>  |Lino Rodriguez              |1                |
+|>  |Liu Wong                    |1                |
+|>  |Liz Nixon                   |1                |
+|>  |Lúcia Carvalho              |1                |
+|>  |Manuel Pereira              |1                |
+|>  |Maria Anders                |1                |
+|>  |Maria Larsson               |1                |
+|>  |Marie Bertrand              |1                |
+|>  |Mario Pontes                |1                |
+|>  |Martín Sommer               |1                |
+|>  |Martine Rancé               |1                |
+|>  |Mary Saveley                |1                |
+|>  |Matti Karttunen             |1                |
+|>  |Maurizio Moroni             |1                |
+|>  |Michael Holz                |1                |
+|>  |Miguel Angel Paolino        |1                |
+|>  |Palle Ibsen                 |1                |
+|>  |Paolo Accorti               |1                |
+|>  |Pascale Cartrain            |1                |
+|>  |Patricia McKenna            |1                |
+|>  |Patricio Simpson            |1                |
+|>  |Paul Henriot                |1                |
+|>  |Paula Parente               |1                |
+|>  |Paula Wilson                |1                |
+|>  |Pedro Afonso                |1                |
+|>  |Peter Franken               |1                |
+|>  |Philip Cramer               |1                |
+|>  |Pirkko Koskitalo            |1                |
+|>  |Renate Messner              |1                |
+|>  |Rene Phillips               |1                |
+|>  |Rita Müller                 |1                |
+|>  |Roland Mendel               |1                |
+|>  |Sergio Gutiérrez            |1                |
+|>  |Simon Crowther              |1                |
+|>  |Sven Ottlieb                |1                |
+|>  |Thomas Hardy                |1                |
+|>  |Victoria Ashworth           |1                |
+|>  |Yang Wang                   |1                |
+|>  |Yoshi Latimer               |1                |
+|>  |Yoshi Tannamuri             |1                |
+|>  |Yvonne Moncada              |1                |
+|>  |Zbyszek Piestrzeniewicz     |1                |
+[testDE103PracticalTest].[TEST QUESTION 15] failed: (Error) Could not find stored procedure 'Question15'.[16,62]{testDE103PracticalTest.TEST QUESTION 15,12}
+[testDE103PracticalTest].[TEST QUESTION 16] failed: (Failure) Incorrect Answer!
+Unexpected/missing resultset rows!
+|_m_|CompanyName                       |NumberOfOrders|
++---+----------------------------------+--------------+
+|<  |Centro comercial Moctezuma        |1             |
+|<  |GROSELLA-Restaurante              |2             |
+|<  |Lazy K Kountry Store              |2             |
+|<  |Bólido Comidas preparadas         |3             |
+|<  |Consolidated Holdings             |3             |
+|<  |France restauration               |3             |
+|<  |Laughing Bacchus Wine Cellars     |3             |
+|<  |North/South                       |3             |
+|<  |The Cracker Box                   |3             |
+|<  |Trail's Head Gourmet Provisioners |3             |
+|<  |Ana Trujillo Emparedados y helados|4             |
+|<  |Du monde entier                   |4             |
+|<  |Spécialités du monde              |4             |
+|<  |The Big Cheese                    |4             |
+|<  |La corne d'abondance              |4             |
+|<  |Let's Stop N Shop                 |4             |
+|<  |Comércio Mineiro                  |5             |
+|<  |Folies gourmandes                 |5             |
+|<  |Galería del gastrónomo            |5             |
+|<  |Hungry Coyote Import Store        |5             |
+|<  |Morgenstern Gesundkost            |5             |
+|<  |Océano Atlántico Ltda.            |5             |
+|<  |Princesa Isabel Vinhos            |5             |
+|<  |Rancho grande                     |5             |
+|<  |Romero y tomillo                  |5             |
+|<  |Vins et alcools Chevalier         |5             |
+|<  |Alfreds Futterkiste               |6             |
+|<  |Cactus Comidas para llevar        |6             |
+|<  |Drachenblut Delikatessen          |6             |
+|<  |Franchi S.p.A.                    |6             |
+|<  |Pericles Comidas clásicas         |6             |
+|<  |Santé Gourmet                     |6             |
+|<  |Toms Spezialitäten                |6             |
+|<  |Tradição Hipermercados            |6             |
+|<  |Antonio Moreno Taquería           |7             |
+|<  |Blauer See Delikatessen           |7             |
+|<  |Familia Arquibaldo                |7             |
+|<  |Maison Dewey                      |7             |
+|<  |Simons bistro                     |7             |
+|<  |Wilman Kala                       |7             |
+|<  |Wolski  Zajazd                    |7             |
+|<  |Chop-suey Chinese                 |8             |
+|<  |Eastern Connection                |8             |
+|<  |Furia Bacalhau e Frutos do Mar    |8             |
+|<  |Lonesome Pine Restaurant          |8             |
+|<  |Que Delícia                       |9             |
+|<  |Seven Seas Imports                |9             |
+|<  |Split Rail Beer & Ale             |9             |
+|<  |Wellington Importadora            |9             |
+|<  |B's Beverages                     |10            |
+|<  |Die Wandernde Kuh                 |10            |
+|<  |Gourmet Lanchonetes               |9             |
+|<  |Godos Cocina Típica               |10            |
+|<  |Magazzini Alimentari Riuniti      |10            |
+|<  |Old World Delicatessen            |10            |
+|<  |Ottilies Käseladen                |10            |
+|<  |Piccolo und mehr                  |10            |
+|<  |Island Trading                    |10            |
+|<  |Richter Supermarkt                |10            |
+|<  |Tortuga Restaurante               |10            |
+|<  |Victuailles en stock              |10            |
+|<  |Blondesddsl père et fils          |11            |
+|<  |Great Lakes Food Market           |11            |
+|<  |Ricardo Adocicados                |11            |
+|<  |Vaffeljernet                      |11            |
+|<  |LINO-Delicateses                  |12            |
+|<  |Reggiani Caseifici                |12            |
+|<  |Suprêmes délices                  |12            |
+|<  |Around the Horn                   |13            |
+|<  |Mère Paillarde                    |13            |
+|<  |Queen Cozinha                     |13            |
+|<  |Bottom-Dollar Markets             |14            |
+|<  |Hanari Carnes                     |14            |
+|<  |Königlich Essen                   |14            |
+|<  |La maison d'Asie                  |14            |
+|<  |LILA-Supermercado                 |14            |
+|<  |White Clover Markets              |14            |
+|<  |Frankenversand                    |15            |
+|<  |Lehmanns Marktstand               |15            |
+|<  |Wartian Herkku                    |15            |
+|<  |Bon app'                          |17            |
+|<  |Berglunds snabbköp                |18            |
+|<  |Rattlesnake Canyon Grocery        |18            |
+|<  |Folk och fä HB                    |19            |
+|<  |Hungry Owl All-Night Grocers      |19            |
+|<  |QUICK-Stop                        |28            |
+|<  |Ernst Handel                      |30            |
+|<  |HILARION-Abastos                  |18            |
+|<  |Save-a-lot Markets                |31            |
+|>  |Paula Wilson                      |18            |
+|>  |Roland Mendel                     |30            |
+|>  |Jose Pavarotti                    |31            |
+|>  |Maria Larsson                     |19            |
+|>  |Patricia McKenna                  |19            |
+|>  |Horst Kloss                       |28            |
+|>  |Carlos Hernández                  |18            |
+|>  |Christina Berglund                |18            |
+|>  |Laurence Lebihan                  |17            |
+|>  |Peter Franken                     |15            |
+|>  |Pirkko Koskitalo                  |15            |
+|>  |Renate Messner                    |15            |
+|>  |Mario Pontes                      |14            |
+|>  |Philip Cramer                     |14            |
+|>  |Karl Jablonski                    |14            |
+|>  |Carlos González                   |14            |
+|>  |Elizabeth Lincoln                 |14            |
+|>  |Thomas Hardy                      |13            |
+|>  |Annette Roulet                    |14            |
+|>  |Jean Fresnière                    |13            |
+|>  |Lúcia Carvalho                    |13            |
+|>  |Maurizio Moroni                   |12            |
+|>  |Pascale Cartrain                  |12            |
+|>  |Felipe Izquierdo                  |12            |
+|>  |Howard Snyder                     |11            |
+|>  |Janete Limeira                    |11            |
+|>  |Palle Ibsen                       |11            |
+|>  |Frédérique Citeaux                |11            |
+|>  |Victoria Ashworth                 |10            |
+|>  |Rita Müller                       |10            |
+|>  |José Pedro Freyre                 |10            |
+|>  |Rene Phillips                     |10            |
+|>  |Mary Saveley                      |10            |
+|>  |Michael Holz                      |10            |
+|>  |Miguel Angel Paolino              |10            |
+|>  |Helen Bennett                     |10            |
+|>  |Henriette Pfalzheim               |10            |
+|>  |Hari Kumar                        |9             |
+|>  |Paula Parente                     |9             |
+|>  |Georg Pipps                       |10            |
+|>  |Giovanni Rovelli                  |10            |
+|>  |Yang Wang                         |8             |
+|>  |André Fonseca                     |9             |
+|>  |Art Braunschweiger                |9             |
+|>  |Bernardo Batista                  |9             |
+|>  |Lino Rodriguez                    |8             |
+|>  |Fran Wilson                       |8             |
+|>  |Zbyszek Piestrzeniewicz           |7             |
+|>  |Ann Devon                         |8             |
+|>  |Matti Karttunen                   |7             |
+|>  |Hanna Moos                        |7             |
+|>  |Jytte Petersen                    |7             |
+|>  |Catherine Dewey                   |7             |
+|>  |Aria Cruz                         |7             |
+|>  |Antonio Moreno                    |7             |
+|>  |Sven Ottlieb                      |6             |
+|>  |Guillermo Fernández               |6             |
+|>  |Jonas Bergulfsen                  |6             |
+|>  |Karin Josephs                     |6             |
+|>  |Maria Anders                      |6             |
+|>  |Paolo Accorti                     |6             |
+|>  |Patricio Simpson                  |6             |
+|>  |Anabela Domingues                 |6             |
+|>  |Yoshi Latimer                     |5             |
+|>  |Yvonne Moncada                    |5             |
+|>  |Sergio Gutiérrez                  |5             |
+|>  |Paul Henriot                      |5             |
+|>  |Pedro Afonso                      |5             |
+|>  |Isabel de Castro                  |5             |
+|>  |Martine Rancé                     |5             |
+|>  |Eduardo Saavedra                  |5             |
+|>  |Liz Nixon                         |4             |
+|>  |Alejandra Camino                  |5             |
+|>  |Alexander Feuer                   |5             |
+|>  |Jaime Yorres                      |4             |
+|>  |Janine Labrune                    |4             |
+|>  |Daniel Tonini                     |4             |
+|>  |Dominique Perrier                 |4             |
+|>  |Yoshi Tannamuri                   |3             |
+|>  |Ana Trujillo                      |4             |
+|>  |Simon Crowther                    |3             |
+|>  |Liu Wong                          |3             |
+|>  |Martín Sommer                     |3             |
+|>  |Helvetius Nagy                    |3             |
+|>  |Elizabeth Brown                   |3             |
+|>  |Carine Schmitt                    |3             |
+|>  |Manuel Pereira                    |2             |
+|>  |John Steel                        |2             |
+|>  |Francisco Chang                   |1             |
+[testDE103PracticalTest].[TEST QUESTION 19] failed: (Error) Could not find stored procedure 'Question19'.[16,62]{testDE103PracticalTest.TEST QUESTION 19,11}
+ 
++----------------------+
+|Test Execution Summary|
++----------------------+
+ 
+|No|Test Case Name                             |Dur(ms)|Result |
++--+-------------------------------------------+-------+-------+
+|1 |[testDE103PracticalTest].[TEST QUESTION 02]|      3|Error  |
+|2 |[testDE103PracticalTest].[TEST QUESTION 03]|      3|Error  |
+|3 |[testDE103PracticalTest].[TEST QUESTION 04]|      3|Error  |
+|4 |[testDE103PracticalTest].[TEST QUESTION 05]|     16|Success|
+|5 |[testDE103PracticalTest].[TEST QUESTION 06]|     20|Success|
+|6 |[testDE103PracticalTest].[TEST QUESTION 07]|     16|Success|
+|7 |[testDE103PracticalTest].[TEST QUESTION 08]|     20|Failure|
+|8 |[testDE103PracticalTest].[TEST QUESTION 09]|      3|Error  |
+|9 |[testDE103PracticalTest].[TEST QUESTION 10]|     16|Success|
+|10|[testDE103PracticalTest].[TEST QUESTION 11]|      3|Error  |
+|11|[testDE103PracticalTest].[TEST QUESTION 12]|      3|Error  |
+|12|[testDE103PracticalTest].[TEST QUESTION 13]|     16|Failure|
+|13|[testDE103PracticalTest].[TEST QUESTION 14]|     20|Success|
+|14|[testDE103PracticalTest].[TEST QUESTION 15]|      3|Error  |
+|15|[testDE103PracticalTest].[TEST QUESTION 16]|     20|Failure|
+|16|[testDE103PracticalTest].[TEST QUESTION 17]|     13|Success|
+|17|[testDE103PracticalTest].[TEST QUESTION 18]|     16|Success|
+|18|[testDE103PracticalTest].[TEST QUESTION 19]|      3|Error  |
+-----------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------

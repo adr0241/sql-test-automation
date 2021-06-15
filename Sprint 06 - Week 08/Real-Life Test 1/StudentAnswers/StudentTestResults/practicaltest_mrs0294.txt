@@ -1,0 +1,31 @@
+C:\Users\adity\Documents\ADITYA SCHOOL WORK\PROJECT\INDUSTRY\Sprint 06 - Week 08\Real-Life Test 1\StudentAnswers\practicaltest_mrs0294.sql
+Test Case Summary: 18 test case(s) executed, 16 succeeded, 0 skipped, 0 failed, 2 errored.
+[testDE103PracticalTest].[TEST QUESTION 06] failed: (Error) Could not find stored procedure 'Question6'.[16,62]{testDE103PracticalTest.TEST QUESTION 06,13}
+[testDE103PracticalTest].[TEST QUESTION 07] failed: (Error) Could not find stored procedure 'Question7'.[16,62]{testDE103PracticalTest.TEST QUESTION 07,12}
+ 
++----------------------+
+|Test Execution Summary|
++----------------------+
+ 
+|No|Test Case Name                             |Dur(ms)|Result |
++--+-------------------------------------------+-------+-------+
+|1 |[testDE103PracticalTest].[TEST QUESTION 02]|     16|Success|
+|2 |[testDE103PracticalTest].[TEST QUESTION 03]|     20|Success|
+|3 |[testDE103PracticalTest].[TEST QUESTION 04]|     20|Success|
+|4 |[testDE103PracticalTest].[TEST QUESTION 05]|     16|Success|
+|5 |[testDE103PracticalTest].[TEST QUESTION 06]|      3|Error  |
+|6 |[testDE103PracticalTest].[TEST QUESTION 07]|      3|Error  |
+|7 |[testDE103PracticalTest].[TEST QUESTION 08]|     16|Success|
+|8 |[testDE103PracticalTest].[TEST QUESTION 09]|     36|Success|
+|9 |[testDE103PracticalTest].[TEST QUESTION 10]|     23|Success|
+|10|[testDE103PracticalTest].[TEST QUESTION 11]|     16|Success|
+|11|[testDE103PracticalTest].[TEST QUESTION 12]|     13|Success|
+|12|[testDE103PracticalTest].[TEST QUESTION 13]|     20|Success|
+|13|[testDE103PracticalTest].[TEST QUESTION 14]|     16|Success|
+|14|[testDE103PracticalTest].[TEST QUESTION 15]|     16|Success|
+|15|[testDE103PracticalTest].[TEST QUESTION 16]|     26|Success|
+|16|[testDE103PracticalTest].[TEST QUESTION 17]|     16|Success|
+|17|[testDE103PracticalTest].[TEST QUESTION 18]|     16|Success|
+|18|[testDE103PracticalTest].[TEST QUESTION 19]|     13|Success|
+------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------

@@ -1,0 +1,61 @@
+C:\Users\adity\Documents\ADITYA SCHOOL WORK\PROJECT\INDUSTRY\Sprint 06 - Week 08\Real-Life Test 1\StudentAnswers\Practical_Test_nbm0047.sql
+Test Case Summary: 18 test case(s) executed, 8 succeeded, 0 skipped, 2 failed, 8 errored.
+[testDE103PracticalTest].[TEST QUESTION 03] failed: (Error) Column name or number of supplied values does not match table definition.[16,7]{Question3,4} (There was also a ROLLBACK ERROR --> The current transaction cannot be committed and cannot be rolled back to a savepoint. Roll back the entire transaction.{tSQLt.Private_RunTest,187})
+[testDE103PracticalTest].[TEST QUESTION 04] failed: (Error) Column name or number of supplied values does not match table definition.[16,7]{Question4,4} (There was also a ROLLBACK ERROR --> The current transaction cannot be committed and cannot be rolled back to a savepoint. Roll back the entire transaction.{tSQLt.Private_RunTest,187})
+[testDE103PracticalTest].[TEST QUESTION 06] failed: (Error) Column name or number of supplied values does not match table definition.[16,7]{Question6,4} (There was also a ROLLBACK ERROR --> The current transaction cannot be committed and cannot be rolled back to a savepoint. Roll back the entire transaction.{tSQLt.Private_RunTest,187})
+[testDE103PracticalTest].[TEST QUESTION 07] failed: (Failure) Incorrect Answer!
+Unexpected/missing resultset rows!
+|_m_|Title                   |FirstName|LastName |
++---+------------------------+---------+---------+
+|=  |Sales Representative    |Anne     |Dodsworth|
+|=  |Sales Representative    |Janet    |Leverling|
+|=  |Sales Representative    |Margaret |Peacock  |
+|=  |Inside Sales Coordinator|Laura    |Callahan |
+|=  |Sales Representative    |Robert   |King     |
+|=  |Vice President, Sales   |Andrew   |Fuller   |
+|>  |Sales Manager           |Steven   |Buchanan |
+|>  |Sales Representative    |Michael  |Suyama   |
+|>  |Sales Representative    |Nancy    |Davolio  |
+[testDE103PracticalTest].[TEST QUESTION 08] failed: (Failure) Incorrect Answer!
+Unexpected/missing resultset rows!
+|_m_|FirstName|LastName |City    |
++---+---------+---------+--------+
+|<  |Janet    |Leverling|Kirkland|
+|=  |Laura    |Callahan |Seattle |
+|=  |Michael  |Suyama   |London  |
+|=  |Nancy    |Davolio  |Seattle |
+|=  |Robert   |King     |London  |
+|=  |Steven   |Buchanan |London  |
+|=  |Anne     |Dodsworth|London  |
+[testDE103PracticalTest].[TEST QUESTION 09] failed: (Error) Column name or number of supplied values does not match table definition.[16,7]{Question9,4} (There was also a ROLLBACK ERROR --> The current transaction cannot be committed and cannot be rolled back to a savepoint. Roll back the entire transaction.{tSQLt.Private_RunTest,187})
+[testDE103PracticalTest].[TEST QUESTION 10] failed: (Error) Column name or number of supplied values does not match table definition.[16,7]{Question10,4} (There was also a ROLLBACK ERROR --> The current transaction cannot be committed and cannot be rolled back to a savepoint. Roll back the entire transaction.{tSQLt.Private_RunTest,187})
+[testDE103PracticalTest].[TEST QUESTION 11] failed: (Error) Column name or number of supplied values does not match table definition.[16,7]{Question11,4} (There was also a ROLLBACK ERROR --> The current transaction cannot be committed and cannot be rolled back to a savepoint. Roll back the entire transaction.{tSQLt.Private_RunTest,187})
+[testDE103PracticalTest].[TEST QUESTION 12] failed: (Error) Error converting data type nvarchar to int.[16,1]{Question12,4} (There was also a ROLLBACK ERROR --> The current transaction cannot be committed and cannot be rolled back to a savepoint. Roll back the entire transaction.{tSQLt.Private_RunTest,187})
+[testDE103PracticalTest].[TEST QUESTION 13] failed: (Error) Column name or number of supplied values does not match table definition.[16,7]{Question13,4} (There was also a ROLLBACK ERROR --> The current transaction cannot be committed and cannot be rolled back to a savepoint. Roll back the entire transaction.{tSQLt.Private_RunTest,187})
+ 
++----------------------+
+|Test Execution Summary|
++----------------------+
+ 
+|No|Test Case Name                             |Dur(ms)|Result |
++--+-------------------------------------------+-------+-------+
+|1 |[testDE103PracticalTest].[TEST QUESTION 02]|     16|Success|
+|2 |[testDE103PracticalTest].[TEST QUESTION 03]|      3|Error  |
+|3 |[testDE103PracticalTest].[TEST QUESTION 04]|      3|Error  |
+|4 |[testDE103PracticalTest].[TEST QUESTION 05]|     16|Success|
+|5 |[testDE103PracticalTest].[TEST QUESTION 06]|      6|Error  |
+|6 |[testDE103PracticalTest].[TEST QUESTION 07]|   7136|Failure|
+|7 |[testDE103PracticalTest].[TEST QUESTION 08]|     20|Failure|
+|8 |[testDE103PracticalTest].[TEST QUESTION 09]|      3|Error  |
+|9 |[testDE103PracticalTest].[TEST QUESTION 10]|      3|Error  |
+|10|[testDE103PracticalTest].[TEST QUESTION 11]|      6|Error  |
+|11|[testDE103PracticalTest].[TEST QUESTION 12]|      3|Error  |
+|12|[testDE103PracticalTest].[TEST QUESTION 13]|      6|Error  |
+|13|[testDE103PracticalTest].[TEST QUESTION 14]|     20|Success|
+|14|[testDE103PracticalTest].[TEST QUESTION 15]|     13|Success|
+|15|[testDE103PracticalTest].[TEST QUESTION 16]|     13|Success|
+|16|[testDE103PracticalTest].[TEST QUESTION 17]|     13|Success|
+|17|[testDE103PracticalTest].[TEST QUESTION 18]|     13|Success|
+|18|[testDE103PracticalTest].[TEST QUESTION 19]|     13|Success|
+-----------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------

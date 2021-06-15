@@ -1,0 +1,295 @@
+C:\Users\adity\Documents\ADITYA SCHOOL WORK\PROJECT\INDUSTRY\Sprint 06 - Week 08\Real-Life Test 1\StudentAnswers\Practical Test_99166397.sql
+Test Case Summary: 18 test case(s) executed, 14 succeeded, 0 skipped, 2 failed, 2 errored.
+[testDE103PracticalTest].[TEST QUESTION 04] failed: (Error) Column name or number of supplied values does not match table definition.[16,7]{Question4,4} (There was also a ROLLBACK ERROR --> The current transaction cannot be committed and cannot be rolled back to a savepoint. Roll back the entire transaction.{tSQLt.Private_RunTest,187})
+[testDE103PracticalTest].[TEST QUESTION 06] failed: (Failure) Incorrect Answer!
+Unexpected/missing resultset rows!
+|_m_|FirstName|LastName |CompanyName                       |CompanyName2  |
++---+---------+---------+----------------------------------+--------------+
+|=  |Janet    |Leverling|Maison Dewey                      |Speedy Express|
+|=  |Margaret |Peacock  |Maison Dewey                      |Speedy Express|
+|>  |Margaret |Peacock  |Morgenstern Gesundkost            |Speedy Express|
+|>  |Margaret |Peacock  |Ottilies Käseladen                |Speedy Express|
+|>  |Margaret |Peacock  |Ottilies Käseladen                |Speedy Express|
+|>  |Margaret |Peacock  |Queen Cozinha                     |Speedy Express|
+|>  |Margaret |Peacock  |QUICK-Stop                        |Speedy Express|
+|>  |Margaret |Peacock  |QUICK-Stop                        |Speedy Express|
+|>  |Margaret |Peacock  |QUICK-Stop                        |Speedy Express|
+|>  |Margaret |Peacock  |Reggiani Caseifici                |Speedy Express|
+|>  |Margaret |Peacock  |Romero y tomillo                  |Speedy Express|
+|>  |Margaret |Peacock  |Romero y tomillo                  |Speedy Express|
+|>  |Margaret |Peacock  |Save-a-lot Markets                |Speedy Express|
+|>  |Margaret |Peacock  |Wartian Herkku                    |Speedy Express|
+|>  |Margaret |Peacock  |Wellington Importadora            |Speedy Express|
+|>  |Margaret |Peacock  |Wilman Kala                       |Speedy Express|
+|>  |Margaret |Peacock  |Wolski  Zajazd                    |Speedy Express|
+|>  |Michael  |Suyama   |Alfreds Futterkiste               |Speedy Express|
+|>  |Michael  |Suyama   |Around the Horn                   |Speedy Express|
+|>  |Michael  |Suyama   |Blondesddsl père et fils          |Speedy Express|
+|>  |Michael  |Suyama   |Blondesddsl père et fils          |Speedy Express|
+|>  |Michael  |Suyama   |Ernst Handel                      |Speedy Express|
+|>  |Michael  |Suyama   |Frankenversand                    |Speedy Express|
+|>  |Michael  |Suyama   |Gourmet Lanchonetes               |Speedy Express|
+|>  |Michael  |Suyama   |Great Lakes Food Market           |Speedy Express|
+|>  |Michael  |Suyama   |HILARION-Abastos                  |Speedy Express|
+|>  |Michael  |Suyama   |La maison d'Asie                  |Speedy Express|
+|>  |Michael  |Suyama   |LILA-Supermercado                 |Speedy Express|
+|>  |Michael  |Suyama   |Lonesome Pine Restaurant          |Speedy Express|
+|>  |Michael  |Suyama   |Lonesome Pine Restaurant          |Speedy Express|
+|>  |Michael  |Suyama   |Piccolo und mehr                  |Speedy Express|
+|>  |Michael  |Suyama   |Que Delícia                       |Speedy Express|
+|>  |Michael  |Suyama   |Queen Cozinha                     |Speedy Express|
+|>  |Michael  |Suyama   |Queen Cozinha                     |Speedy Express|
+|>  |Michael  |Suyama   |Queen Cozinha                     |Speedy Express|
+|>  |Michael  |Suyama   |Save-a-lot Markets                |Speedy Express|
+|>  |Michael  |Suyama   |Toms Spezialitäten                |Speedy Express|
+|>  |Michael  |Suyama   |Toms Spezialitäten                |Speedy Express|
+|>  |Michael  |Suyama   |Vaffeljernet                      |Speedy Express|
+|>  |Michael  |Suyama   |Vins et alcools Chevalier         |Speedy Express|
+|>  |Nancy    |Davolio  |Alfreds Futterkiste               |Speedy Express|
+|>  |Nancy    |Davolio  |Bottom-Dollar Markets             |Speedy Express|
+|>  |Nancy    |Davolio  |Drachenblut Delikatessen          |Speedy Express|
+|>  |Nancy    |Davolio  |Eastern Connection                |Speedy Express|
+|>  |Nancy    |Davolio  |Ernst Handel                      |Speedy Express|
+|>  |Nancy    |Davolio  |Ernst Handel                      |Speedy Express|
+|>  |Nancy    |Davolio  |Folk och fä HB                    |Speedy Express|
+|>  |Nancy    |Davolio  |France restauration               |Speedy Express|
+|>  |Nancy    |Davolio  |Franchi S.p.A.                    |Speedy Express|
+|>  |Nancy    |Davolio  |Frankenversand                    |Speedy Express|
+|>  |Nancy    |Davolio  |Furia Bacalhau e Frutos do Mar    |Speedy Express|
+|>  |Nancy    |Davolio  |Galería del gastrónomo            |Speedy Express|
+|>  |Nancy    |Davolio  |Hanari Carnes                     |Speedy Express|
+|>  |Nancy    |Davolio  |Hanari Carnes                     |Speedy Express|
+|>  |Nancy    |Davolio  |HILARION-Abastos                  |Speedy Express|
+|>  |Nancy    |Davolio  |Hungry Owl All-Night Grocers      |Speedy Express|
+|>  |Nancy    |Davolio  |La maison d'Asie                  |Speedy Express|
+|>  |Nancy    |Davolio  |LILA-Supermercado                 |Speedy Express|
+|>  |Nancy    |Davolio  |LINO-Delicateses                  |Speedy Express|
+|>  |Nancy    |Davolio  |Magazzini Alimentari Riuniti      |Speedy Express|
+|>  |Nancy    |Davolio  |Mère Paillarde                    |Speedy Express|
+|>  |Nancy    |Davolio  |Old World Delicatessen            |Speedy Express|
+|>  |Nancy    |Davolio  |Que Delícia                       |Speedy Express|
+|>  |Nancy    |Davolio  |QUICK-Stop                        |Speedy Express|
+|>  |Nancy    |Davolio  |Rattlesnake Canyon Grocery        |Speedy Express|
+|>  |Nancy    |Davolio  |Reggiani Caseifici                |Speedy Express|
+|>  |Nancy    |Davolio  |Ricardo Adocicados                |Speedy Express|
+|>  |Nancy    |Davolio  |Ricardo Adocicados                |Speedy Express|
+|>  |Nancy    |Davolio  |Richter Supermarkt                |Speedy Express|
+|>  |Nancy    |Davolio  |Save-a-lot Markets                |Speedy Express|
+|>  |Nancy    |Davolio  |Save-a-lot Markets                |Speedy Express|
+|>  |Nancy    |Davolio  |Save-a-lot Markets                |Speedy Express|
+|>  |Nancy    |Davolio  |Split Rail Beer & Ale             |Speedy Express|
+|>  |Nancy    |Davolio  |Vaffeljernet                      |Speedy Express|
+|>  |Nancy    |Davolio  |Vaffeljernet                      |Speedy Express|
+|>  |Nancy    |Davolio  |Victuailles en stock              |Speedy Express|
+|>  |Nancy    |Davolio  |Wartian Herkku                    |Speedy Express|
+|>  |Nancy    |Davolio  |White Clover Markets              |Speedy Express|
+|>  |Robert   |King     |Antonio Moreno Taquería           |Speedy Express|
+|>  |Robert   |King     |Chop-suey Chinese                 |Speedy Express|
+|>  |Robert   |King     |Die Wandernde Kuh                 |Speedy Express|
+|>  |Robert   |King     |Du monde entier                   |Speedy Express|
+|>  |Robert   |King     |Ernst Handel                      |Speedy Express|
+|>  |Robert   |King     |Ernst Handel                      |Speedy Express|
+|>  |Robert   |King     |Folk och fä HB                    |Speedy Express|
+|>  |Robert   |King     |Godos Cocina Típica               |Speedy Express|
+|>  |Robert   |King     |HILARION-Abastos                  |Speedy Express|
+|>  |Robert   |King     |Lehmanns Marktstand               |Speedy Express|
+|>  |Robert   |King     |Océano Atlántico Ltda.            |Speedy Express|
+|>  |Robert   |King     |Queen Cozinha                     |Speedy Express|
+|>  |Robert   |King     |QUICK-Stop                        |Speedy Express|
+|>  |Robert   |King     |Reggiani Caseifici                |Speedy Express|
+|>  |Robert   |King     |Santé Gourmet                     |Speedy Express|
+|>  |Robert   |King     |Split Rail Beer & Ale             |Speedy Express|
+|>  |Robert   |King     |The Cracker Box                   |Speedy Express|
+|>  |Robert   |King     |Wellington Importadora            |Speedy Express|
+|>  |Robert   |King     |Wellington Importadora            |Speedy Express|
+|>  |Robert   |King     |Wilman Kala                       |Speedy Express|
+|>  |Steven   |Buchanan |Berglunds snabbköp                |Speedy Express|
+|>  |Steven   |Buchanan |Berglunds snabbköp                |Speedy Express|
+|>  |Steven   |Buchanan |Bon app'                          |Speedy Express|
+|>  |Steven   |Buchanan |La maison d'Asie                  |Speedy Express|
+|>  |Steven   |Buchanan |LINO-Delicateses                  |Speedy Express|
+|>  |Steven   |Buchanan |Morgenstern Gesundkost            |Speedy Express|
+|>  |Steven   |Buchanan |Princesa Isabel Vinhos            |Speedy Express|
+|>  |Steven   |Buchanan |QUICK-Stop                        |Speedy Express|
+|>  |Steven   |Buchanan |Rattlesnake Canyon Grocery        |Speedy Express|
+|>  |Steven   |Buchanan |Reggiani Caseifici                |Speedy Express|
+|>  |Steven   |Buchanan |Ricardo Adocicados                |Speedy Express|
+|>  |Steven   |Buchanan |Save-a-lot Markets                |Speedy Express|
+|>  |Steven   |Buchanan |Seven Seas Imports                |Speedy Express|
+|>  |Steven   |Buchanan |White Clover Markets              |Speedy Express|
+|>  |Janet    |Leverling|Océano Atlántico Ltda.            |Speedy Express|
+|>  |Janet    |Leverling|Old World Delicatessen            |Speedy Express|
+|>  |Janet    |Leverling|Ottilies Käseladen                |Speedy Express|
+|>  |Janet    |Leverling|QUICK-Stop                        |Speedy Express|
+|>  |Janet    |Leverling|Save-a-lot Markets                |Speedy Express|
+|>  |Janet    |Leverling|Save-a-lot Markets                |Speedy Express|
+|>  |Janet    |Leverling|Vaffeljernet                      |Speedy Express|
+|>  |Janet    |Leverling|Victuailles en stock              |Speedy Express|
+|>  |Janet    |Leverling|Wellington Importadora            |Speedy Express|
+|>  |Janet    |Leverling|White Clover Markets              |Speedy Express|
+|>  |Laura    |Callahan |Bon app'                          |Speedy Express|
+|>  |Laura    |Callahan |Cactus Comidas para llevar        |Speedy Express|
+|>  |Laura    |Callahan |Comércio Mineiro                  |Speedy Express|
+|>  |Laura    |Callahan |Die Wandernde Kuh                 |Speedy Express|
+|>  |Laura    |Callahan |Eastern Connection                |Speedy Express|
+|>  |Laura    |Callahan |Folies gourmandes                 |Speedy Express|
+|>  |Laura    |Callahan |Folk och fä HB                    |Speedy Express|
+|>  |Laura    |Callahan |Folk och fä HB                    |Speedy Express|
+|>  |Laura    |Callahan |Folk och fä HB                    |Speedy Express|
+|>  |Laura    |Callahan |Frankenversand                    |Speedy Express|
+|>  |Laura    |Callahan |Hungry Coyote Import Store        |Speedy Express|
+|>  |Laura    |Callahan |La maison d'Asie                  |Speedy Express|
+|>  |Laura    |Callahan |La maison d'Asie                  |Speedy Express|
+|>  |Laura    |Callahan |LILA-Supermercado                 |Speedy Express|
+|>  |Laura    |Callahan |LINO-Delicateses                  |Speedy Express|
+|>  |Laura    |Callahan |Old World Delicatessen            |Speedy Express|
+|>  |Laura    |Callahan |Que Delícia                       |Speedy Express|
+|>  |Laura    |Callahan |Queen Cozinha                     |Speedy Express|
+|>  |Laura    |Callahan |Queen Cozinha                     |Speedy Express|
+|>  |Laura    |Callahan |QUICK-Stop                        |Speedy Express|
+|>  |Laura    |Callahan |Rattlesnake Canyon Grocery        |Speedy Express|
+|>  |Laura    |Callahan |Reggiani Caseifici                |Speedy Express|
+|>  |Laura    |Callahan |Save-a-lot Markets                |Speedy Express|
+|>  |Laura    |Callahan |Save-a-lot Markets                |Speedy Express|
+|>  |Laura    |Callahan |Seven Seas Imports                |Speedy Express|
+|>  |Laura    |Callahan |Wartian Herkku                    |Speedy Express|
+|>  |Laura    |Callahan |White Clover Markets              |Speedy Express|
+|>  |Margaret |Peacock  |Alfreds Futterkiste               |Speedy Express|
+|>  |Margaret |Peacock  |Antonio Moreno Taquería           |Speedy Express|
+|>  |Margaret |Peacock  |Blauer See Delikatessen           |Speedy Express|
+|>  |Margaret |Peacock  |Blondesddsl père et fils          |Speedy Express|
+|>  |Margaret |Peacock  |Cactus Comidas para llevar        |Speedy Express|
+|>  |Margaret |Peacock  |Chop-suey Chinese                 |Speedy Express|
+|>  |Margaret |Peacock  |Chop-suey Chinese                 |Speedy Express|
+|>  |Margaret |Peacock  |Comércio Mineiro                  |Speedy Express|
+|>  |Margaret |Peacock  |Die Wandernde Kuh                 |Speedy Express|
+|>  |Margaret |Peacock  |Eastern Connection                |Speedy Express|
+|>  |Margaret |Peacock  |Eastern Connection                |Speedy Express|
+|>  |Margaret |Peacock  |Ernst Handel                      |Speedy Express|
+|>  |Margaret |Peacock  |Ernst Handel                      |Speedy Express|
+|>  |Margaret |Peacock  |Ernst Handel                      |Speedy Express|
+|>  |Margaret |Peacock  |Folk och fä HB                    |Speedy Express|
+|>  |Margaret |Peacock  |Folk och fä HB                    |Speedy Express|
+|>  |Margaret |Peacock  |Franchi S.p.A.                    |Speedy Express|
+|>  |Margaret |Peacock  |Franchi S.p.A.                    |Speedy Express|
+|>  |Margaret |Peacock  |Frankenversand                    |Speedy Express|
+|>  |Margaret |Peacock  |Frankenversand                    |Speedy Express|
+|>  |Margaret |Peacock  |Galería del gastrónomo            |Speedy Express|
+|>  |Margaret |Peacock  |Hanari Carnes                     |Speedy Express|
+|>  |Margaret |Peacock  |HILARION-Abastos                  |Speedy Express|
+|>  |Margaret |Peacock  |Hungry Coyote Import Store        |Speedy Express|
+|>  |Margaret |Peacock  |Königlich Essen                   |Speedy Express|
+|>  |Margaret |Peacock  |La corne d'abondance              |Speedy Express|
+|>  |Margaret |Peacock  |Lehmanns Marktstand               |Speedy Express|
+|>  |Margaret |Peacock  |Lehmanns Marktstand               |Speedy Express|
+|>  |Margaret |Peacock  |Lehmanns Marktstand               |Speedy Express|
+|>  |Margaret |Peacock  |Lonesome Pine Restaurant          |Speedy Express|
+|>  |Andrew   |Fuller   |Berglunds snabbköp                |Speedy Express|
+|>  |Andrew   |Fuller   |Blondesddsl père et fils          |Speedy Express|
+|>  |Andrew   |Fuller   |Bottom-Dollar Markets             |Speedy Express|
+|>  |Andrew   |Fuller   |Comércio Mineiro                  |Speedy Express|
+|>  |Andrew   |Fuller   |Consolidated Holdings             |Speedy Express|
+|>  |Andrew   |Fuller   |Du monde entier                   |Speedy Express|
+|>  |Andrew   |Fuller   |Ernst Handel                      |Speedy Express|
+|>  |Andrew   |Fuller   |Folk och fä HB                    |Speedy Express|
+|>  |Andrew   |Fuller   |Franchi S.p.A.                    |Speedy Express|
+|>  |Andrew   |Fuller   |Godos Cocina Típica               |Speedy Express|
+|>  |Andrew   |Fuller   |Hanari Carnes                     |Speedy Express|
+|>  |Andrew   |Fuller   |HILARION-Abastos                  |Speedy Express|
+|>  |Andrew   |Fuller   |Hungry Owl All-Night Grocers      |Speedy Express|
+|>  |Andrew   |Fuller   |Island Trading                    |Speedy Express|
+|>  |Andrew   |Fuller   |Königlich Essen                   |Speedy Express|
+|>  |Andrew   |Fuller   |Königlich Essen                   |Speedy Express|
+|>  |Andrew   |Fuller   |La corne d'abondance              |Speedy Express|
+|>  |Andrew   |Fuller   |La maison d'Asie                  |Speedy Express|
+|>  |Andrew   |Fuller   |Lehmanns Marktstand               |Speedy Express|
+|>  |Andrew   |Fuller   |LILA-Supermercado                 |Speedy Express|
+|>  |Andrew   |Fuller   |Magazzini Alimentari Riuniti      |Speedy Express|
+|>  |Andrew   |Fuller   |Pericles Comidas clásicas         |Speedy Express|
+|>  |Andrew   |Fuller   |Piccolo und mehr                  |Speedy Express|
+|>  |Andrew   |Fuller   |Que Delícia                       |Speedy Express|
+|>  |Andrew   |Fuller   |Que Delícia                       |Speedy Express|
+|>  |Andrew   |Fuller   |QUICK-Stop                        |Speedy Express|
+|>  |Andrew   |Fuller   |QUICK-Stop                        |Speedy Express|
+|>  |Andrew   |Fuller   |Reggiani Caseifici                |Speedy Express|
+|>  |Andrew   |Fuller   |Romero y tomillo                  |Speedy Express|
+|>  |Andrew   |Fuller   |Seven Seas Imports                |Speedy Express|
+|>  |Andrew   |Fuller   |Simons bistro                     |Speedy Express|
+|>  |Andrew   |Fuller   |Simons bistro                     |Speedy Express|
+|>  |Andrew   |Fuller   |Spécialités du monde              |Speedy Express|
+|>  |Andrew   |Fuller   |Wilman Kala                       |Speedy Express|
+|>  |Andrew   |Fuller   |Wilman Kala                       |Speedy Express|
+|>  |Anne     |Dodsworth|Blondesddsl père et fils          |Speedy Express|
+|>  |Anne     |Dodsworth|Bólido Comidas preparadas         |Speedy Express|
+|>  |Anne     |Dodsworth|Bon app'                          |Speedy Express|
+|>  |Anne     |Dodsworth|Island Trading                    |Speedy Express|
+|>  |Anne     |Dodsworth|QUICK-Stop                        |Speedy Express|
+|>  |Anne     |Dodsworth|Rancho grande                     |Speedy Express|
+|>  |Anne     |Dodsworth|Reggiani Caseifici                |Speedy Express|
+|>  |Anne     |Dodsworth|Save-a-lot Markets                |Speedy Express|
+|>  |Anne     |Dodsworth|Suprêmes délices                  |Speedy Express|
+|>  |Anne     |Dodsworth|Wartian Herkku                    |Speedy Express|
+|>  |Janet    |Leverling|Alfreds Futterkiste               |Speedy Express|
+|>  |Janet    |Leverling|Ana Trujillo Emparedados y helados|Speedy Express|
+|>  |Janet    |Leverling|Berglunds snabbköp                |Speedy Express|
+|>  |Janet    |Leverling|Berglunds snabbköp                |Speedy Express|
+|>  |Janet    |Leverling|Bon app'                          |Speedy Express|
+|>  |Janet    |Leverling|Bon app'                          |Speedy Express|
+|>  |Janet    |Leverling|Bon app'                          |Speedy Express|
+|>  |Janet    |Leverling|Bottom-Dollar Markets             |Speedy Express|
+|>  |Janet    |Leverling|Ernst Handel                      |Speedy Express|
+|>  |Janet    |Leverling|Familia Arquibaldo                |Speedy Express|
+|>  |Janet    |Leverling|Folk och fä HB                    |Speedy Express|
+|>  |Janet    |Leverling|Franchi S.p.A.                    |Speedy Express|
+|>  |Janet    |Leverling|Godos Cocina Típica               |Speedy Express|
+|>  |Janet    |Leverling|Gourmet Lanchonetes               |Speedy Express|
+|>  |Janet    |Leverling|Hanari Carnes                     |Speedy Express|
+|>  |Janet    |Leverling|Hanari Carnes                     |Speedy Express|
+|>  |Janet    |Leverling|HILARION-Abastos                  |Speedy Express|
+|>  |Janet    |Leverling|HILARION-Abastos                  |Speedy Express|
+|>  |Janet    |Leverling|Hungry Coyote Import Store        |Speedy Express|
+|>  |Janet    |Leverling|Hungry Owl All-Night Grocers      |Speedy Express|
+|>  |Janet    |Leverling|Hungry Owl All-Night Grocers      |Speedy Express|
+|>  |Janet    |Leverling|Lehmanns Marktstand               |Speedy Express|
+|>  |Janet    |Leverling|LILA-Supermercado                 |Speedy Express|
+|>  |Janet    |Leverling|LINO-Delicateses                  |Speedy Express|
+|>  |Janet    |Leverling|LINO-Delicateses                  |Speedy Express|
+[testDE103PracticalTest].[TEST QUESTION 08] failed: (Failure) Incorrect Answer!
+Unexpected/missing resultset rows!
+|_m_|FirstName|LastName |City    |
++---+---------+---------+--------+
+|<  |Janet    |Leverling|Kirkland|
+|=  |Laura    |Callahan |Seattle |
+|=  |Michael  |Suyama   |London  |
+|=  |Nancy    |Davolio  |Seattle |
+|=  |Robert   |King     |London  |
+|=  |Steven   |Buchanan |London  |
+|=  |Anne     |Dodsworth|London  |
+[testDE103PracticalTest].[TEST QUESTION 09] failed: (Error) Implicit conversion from data type datetime to int is not allowed. Use the CONVERT function to run this query.[16,3]{Question9,4}
+ 
++----------------------+
+|Test Execution Summary|
++----------------------+
+ 
+|No|Test Case Name                             |Dur(ms)|Result |
++--+-------------------------------------------+-------+-------+
+|1 |[testDE103PracticalTest].[TEST QUESTION 02]|     16|Success|
+|2 |[testDE103PracticalTest].[TEST QUESTION 03]|     16|Success|
+|3 |[testDE103PracticalTest].[TEST QUESTION 04]|      6|Error  |
+|4 |[testDE103PracticalTest].[TEST QUESTION 05]|     16|Success|
+|5 |[testDE103PracticalTest].[TEST QUESTION 06]|     26|Failure|
+|6 |[testDE103PracticalTest].[TEST QUESTION 07]|     20|Success|
+|7 |[testDE103PracticalTest].[TEST QUESTION 08]|     20|Failure|
+|8 |[testDE103PracticalTest].[TEST QUESTION 09]|      3|Error  |
+|9 |[testDE103PracticalTest].[TEST QUESTION 10]|     16|Success|
+|10|[testDE103PracticalTest].[TEST QUESTION 11]|     16|Success|
+|11|[testDE103PracticalTest].[TEST QUESTION 12]|     13|Success|
+|12|[testDE103PracticalTest].[TEST QUESTION 13]|     16|Success|
+|13|[testDE103PracticalTest].[TEST QUESTION 14]|     20|Success|
+|14|[testDE103PracticalTest].[TEST QUESTION 15]|     16|Success|
+|15|[testDE103PracticalTest].[TEST QUESTION 16]|     26|Success|
+|16|[testDE103PracticalTest].[TEST QUESTION 17]|     16|Success|
+|17|[testDE103PracticalTest].[TEST QUESTION 18]|     13|Success|
+|18|[testDE103PracticalTest].[TEST QUESTION 19]|     10|Success|
+------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------

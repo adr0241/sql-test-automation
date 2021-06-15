@@ -1,0 +1,1237 @@
+C:\Users\adity\Documents\ADITYA SCHOOL WORK\PROJECT\INDUSTRY\Sprint 06 - Week 08\Real-Life Test 1\StudentAnswers\Practical test Kunihito_Uemura.sql
+Test Case Summary: 18 test case(s) executed, 10 succeeded, 0 skipped, 2 failed, 6 errored.
+[testDE103PracticalTest].[TEST QUESTION 04] failed: (Error) Column name or number of supplied values does not match table definition.[16,7]{Question4,4} (There was also a ROLLBACK ERROR --> The current transaction cannot be committed and cannot be rolled back to a savepoint. Roll back the entire transaction.{tSQLt.Private_RunTest,187})
+[testDE103PracticalTest].[TEST QUESTION 06] failed: (Error) Could not find stored procedure 'Question6'.[16,62]{testDE103PracticalTest.TEST QUESTION 06,13}
+[testDE103PracticalTest].[TEST QUESTION 08] failed: (Failure) Incorrect Answer!
+Unexpected/missing resultset rows!
+|_m_|FirstName|LastName |City    |
++---+---------+---------+--------+
+|<  |Janet    |Leverling|Kirkland|
+|=  |Laura    |Callahan |Seattle |
+|=  |Michael  |Suyama   |London  |
+|=  |Nancy    |Davolio  |Seattle |
+|=  |Robert   |King     |London  |
+|=  |Steven   |Buchanan |London  |
+|=  |Anne     |Dodsworth|London  |
+[testDE103PracticalTest].[TEST QUESTION 09] failed: (Error) Could not find stored procedure 'Question9'.[16,62]{testDE103PracticalTest.TEST QUESTION 09,16}
+[testDE103PracticalTest].[TEST QUESTION 11] failed: (Failure) Incorrect Answer!
+Unexpected/missing resultset rows!
+|_m_|SupplierID|CompanyName                       |NumberofProducts|
++---+----------+----------------------------------+----------------+
+|<  |12        |Plutzer Lebensmittelgroßmärkte AG |5               |
+|<  |2         |New Orleans Cajun Delights        |4               |
+|<  |7         |Pavlova, Ltd.                     |5               |
+|<  |8         |Specialty Biscuits, Ltd.          |4               |
+|>  |8         |Split Rail Beer & Ale             |24              |
+|>  |8         |Suprêmes délices                  |97              |
+|>  |8         |Toms Spezialitäten                |39              |
+|>  |8         |Tortuga Restaurante               |27              |
+|>  |8         |Tradição Hipermercados            |44              |
+|>  |8         |Vaffeljernet                      |60              |
+|>  |8         |Victuailles en stock              |10              |
+|>  |8         |Wartian Herkku                    |30              |
+|>  |8         |Wellington Importadora            |24              |
+|>  |8         |White Clover Markets              |94              |
+|>  |8         |Wilman Kala                       |32              |
+|>  |8         |Wolski  Zajazd                    |15              |
+|>  |9         |Around the Horn                   |4               |
+|>  |9         |B's Beverages                     |21              |
+|>  |9         |Bon app'                          |15              |
+|>  |9         |Consolidated Holdings             |33              |
+|>  |9         |Die Wandernde Kuh                 |45              |
+|>  |9         |Ernst Handel                      |112             |
+|>  |9         |Folies gourmandes                 |6               |
+|>  |9         |Folk och fä HB                    |55              |
+|>  |9         |Frankenversand                    |112             |
+|>  |9         |Island Trading                    |15              |
+|>  |9         |Laughing Bacchus Wine Cellars     |10              |
+|>  |9         |LILA-Supermercado                 |70              |
+|>  |9         |LINO-Delicateses                  |18              |
+|>  |9         |Magazzini Alimentari Riuniti      |40              |
+|>  |9         |Mère Paillarde                    |40              |
+|>  |9         |Ottilies Käseladen                |20              |
+|>  |9         |Piccolo und mehr                  |35              |
+|>  |9         |QUICK-Stop                        |70              |
+|>  |9         |Ricardo Adocicados                |15              |
+|>  |9         |Romero y tomillo                  |10              |
+|>  |9         |Save-a-lot Markets                |92              |
+|>  |9         |Seven Seas Imports                |50              |
+|>  |9         |Victuailles en stock              |6               |
+|>  |9         |Wartian Herkku                    |24              |
+|>  |9         |Wellington Importadora            |8               |
+|>  |10        |Around the Horn                   |25              |
+|>  |10        |Berglunds snabbköp                |18              |
+|>  |10        |Bottom-Dollar Markets             |30              |
+|>  |10        |Chop-suey Chinese                 |15              |
+|>  |10        |Ernst Handel                      |248             |
+|>  |10        |Familia Arquibaldo                |25              |
+|>  |10        |Folies gourmandes                 |20              |
+|>  |10        |Frankenversand                    |43              |
+|>  |10        |Furia Bacalhau e Frutos do Mar    |10              |
+|>  |10        |Godos Cocina Típica               |12              |
+|>  |10        |Hanari Carnes                     |70              |
+|>  |10        |HILARION-Abastos                  |39              |
+|>  |10        |Königlich Essen                   |30              |
+|>  |10        |La maison d'Asie                  |20              |
+|>  |10        |Laughing Bacchus Wine Cellars     |5               |
+|>  |10        |Lonesome Pine Restaurant          |8               |
+|>  |10        |Magazzini Alimentari Riuniti      |40              |
+|>  |10        |Mère Paillarde                    |25              |
+|>  |10        |Pericles Comidas clásicas         |20              |
+|>  |10        |Piccolo und mehr                  |35              |
+|>  |10        |Queen Cozinha                     |35              |
+|>  |10        |Rattlesnake Canyon Grocery        |30              |
+|>  |10        |Reggiani Caseifici                |10              |
+|>  |10        |Ricardo Adocicados                |15              |
+|>  |10        |Romero y tomillo                  |6               |
+|>  |10        |Santé Gourmet                     |23              |
+|>  |10        |Save-a-lot Markets                |59              |
+|>  |10        |Seven Seas Imports                |80              |
+|>  |10        |Suprêmes délices                  |12              |
+|>  |10        |Toms Spezialitäten                |20              |
+|>  |10        |Tortuga Restaurante               |15              |
+|>  |10        |Vaffeljernet                      |50              |
+|>  |10        |Wilman Kala                       |20              |
+|>  |10        |Wolski  Zajazd                    |12              |
+|>  |11        |Antonio Moreno Taquería           |30              |
+|>  |11        |Berglunds snabbköp                |50              |
+|>  |11        |Bon app'                          |50              |
+|>  |11        |Bottom-Dollar Markets             |60              |
+|>  |11        |Drachenblut Delikatessen          |12              |
+|>  |11        |Eastern Connection                |12              |
+|>  |11        |Ernst Handel                      |65              |
+|>  |11        |Familia Arquibaldo                |10              |
+|>  |11        |Frankenversand                    |24              |
+|>  |11        |Galería del gastrónomo            |5               |
+|>  |11        |HILARION-Abastos                  |61              |
+|>  |11        |Königlich Essen                   |80              |
+|>  |11        |La corne d'abondance              |15              |
+|>  |11        |La maison d'Asie                  |10              |
+|>  |11        |Laughing Bacchus Wine Cellars     |5               |
+|>  |11        |Lehmanns Marktstand               |20              |
+|>  |11        |LILA-Supermercado                 |66              |
+|>  |11        |LINO-Delicateses                  |30              |
+|>  |11        |Magazzini Alimentari Riuniti      |42              |
+|>  |11        |Maison Dewey                      |58              |
+|>  |11        |Old World Delicatessen            |50              |
+|>  |11        |Piccolo und mehr                  |15              |
+|>  |11        |Que Delícia                       |36              |
+|>  |11        |Queen Cozinha                     |50              |
+|>  |11        |QUICK-Stop                        |223             |
+|>  |11        |Rancho grande                     |6               |
+|>  |11        |Rattlesnake Canyon Grocery        |85              |
+|>  |11        |Ricardo Adocicados                |10              |
+|>  |11        |Richter Supermarkt                |32              |
+|>  |11        |Save-a-lot Markets                |107             |
+|>  |11        |Split Rail Beer & Ale             |10              |
+|>  |11        |Suprêmes délices                  |55              |
+|>  |11        |Victuailles en stock              |20              |
+|>  |11        |Wellington Importadora            |15              |
+|>  |11        |White Clover Markets              |15              |
+|>  |12        |Alfreds Futterkiste               |19              |
+|>  |12        |Antonio Moreno Taquería           |30              |
+|>  |12        |B's Beverages                     |9               |
+|>  |12        |Berglunds snabbköp                |111             |
+|>  |12        |Blondesddsl père et fils          |119             |
+|>  |12        |Bólido Comidas preparadas         |70              |
+|>  |12        |Bon app'                          |48              |
+|>  |12        |Bottom-Dollar Markets             |10              |
+|>  |12        |Cactus Comidas para llevar        |28              |
+|>  |12        |Chop-suey Chinese                 |30              |
+|>  |12        |Comércio Mineiro                  |25              |
+|>  |12        |Die Wandernde Kuh                 |29              |
+|>  |12        |Drachenblut Delikatessen          |12              |
+|>  |12        |Eastern Connection                |21              |
+|>  |12        |Ernst Handel                      |400             |
+|>  |12        |Familia Arquibaldo                |56              |
+|>  |12        |Folk och fä HB                    |106             |
+|>  |12        |France restauration               |14              |
+|>  |12        |Franchi S.p.A.                    |10              |
+|>  |12        |Frankenversand                    |133             |
+|>  |12        |Furia Bacalhau e Frutos do Mar    |7               |
+|>  |12        |Galería del gastrónomo            |12              |
+|>  |12        |Godos Cocina Típica               |44              |
+|>  |12        |Gourmet Lanchonetes               |20              |
+|>  |12        |Great Lakes Food Market           |30              |
+|>  |12        |GROSELLA-Restaurante              |20              |
+|>  |12        |Hanari Carnes                     |70              |
+|>  |12        |HILARION-Abastos                  |184             |
+|>  |12        |Hungry Owl All-Night Grocers      |205             |
+|>  |12        |Königlich Essen                   |24              |
+|>  |12        |La corne d'abondance              |10              |
+|>  |12        |La maison d'Asie                  |39              |
+|>  |12        |Laughing Bacchus Wine Cellars     |5               |
+|>  |12        |Lehmanns Marktstand               |143             |
+|>  |12        |Let's Stop N Shop                 |23              |
+|>  |12        |LILA-Supermercado                 |50              |
+|>  |12        |LINO-Delicateses                  |20              |
+|>  |12        |Lonesome Pine Restaurant          |7               |
+|>  |12        |Maison Dewey                      |20              |
+|>  |12        |Mère Paillarde                    |84              |
+|>  |12        |Morgenstern Gesundkost            |20              |
+|>  |12        |Océano Atlántico Ltda.            |15              |
+|>  |12        |Old World Delicatessen            |25              |
+|>  |12        |Ottilies Käseladen                |31              |
+|>  |12        |Pericles Comidas clásicas         |32              |
+|>  |12        |Piccolo und mehr                  |25              |
+|>  |7         |Piccolo und mehr                  |132             |
+|>  |7         |Que Delícia                       |16              |
+|>  |7         |Queen Cozinha                     |40              |
+|>  |7         |QUICK-Stop                        |184             |
+|>  |7         |Rancho grande                     |6               |
+|>  |7         |Rattlesnake Canyon Grocery        |75              |
+|>  |7         |Reggiani Caseifici                |32              |
+|>  |7         |Ricardo Adocicados                |127             |
+|>  |7         |Richter Supermarkt                |75              |
+|>  |7         |Santé Gourmet                     |23              |
+|>  |7         |Save-a-lot Markets                |409             |
+|>  |7         |Seven Seas Imports                |81              |
+|>  |7         |Simons bistro                     |14              |
+|>  |7         |Spécialités du monde              |9               |
+|>  |7         |Split Rail Beer & Ale             |31              |
+|>  |7         |Suprêmes délices                  |100             |
+|>  |7         |The Big Cheese                    |10              |
+|>  |7         |Tortuga Restaurante               |47              |
+|>  |7         |Trail's Head Gourmet Provisioners |6               |
+|>  |7         |Vaffeljernet                      |40              |
+|>  |7         |Victuailles en stock              |30              |
+|>  |7         |Wartian Herkku                    |14              |
+|>  |7         |Wellington Importadora            |19              |
+|>  |7         |White Clover Markets              |144             |
+|>  |8         |Ana Trujillo Emparedados y helados|7               |
+|>  |8         |Around the Horn                   |50              |
+|>  |8         |B's Beverages                     |29              |
+|>  |8         |Berglunds snabbköp                |53              |
+|>  |8         |Blauer See Delikatessen           |23              |
+|>  |8         |Bon app'                          |10              |
+|>  |8         |Bottom-Dollar Markets             |42              |
+|>  |8         |Cactus Comidas para llevar        |6               |
+|>  |8         |Centro comercial Moctezuma        |10              |
+|>  |8         |Chop-suey Chinese                 |40              |
+|>  |8         |Die Wandernde Kuh                 |52              |
+|>  |8         |Du monde entier                   |6               |
+|>  |8         |Ernst Handel                      |159             |
+|>  |8         |Familia Arquibaldo                |18              |
+|>  |8         |Folies gourmandes                 |58              |
+|>  |8         |Folk och fä HB                    |21              |
+|>  |8         |Franchi S.p.A.                    |5               |
+|>  |8         |Frankenversand                    |182             |
+|>  |8         |Furia Bacalhau e Frutos do Mar    |10              |
+|>  |8         |Godos Cocina Típica               |49              |
+|>  |8         |Great Lakes Food Market           |62              |
+|>  |8         |Hanari Carnes                     |55              |
+|>  |8         |HILARION-Abastos                  |30              |
+|>  |8         |Hungry Coyote Import Store        |21              |
+|>  |8         |Island Trading                    |5               |
+|>  |8         |Königlich Essen                   |40              |
+|>  |8         |La corne d'abondance              |5               |
+|>  |8         |Lehmanns Marktstand               |25              |
+|>  |8         |Let's Stop N Shop                 |40              |
+|>  |8         |LILA-Supermercado                 |58              |
+|>  |8         |LINO-Delicateses                  |52              |
+|>  |8         |Lonesome Pine Restaurant          |13              |
+|>  |8         |Magazzini Alimentari Riuniti      |20              |
+|>  |8         |Maison Dewey                      |60              |
+|>  |8         |Mère Paillarde                    |87              |
+|>  |8         |Océano Atlántico Ltda.            |27              |
+|>  |8         |Old World Delicatessen            |15              |
+|>  |8         |Ottilies Käseladen                |40              |
+|>  |8         |Princesa Isabel Vinhos            |31              |
+|>  |8         |Que Delícia                       |54              |
+|>  |8         |Queen Cozinha                     |47              |
+|>  |8         |QUICK-Stop                        |260             |
+|>  |8         |Rancho grande                     |10              |
+|>  |8         |Rattlesnake Canyon Grocery        |7               |
+|>  |8         |Ricardo Adocicados                |73              |
+|>  |8         |Save-a-lot Markets                |279             |
+|>  |8         |Seven Seas Imports                |35              |
+|>  |8         |Simons bistro                     |66              |
+|>  |1         |Alfreds Futterkiste               |6               |
+|>  |1         |Antonio Moreno Taquería           |20              |
+|>  |1         |Around the Horn                   |15              |
+|>  |1         |B's Beverages                     |30              |
+|>  |1         |Berglunds snabbköp                |86              |
+|>  |1         |Blondesddsl père et fils          |25              |
+|>  |1         |Bottom-Dollar Markets             |80              |
+|>  |1         |Chop-suey Chinese                 |45              |
+|>  |1         |Consolidated Holdings             |10              |
+|>  |1         |Die Wandernde Kuh                 |45              |
+|>  |1         |Eastern Connection                |25              |
+|>  |1         |Ernst Handel                      |103             |
+|>  |1         |Folk och fä HB                    |65              |
+|>  |1         |Frankenversand                    |24              |
+|>  |1         |Godos Cocina Típica               |30              |
+|>  |1         |Gourmet Lanchonetes               |10              |
+|>  |1         |Great Lakes Food Market           |8               |
+|>  |1         |HILARION-Abastos                  |70              |
+|>  |1         |Hungry Owl All-Night Grocers      |62              |
+|>  |1         |Island Trading                    |10              |
+|>  |1         |Königlich Essen                   |49              |
+|>  |1         |La maison d'Asie                  |39              |
+|>  |1         |Lehmanns Marktstand               |100             |
+|>  |1         |LINO-Delicateses                  |144             |
+|>  |1         |Lonesome Pine Restaurant          |20              |
+|>  |1         |Magazzini Alimentari Riuniti      |10              |
+|>  |1         |Mère Paillarde                    |20              |
+|>  |1         |North/South                       |8               |
+|>  |1         |Ottilies Käseladen                |40              |
+|>  |1         |Pericles Comidas clásicas         |12              |
+|>  |1         |Princesa Isabel Vinhos            |15              |
+|>  |1         |Queen Cozinha                     |10              |
+|>  |1         |QUICK-Stop                        |256             |
+|>  |1         |Rattlesnake Canyon Grocery        |61              |
+|>  |1         |Ricardo Adocicados                |37              |
+|>  |1         |Richter Supermarkt                |30              |
+|>  |1         |Save-a-lot Markets                |333             |
+|>  |1         |Seven Seas Imports                |40              |
+|>  |1         |Suprêmes délices                  |30              |
+|>  |1         |The Cracker Box                   |4               |
+|>  |1         |Tortuga Restaurante               |10              |
+|>  |1         |Vaffeljernet                      |14              |
+|>  |1         |Victuailles en stock              |20              |
+|>  |1         |Wartian Herkku                    |18              |
+|>  |1         |Wellington Importadora            |41              |
+|>  |1         |White Clover Markets              |52              |
+|>  |1         |Wolski  Zajazd                    |26              |
+|>  |2         |Antonio Moreno Taquería           |4               |
+|>  |2         |Berglunds snabbköp                |12              |
+|>  |2         |Bólido Comidas preparadas         |24              |
+|>  |2         |Bon app'                          |60              |
+|>  |2         |Comércio Mineiro                  |20              |
+|>  |2         |Consolidated Holdings             |30              |
+|>  |2         |Eastern Connection                |100             |
+|>  |2         |Ernst Handel                      |271             |
+|>  |2         |Folk och fä HB                    |100             |
+|>  |2         |France restauration               |12              |
+|>  |2         |Furia Bacalhau e Frutos do Mar    |71              |
+|>  |2         |Galería del gastrónomo            |5               |
+|>  |2         |Godos Cocina Típica               |51              |
+|>  |2         |Hanari Carnes                     |72              |
+|>  |2         |Hungry Owl All-Night Grocers      |80              |
+|>  |2         |La maison d'Asie                  |25              |
+|>  |2         |Let's Stop N Shop                 |12              |
+|>  |2         |LINO-Delicateses                  |21              |
+|>  |2         |Magazzini Alimentari Riuniti      |60              |
+|>  |2         |Mère Paillarde                    |10              |
+|>  |2         |Océano Atlántico Ltda.            |20              |
+|>  |2         |Old World Delicatessen            |15              |
+|>  |2         |Ottilies Käseladen                |30              |
+|>  |2         |Piccolo und mehr                  |12              |
+|>  |2         |Princesa Isabel Vinhos            |18              |
+|>  |2         |Que Delícia                       |20              |
+|>  |2         |Queen Cozinha                     |36              |
+|>  |2         |QUICK-Stop                        |158             |
+|>  |2         |Rattlesnake Canyon Grocery        |59              |
+|>  |2         |Ricardo Adocicados                |35              |
+|>  |2         |Richter Supermarkt                |10              |
+|>  |2         |Save-a-lot Markets                |70              |
+|>  |2         |Suprêmes délices                  |81              |
+|>  |2         |The Big Cheese                    |4               |
+|>  |2         |Tradição Hipermercados            |20              |
+|>  |2         |Vaffeljernet                      |15              |
+|>  |2         |Victuailles en stock              |22              |
+|>  |2         |Wartian Herkku                    |25              |
+|>  |2         |White Clover Markets              |35              |
+|>  |2         |Wilman Kala                       |10              |
+|>  |3         |Alfreds Futterkiste               |16              |
+|>  |3         |B's Beverages                     |34              |
+|>  |3         |Bon app'                          |138             |
+|>  |3         |Bottom-Dollar Markets             |48              |
+|>  |3         |Eastern Connection                |100             |
+|>  |3         |Ernst Handel                      |18              |
+|>  |3         |Folies gourmandes                 |35              |
+|>  |3         |Folk och fä HB                    |60              |
+|>  |3         |Gourmet Lanchonetes               |73              |
+|>  |3         |Hungry Owl All-Night Grocers      |30              |
+|>  |3         |Island Trading                    |20              |
+|>  |3         |Königlich Essen                   |36              |
+|>  |3         |La corne d'abondance              |5               |
+|>  |3         |Lehmanns Marktstand               |44              |
+|>  |3         |LILA-Supermercado                 |15              |
+|>  |3         |Maison Dewey                      |20              |
+|>  |3         |Mère Paillarde                    |70              |
+|>  |3         |Océano Atlántico Ltda.            |6               |
+|>  |3         |Ottilies Käseladen                |55              |
+|>  |3         |Princesa Isabel Vinhos            |30              |
+|>  |3         |Que Delícia                       |40              |
+|>  |3         |Queen Cozinha                     |30              |
+|>  |3         |QUICK-Stop                        |205             |
+|>  |3         |Rattlesnake Canyon Grocery        |79              |
+|>  |3         |Reggiani Caseifici                |40              |
+|>  |3         |Santé Gourmet                     |12              |
+|>  |3         |Save-a-lot Markets                |45              |
+|>  |3         |Split Rail Beer & Ale             |10              |
+|>  |3         |Tradição Hipermercados            |6               |
+|>  |3         |Vaffeljernet                      |10              |
+|>  |3         |Victuailles en stock              |26              |
+|>  |3         |White Clover Markets              |70              |
+|>  |3         |Wilman Kala                       |10              |
+|>  |4         |Berglunds snabbköp                |22              |
+|>  |4         |Blondesddsl père et fils          |14              |
+|>  |4         |Bon app'                          |36              |
+|>  |4         |Bottom-Dollar Markets             |46              |
+|>  |4         |Chop-suey Chinese                 |57              |
+|>  |4         |Du monde entier                   |10              |
+|>  |4         |Ernst Handel                      |186             |
+|>  |4         |Franchi S.p.A.                    |5               |
+|>  |4         |Furia Bacalhau e Frutos do Mar    |24              |
+|>  |4         |Galería del gastrónomo            |5               |
+|>  |4         |Godos Cocina Típica               |10              |
+|>  |4         |Gourmet Lanchonetes               |20              |
+|>  |4         |GROSELLA-Restaurante              |10              |
+|>  |4         |Hanari Carnes                     |70              |
+|>  |4         |HILARION-Abastos                  |16              |
+|>  |4         |Hungry Owl All-Night Grocers      |68              |
+|>  |4         |LILA-Supermercado                 |44              |
+|>  |4         |Mère Paillarde                    |46              |
+|>  |4         |Ottilies Käseladen                |24              |
+|>  |4         |QUICK-Stop                        |55              |
+|>  |4         |Save-a-lot Markets                |88              |
+|>  |4         |Seven Seas Imports                |36              |
+|>  |4         |Suprêmes délices                  |36              |
+|>  |4         |The Cracker Box                   |6               |
+|>  |4         |Tortuga Restaurante               |17              |
+|>  |4         |Vaffeljernet                      |43              |
+|>  |4         |Victuailles en stock              |55              |
+|>  |4         |Wartian Herkku                    |35              |
+|>  |4         |Wellington Importadora            |20              |
+|>  |4         |White Clover Markets              |6               |
+|>  |4         |Wolski  Zajazd                    |20              |
+|>  |5         |Antonio Moreno Taquería           |74              |
+|>  |5         |Blauer See Delikatessen           |14              |
+|>  |5         |Blondesddsl père et fils          |35              |
+|>  |5         |Bottom-Dollar Markets             |5               |
+|>  |5         |Comércio Mineiro                  |10              |
+|>  |5         |Die Wandernde Kuh                 |20              |
+|>  |5         |Drachenblut Delikatessen          |20              |
+|>  |5         |Eastern Connection                |5               |
+|>  |5         |Ernst Handel                      |131             |
+|>  |5         |Folk och fä HB                    |56              |
+|>  |5         |Gourmet Lanchonetes               |4               |
+|>  |5         |Hanari Carnes                     |15              |
+|>  |5         |HILARION-Abastos                  |5               |
+|>  |5         |Hungry Owl All-Night Grocers      |40              |
+|>  |5         |Königlich Essen                   |51              |
+|>  |5         |Lazy K Kountry Store              |10              |
+|>  |5         |Lehmanns Marktstand               |40              |
+|>  |5         |LILA-Supermercado                 |62              |
+|>  |5         |Lonesome Pine Restaurant          |20              |
+|>  |5         |Mère Paillarde                    |30              |
+|>  |5         |Océano Atlántico Ltda.            |30              |
+|>  |5         |Ottilies Käseladen                |30              |
+|>  |5         |Pericles Comidas clásicas         |10              |
+|>  |5         |Piccolo und mehr                  |27              |
+|>  |5         |Que Delícia                       |15              |
+|>  |5         |Queen Cozinha                     |10              |
+|>  |5         |Rattlesnake Canyon Grocery        |42              |
+|>  |5         |Reggiani Caseifici                |6               |
+|>  |5         |Save-a-lot Markets                |100             |
+|>  |5         |Seven Seas Imports                |60              |
+|>  |5         |Spécialités du monde              |10              |
+|>  |5         |Tortuga Restaurante               |15              |
+|>  |5         |Vins et alcools Chevalier         |12              |
+|>  |5         |Wartian Herkku                    |27              |
+|>  |5         |Wilman Kala                       |4               |
+|>  |6         |Ana Trujillo Emparedados y helados|13              |
+|>  |6         |Around the Horn                   |20              |
+|>  |6         |B's Beverages                     |23              |
+|>  |6         |Berglunds snabbköp                |22              |
+|>  |6         |Bon app'                          |40              |
+|>  |6         |Chop-suey Chinese                 |6               |
+|>  |6         |Drachenblut Delikatessen          |25              |
+|>  |6         |Ernst Handel                      |89              |
+|>  |6         |Frankenversand                    |51              |
+|>  |6         |Hanari Carnes                     |40              |
+|>  |6         |HILARION-Abastos                  |68              |
+|>  |6         |Hungry Coyote Import Store        |25              |
+|>  |6         |Hungry Owl All-Night Grocers      |70              |
+|>  |6         |Island Trading                    |10              |
+|>  |6         |Königlich Essen                   |46              |
+|>  |6         |La maison d'Asie                  |15              |
+|>  |6         |Laughing Bacchus Wine Cellars     |7               |
+|>  |6         |Lehmanns Marktstand               |25              |
+|>  |6         |Let's Stop N Shop                 |10              |
+|>  |6         |LILA-Supermercado                 |30              |
+|>  |6         |Morgenstern Gesundkost            |20              |
+|>  |6         |Océano Atlántico Ltda.            |17              |
+|>  |6         |Ottilies Käseladen                |25              |
+|>  |6         |Pericles Comidas clásicas         |12              |
+|>  |6         |Piccolo und mehr                  |35              |
+|>  |6         |Que Delícia                       |35              |
+|>  |6         |QUICK-Stop                        |97              |
+|>  |6         |Rattlesnake Canyon Grocery        |5               |
+|>  |6         |Ricardo Adocicados                |30              |
+|>  |6         |Richter Supermarkt                |42              |
+|>  |6         |Save-a-lot Markets                |370             |
+|>  |6         |Toms Spezialitäten                |9               |
+|>  |6         |Tortuga Restaurante               |10              |
+|>  |6         |Vins et alcools Chevalier         |4               |
+|>  |6         |Wartian Herkku                    |65              |
+|>  |7         |Alfreds Futterkiste               |20              |
+|>  |7         |Ana Trujillo Emparedados y helados|5               |
+|>  |7         |Antonio Moreno Taquería           |18              |
+|>  |7         |Around the Horn                   |53              |
+|>  |7         |B's Beverages                     |7               |
+|>  |7         |Berglunds snabbköp                |30              |
+|>  |7         |Blauer See Delikatessen           |10              |
+|>  |7         |Blondesddsl père et fils          |68              |
+|>  |7         |Bólido Comidas preparadas         |40              |
+|>  |7         |Bon app'                          |123             |
+|>  |7         |Bottom-Dollar Markets             |86              |
+|>  |7         |Chop-suey Chinese                 |42              |
+|>  |7         |Die Wandernde Kuh                 |15              |
+|>  |7         |Du monde entier                   |15              |
+|>  |7         |Ernst Handel                      |414             |
+|>  |7         |Folies gourmandes                 |110             |
+|>  |7         |Folk och fä HB                    |79              |
+|>  |7         |France restauration               |10              |
+|>  |7         |Franchi S.p.A.                    |8               |
+|>  |7         |Frankenversand                    |30              |
+|>  |7         |Furia Bacalhau e Frutos do Mar    |40              |
+|>  |7         |Godos Cocina Típica               |24              |
+|>  |7         |Great Lakes Food Market           |15              |
+|>  |7         |Hanari Carnes                     |35              |
+|>  |7         |HILARION-Abastos                  |12              |
+|>  |7         |Hungry Owl All-Night Grocers      |134             |
+|>  |7         |Island Trading                    |50              |
+|>  |7         |Königlich Essen                   |34              |
+|>  |7         |La corne d'abondance              |10              |
+|>  |7         |La maison d'Asie                  |20              |
+|>  |7         |Laughing Bacchus Wine Cellars     |5               |
+|>  |7         |Lehmanns Marktstand               |45              |
+|>  |7         |Let's Stop N Shop                 |12              |
+|>  |7         |LILA-Supermercado                 |65              |
+|>  |7         |LINO-Delicateses                  |167             |
+|>  |7         |Lonesome Pine Restaurant          |10              |
+|>  |7         |Mère Paillarde                    |156             |
+|>  |7         |Morgenstern Gesundkost            |26              |
+|>  |7         |North/South                       |9               |
+|>  |7         |Old World Delicatessen            |165             |
+|>  |7         |Ottilies Käseladen                |51              |
+|>  |12        |Princesa Isabel Vinhos            |10              |
+|>  |12        |Que Delícia                       |30              |
+|>  |12        |Queen Cozinha                     |120             |
+|>  |12        |QUICK-Stop                        |288             |
+|>  |12        |Rattlesnake Canyon Grocery        |92              |
+|>  |12        |Reggiani Caseifici                |32              |
+|>  |12        |Richter Supermarkt                |86              |
+|>  |12        |Santé Gourmet                     |24              |
+|>  |12        |Save-a-lot Markets                |377             |
+|>  |12        |Seven Seas Imports                |44              |
+|>  |12        |Simons bistro                     |35              |
+|>  |12        |Spécialités du monde              |14              |
+|>  |12        |Split Rail Beer & Ale             |20              |
+|>  |12        |Suprêmes délices                  |98              |
+|>  |12        |The Cracker Box                   |16              |
+|>  |12        |Tortuga Restaurante               |20              |
+|>  |12        |Tradição Hipermercados            |8               |
+|>  |12        |Trail's Head Gourmet Provisioners |44              |
+|>  |12        |Vaffeljernet                      |144             |
+|>  |12        |Wartian Herkku                    |10              |
+|>  |12        |Wellington Importadora            |12              |
+|>  |12        |White Clover Markets              |65              |
+|>  |12        |Wolski  Zajazd                    |30              |
+|>  |13        |Berglunds snabbköp                |50              |
+|>  |13        |Eastern Connection                |15              |
+|>  |13        |Ernst Handel                      |60              |
+|>  |13        |Familia Arquibaldo                |30              |
+|>  |13        |Folk och fä HB                    |35              |
+|>  |13        |Frankenversand                    |20              |
+|>  |13        |Gourmet Lanchonetes               |17              |
+|>  |13        |HILARION-Abastos                  |30              |
+|>  |13        |Hungry Owl All-Night Grocers      |54              |
+|>  |13        |Königlich Essen                   |43              |
+|>  |13        |Lehmanns Marktstand               |45              |
+|>  |13        |LILA-Supermercado                 |32              |
+|>  |13        |Old World Delicatessen            |15              |
+|>  |13        |Queen Cozinha                     |30              |
+|>  |13        |Rattlesnake Canyon Grocery        |18              |
+|>  |13        |Richter Supermarkt                |30              |
+|>  |13        |Romero y tomillo                  |17              |
+|>  |13        |Santé Gourmet                     |15              |
+|>  |13        |Simons bistro                     |25              |
+|>  |13        |Split Rail Beer & Ale             |8               |
+|>  |13        |Tradição Hipermercados            |20              |
+|>  |14        |Ana Trujillo Emparedados y helados|20              |
+|>  |14        |Around the Horn                   |115             |
+|>  |14        |Berglunds snabbköp                |10              |
+|>  |14        |Blondesddsl père et fils          |105             |
+|>  |14        |Bon app'                          |19              |
+|>  |14        |Bottom-Dollar Markets             |35              |
+|>  |14        |Consolidated Holdings             |10              |
+|>  |14        |Die Wandernde Kuh                 |103             |
+|>  |14        |Drachenblut Delikatessen          |20              |
+|>  |14        |Eastern Connection                |20              |
+|>  |14        |Ernst Handel                      |200             |
+|>  |14        |Folk och fä HB                    |26              |
+|>  |14        |Frankenversand                    |102             |
+|>  |14        |Gourmet Lanchonetes               |14              |
+|>  |14        |Great Lakes Food Market           |9               |
+|>  |14        |GROSELLA-Restaurante              |4               |
+|>  |14        |Hanari Carnes                     |65              |
+|>  |14        |HILARION-Abastos                  |24              |
+|>  |14        |Hungry Owl All-Night Grocers      |126             |
+|>  |14        |Island Trading                    |10              |
+|>  |14        |Königlich Essen                   |44              |
+|>  |14        |Lehmanns Marktstand               |65              |
+|>  |14        |LILA-Supermercado                 |78              |
+|>  |14        |LINO-Delicateses                  |85              |
+|>  |14        |Magazzini Alimentari Riuniti      |50              |
+|>  |14        |Maison Dewey                      |15              |
+|>  |14        |Mère Paillarde                    |42              |
+|>  |14        |Morgenstern Gesundkost            |40              |
+|>  |14        |Océano Atlántico Ltda.            |5               |
+|>  |14        |Old World Delicatessen            |34              |
+|>  |14        |Ottilies Käseladen                |9               |
+|>  |14        |Piccolo und mehr                  |28              |
+|>  |14        |Queen Cozinha                     |62              |
+|>  |14        |QUICK-Stop                        |112             |
+|>  |14        |Rancho grande                     |6               |
+|>  |14        |Rattlesnake Canyon Grocery        |146             |
+|>  |14        |Reggiani Caseifici                |56              |
+|>  |14        |Richter Supermarkt                |51              |
+|>  |14        |Save-a-lot Markets                |188             |
+|>  |14        |Seven Seas Imports                |94              |
+|>  |14        |Simons bistro                     |24              |
+|>  |14        |Suprêmes délices                  |35              |
+|>  |14        |Tortuga Restaurante               |20              |
+|>  |14        |Tradição Hipermercados            |35              |
+|>  |14        |Victuailles en stock              |40              |
+|>  |14        |Vins et alcools Chevalier         |12              |
+|>  |14        |Wartian Herkku                    |30              |
+|>  |14        |White Clover Markets              |20              |
+|>  |14        |Wolski  Zajazd                    |30              |
+|>  |15        |Alfreds Futterkiste               |20              |
+|>  |15        |Antonio Moreno Taquería           |38              |
+|>  |15        |Around the Horn                   |12              |
+|>  |15        |B's Beverages                     |15              |
+|>  |15        |Berglunds snabbköp                |32              |
+|>  |15        |Bon app'                          |55              |
+|>  |15        |Bottom-Dollar Markets             |64              |
+|>  |15        |Cactus Comidas para llevar        |10              |
+|>  |15        |Chop-suey Chinese                 |40              |
+|>  |15        |Die Wandernde Kuh                 |60              |
+|>  |15        |Du monde entier                   |7               |
+|>  |15        |Eastern Connection                |115             |
+|>  |15        |Ernst Handel                      |221             |
+|>  |15        |Familia Arquibaldo                |50              |
+|>  |15        |Folk och fä HB                    |6               |
+|>  |15        |Frankenversand                    |145             |
+|>  |15        |Great Lakes Food Market           |23              |
+|>  |15        |Hanari Carnes                     |39              |
+|>  |15        |HILARION-Abastos                  |80              |
+|>  |15        |Hungry Coyote Import Store        |20              |
+|>  |15        |Hungry Owl All-Night Grocers      |103             |
+|>  |15        |Island Trading                    |39              |
+|>  |15        |La corne d'abondance              |7               |
+|>  |15        |La maison d'Asie                  |48              |
+|>  |15        |Lehmanns Marktstand               |50              |
+|>  |15        |LILA-Supermercado                 |15              |
+|>  |15        |Maison Dewey                      |10              |
+|>  |15        |Mère Paillarde                    |15              |
+|>  |15        |Ottilies Käseladen                |30              |
+|>  |15        |Piccolo und mehr                  |80              |
+|>  |15        |Que Delícia                       |8               |
+|>  |15        |Queen Cozinha                     |65              |
+|>  |15        |QUICK-Stop                        |80              |
+|>  |15        |Rattlesnake Canyon Grocery        |69              |
+|>  |15        |Reggiani Caseifici                |20              |
+|>  |15        |Richter Supermarkt                |71              |
+|>  |15        |Santé Gourmet                     |15              |
+|>  |15        |Save-a-lot Markets                |241             |
+|>  |15        |Simons bistro                     |8               |
+|>  |15        |Spécialités du monde              |10              |
+|>  |15        |Split Rail Beer & Ale             |44              |
+|>  |15        |Suprêmes délices                  |105             |
+|>  |15        |Tortuga Restaurante               |32              |
+|>  |15        |Trail's Head Gourmet Provisioners |14              |
+|>  |15        |Vaffeljernet                      |30              |
+|>  |15        |Victuailles en stock              |4               |
+|>  |15        |Vins et alcools Chevalier         |20              |
+|>  |15        |Wartian Herkku                    |110             |
+|>  |15        |White Clover Markets              |125             |
+|>  |16        |Antonio Moreno Taquería           |40              |
+|>  |16        |Around the Horn                   |19              |
+|>  |16        |B's Beverages                     |20              |
+|>  |16        |Berglunds snabbköp                |8               |
+|>  |16        |Cactus Comidas para llevar        |43              |
+|>  |16        |Die Wandernde Kuh                 |18              |
+|>  |16        |Du monde entier                   |10              |
+|>  |16        |Eastern Connection                |35              |
+|>  |16        |Ernst Handel                      |226             |
+|>  |16        |Familia Arquibaldo                |10              |
+|>  |16        |Folies gourmandes                 |15              |
+|>  |16        |Frankenversand                    |55              |
+|>  |16        |Furia Bacalhau e Frutos do Mar    |20              |
+|>  |16        |Godos Cocina Típica               |15              |
+|>  |16        |Great Lakes Food Market           |4               |
+|>  |16        |HILARION-Abastos                  |40              |
+|>  |16        |Hungry Owl All-Night Grocers      |30              |
+|>  |16        |Island Trading                    |24              |
+|>  |16        |La maison d'Asie                  |34              |
+|>  |16        |Lehmanns Marktstand               |5               |
+|>  |16        |LINO-Delicateses                  |33              |
+|>  |16        |Lonesome Pine Restaurant          |7               |
+|>  |16        |Magazzini Alimentari Riuniti      |40              |
+|>  |16        |Mère Paillarde                    |60              |
+|>  |16        |Pericles Comidas clásicas         |30              |
+|>  |16        |Que Delícia                       |61              |
+|>  |16        |Queen Cozinha                     |30              |
+|>  |16        |QUICK-Stop                        |125             |
+|>  |16        |Ricardo Adocicados                |20              |
+|>  |16        |Romero y tomillo                  |4               |
+|>  |16        |Santé Gourmet                     |8               |
+|>  |16        |Save-a-lot Markets                |157             |
+|>  |16        |Split Rail Beer & Ale             |20              |
+|>  |16        |Suprêmes délices                  |60              |
+|>  |16        |The Big Cheese                    |10              |
+|>  |16        |Toms Spezialitäten                |30              |
+|>  |16        |Vaffeljernet                      |60              |
+|>  |16        |Victuailles en stock              |30              |
+|>  |16        |Wartian Herkku                    |6               |
+|>  |16        |White Clover Markets              |105             |
+|>  |17        |Around the Horn                   |19              |
+|>  |17        |Berglunds snabbköp                |25              |
+|>  |17        |Bon app'                          |30              |
+|>  |17        |Cactus Comidas para llevar        |10              |
+|>  |17        |Chop-suey Chinese                 |8               |
+|>  |17        |Folies gourmandes                 |10              |
+|>  |17        |Folk och fä HB                    |59              |
+|>  |17        |Frankenversand                    |158             |
+|>  |17        |Godos Cocina Típica               |18              |
+|>  |17        |Great Lakes Food Market           |30              |
+|>  |17        |Hanari Carnes                     |40              |
+|>  |17        |Hungry Coyote Import Store        |30              |
+|>  |17        |Hungry Owl All-Night Grocers      |46              |
+|>  |17        |Königlich Essen                   |60              |
+|>  |17        |La maison d'Asie                  |47              |
+|>  |17        |LINO-Delicateses                  |50              |
+|>  |17        |Magazzini Alimentari Riuniti      |30              |
+|>  |17        |Queen Cozinha                     |5               |
+|>  |17        |QUICK-Stop                        |42              |
+|>  |17        |Ricardo Adocicados                |25              |
+|>  |17        |Richter Supermarkt                |49              |
+|>  |17        |Save-a-lot Markets                |190             |
+|>  |17        |Seven Seas Imports                |78              |
+|>  |17        |Simons bistro                     |30              |
+|>  |17        |Split Rail Beer & Ale             |20              |
+|>  |17        |The Big Cheese                    |5               |
+|>  |17        |Vins et alcools Chevalier         |6               |
+|>  |17        |Wartian Herkku                    |30              |
+|>  |17        |Wellington Importadora            |20              |
+|>  |17        |White Clover Markets              |50              |
+|>  |18        |Alfreds Futterkiste               |21              |
+|>  |18        |Berglunds snabbköp                |41              |
+|>  |18        |Blauer See Delikatessen           |5               |
+|>  |18        |Blondesddsl père et fils          |70              |
+|>  |18        |Bon app'                          |21              |
+|>  |18        |Ernst Handel                      |195             |
+|>  |18        |Familia Arquibaldo                |50              |
+|>  |18        |Folk och fä HB                    |46              |
+|>  |18        |Great Lakes Food Market           |45              |
+|>  |18        |Hanari Carnes                     |111             |
+|>  |18        |HILARION-Abastos                  |6               |
+|>  |18        |Königlich Essen                   |34              |
+|>  |18        |LILA-Supermercado                 |8               |
+|>  |18        |LINO-Delicateses                  |10              |
+|>  |18        |Mère Paillarde                    |49              |
+|>  |18        |Old World Delicatessen            |30              |
+|>  |18        |Ottilies Käseladen                |10              |
+|>  |18        |Piccolo und mehr                  |50              |
+|>  |18        |Princesa Isabel Vinhos            |20              |
+|>  |18        |Que Delícia                       |20              |
+|>  |18        |Queen Cozinha                     |40              |
+|>  |18        |QUICK-Stop                        |224             |
+|>  |18        |Rattlesnake Canyon Grocery        |72              |
+|>  |18        |Santé Gourmet                     |8               |
+|>  |18        |Seven Seas Imports                |20              |
+|>  |18        |Simons bistro                     |50              |
+|>  |18        |Spécialités du monde              |5               |
+|>  |18        |Split Rail Beer & Ale             |20              |
+|>  |18        |The Big Cheese                    |10              |
+|>  |18        |Tortuga Restaurante               |35              |
+|>  |18        |Tradição Hipermercados            |28              |
+|>  |18        |Trail's Head Gourmet Provisioners |10              |
+|>  |18        |Wartian Herkku                    |20              |
+|>  |18        |White Clover Markets              |25              |
+|>  |19        |Antonio Moreno Taquería           |10              |
+|>  |19        |Around the Horn                   |14              |
+|>  |19        |B's Beverages                     |10              |
+|>  |19        |Berglunds snabbköp                |115             |
+|>  |19        |Blondesddsl père et fils          |12              |
+|>  |19        |Bon app'                          |57              |
+|>  |19        |Bottom-Dollar Markets             |75              |
+|>  |19        |Cactus Comidas para llevar        |10              |
+|>  |19        |Die Wandernde Kuh                 |10              |
+|>  |19        |Drachenblut Delikatessen          |9               |
+|>  |19        |Du monde entier                   |14              |
+|>  |19        |Ernst Handel                      |144             |
+|>  |19        |Familia Arquibaldo                |16              |
+|>  |19        |Folk och fä HB                    |72              |
+|>  |19        |Frankenversand                    |70              |
+|>  |19        |Godos Cocina Típica               |40              |
+|>  |19        |Gourmet Lanchonetes               |4               |
+|>  |19        |Hanari Carnes                     |10              |
+|>  |19        |HILARION-Abastos                  |119             |
+|>  |19        |Hungry Owl All-Night Grocers      |150             |
+|>  |19        |Island Trading                    |20              |
+|>  |19        |Königlich Essen                   |60              |
+|>  |19        |La corne d'abondance              |6               |
+|>  |19        |Laughing Bacchus Wine Cellars     |20              |
+|>  |19        |Lazy K Kountry Store              |10              |
+|>  |19        |Lehmanns Marktstand               |35              |
+|>  |19        |LINO-Delicateses                  |78              |
+|>  |19        |Magazzini Alimentari Riuniti      |23              |
+|>  |19        |Maison Dewey                      |10              |
+|>  |19        |Ottilies Käseladen                |65              |
+|>  |19        |Pericles Comidas clásicas         |21              |
+|>  |19        |Piccolo und mehr                  |35              |
+|>  |19        |Que Delícia                       |12              |
+|>  |19        |Queen Cozinha                     |32              |
+|>  |19        |QUICK-Stop                        |170             |
+|>  |19        |Rancho grande                     |20              |
+|>  |19        |Rattlesnake Canyon Grocery        |13              |
+|>  |19        |Reggiani Caseifici                |20              |
+|>  |19        |Richter Supermarkt                |6               |
+|>  |19        |Santé Gourmet                     |5               |
+|>  |19        |Save-a-lot Markets                |280             |
+|>  |19        |Seven Seas Imports                |6               |
+|>  |19        |Suprêmes délices                  |5               |
+|>  |19        |The Cracker Box                   |10              |
+|>  |19        |Toms Spezialitäten                |14              |
+|>  |19        |Vaffeljernet                      |100             |
+|>  |19        |Victuailles en stock              |20              |
+|>  |19        |Vins et alcools Chevalier         |12              |
+|>  |19        |Wilman Kala                       |12              |
+|>  |20        |Ana Trujillo Emparedados y helados|5               |
+|>  |20        |Antonio Moreno Taquería           |35              |
+|>  |20        |B's Beverages                     |30              |
+|>  |20        |Berglunds snabbköp                |76              |
+|>  |20        |Bon app'                          |70              |
+|>  |20        |Bottom-Dollar Markets             |87              |
+|>  |20        |Cactus Comidas para llevar        |7               |
+|>  |20        |Chop-suey Chinese                 |28              |
+|>  |20        |Comércio Mineiro                  |15              |
+|>  |20        |Die Wandernde Kuh                 |24              |
+|>  |20        |Du monde entier                   |6               |
+|>  |20        |Eastern Connection                |6               |
+|>  |20        |Ernst Handel                      |117             |
+|>  |20        |Folk och fä HB                    |10              |
+|>  |20        |Furia Bacalhau e Frutos do Mar    |58              |
+|>  |20        |Gourmet Lanchonetes               |40              |
+|>  |20        |Great Lakes Food Market           |28              |
+|>  |20        |Hanari Carnes                     |30              |
+|>  |20        |HILARION-Abastos                  |40              |
+|>  |20        |Hungry Owl All-Night Grocers      |42              |
+|>  |20        |Königlich Essen                   |15              |
+|>  |20        |La maison d'Asie                  |36              |
+|>  |20        |Lehmanns Marktstand               |21              |
+|>  |20        |Magazzini Alimentari Riuniti      |40              |
+|>  |20        |Maison Dewey                      |36              |
+|>  |20        |Mère Paillarde                    |10              |
+|>  |20        |Old World Delicatessen            |76              |
+|>  |20        |Piccolo und mehr                  |25              |
+|>  |20        |Princesa Isabel Vinhos            |14              |
+|>  |20        |Que Delícia                       |24              |
+|>  |20        |Queen Cozinha                     |36              |
+|>  |20        |QUICK-Stop                        |345             |
+|>  |20        |Rattlesnake Canyon Grocery        |15              |
+|>  |20        |Romero y tomillo                  |4               |
+|>  |20        |Santé Gourmet                     |9               |
+|>  |20        |Save-a-lot Markets                |149             |
+|>  |20        |Suprêmes délices                  |114             |
+|>  |20        |The Cracker Box                   |10              |
+|>  |20        |Tortuga Restaurante               |56              |
+|>  |20        |Victuailles en stock              |20              |
+|>  |20        |Vins et alcools Chevalier         |10              |
+|>  |20        |Wartian Herkku                    |25              |
+|>  |20        |Wellington Importadora            |20              |
+|>  |20        |Wilman Kala                       |12              |
+|>  |21        |Around the Horn                   |28              |
+|>  |21        |B's Beverages                     |15              |
+|>  |21        |Blondesddsl père et fils          |5               |
+|>  |21        |Bon app'                          |21              |
+|>  |21        |Comércio Mineiro                  |14              |
+|>  |21        |Ernst Handel                      |72              |
+|>  |21        |Familia Arquibaldo                |9               |
+|>  |21        |Folk och fä HB                    |25              |
+|>  |21        |Franchi S.p.A.                    |4               |
+|>  |21        |Frankenversand                    |60              |
+|>  |21        |HILARION-Abastos                  |28              |
+|>  |21        |La maison d'Asie                  |10              |
+|>  |21        |LILA-Supermercado                 |20              |
+|>  |21        |LINO-Delicateses                  |50              |
+|>  |21        |Maison Dewey                      |15              |
+|>  |21        |Pericles Comidas clásicas         |21              |
+|>  |21        |QUICK-Stop                        |100             |
+|>  |21        |Reggiani Caseifici                |20              |
+|>  |21        |Ricardo Adocicados                |50              |
+|>  |21        |Richter Supermarkt                |30              |
+|>  |21        |Romero y tomillo                  |20              |
+|>  |21        |Save-a-lot Markets                |245             |
+|>  |21        |Seven Seas Imports                |15              |
+|>  |21        |Vaffeljernet                      |30              |
+|>  |21        |Victuailles en stock              |20              |
+|>  |21        |Wartian Herkku                    |40              |
+|>  |21        |Wellington Importadora            |21              |
+|>  |21        |White Clover Markets              |58              |
+|>  |22        |Antonio Moreno Taquería           |15              |
+|>  |22        |Around the Horn                   |40              |
+|>  |22        |Berglunds snabbköp                |61              |
+|>  |22        |Blauer See Delikatessen           |14              |
+|>  |22        |Bon app'                          |30              |
+|>  |22        |Bottom-Dollar Markets             |30              |
+|>  |22        |Ernst Handel                      |70              |
+|>  |22        |Familia Arquibaldo                |6               |
+|>  |22        |Folies gourmandes                 |30              |
+|>  |22        |Folk och fä HB                    |60              |
+|>  |22        |Franchi S.p.A.                    |5               |
+|>  |22        |Furia Bacalhau e Frutos do Mar    |6               |
+|>  |22        |Galería del gastrónomo            |5               |
+|>  |22        |Gourmet Lanchonetes               |15              |
+|>  |22        |Great Lakes Food Market           |6               |
+|>  |22        |Mère Paillarde                    |16              |
+|>  |22        |Morgenstern Gesundkost            |12              |
+|>  |22        |Ottilies Käseladen                |40              |
+|>  |22        |Queen Cozinha                     |24              |
+|>  |22        |QUICK-Stop                        |55              |
+|>  |22        |Save-a-lot Markets                |60              |
+|>  |22        |Victuailles en stock              |8               |
+|>  |22        |Wellington Importadora            |15              |
+|>  |23        |Alfreds Futterkiste               |15              |
+|>  |23        |Around the Horn                   |39              |
+|>  |23        |B's Beverages                     |6               |
+|>  |23        |Berglunds snabbköp                |36              |
+|>  |23        |Blauer See Delikatessen           |14              |
+|>  |23        |Blondesddsl père et fils          |45              |
+|>  |23        |Bon app'                          |20              |
+|>  |23        |Comércio Mineiro                  |15              |
+|>  |23        |Drachenblut Delikatessen          |12              |
+|>  |23        |Eastern Connection                |30              |
+|>  |23        |Ernst Handel                      |22              |
+|>  |23        |Folk och fä HB                    |68              |
+|>  |23        |France restauration               |20              |
+|>  |23        |Frankenversand                    |15              |
+|>  |23        |Furia Bacalhau e Frutos do Mar    |10              |
+|>  |23        |Galería del gastrónomo            |5               |
+|>  |23        |Godos Cocina Típica               |9               |
+|>  |23        |Gourmet Lanchonetes               |20              |
+|>  |23        |Hanari Carnes                     |40              |
+|>  |23        |Hungry Owl All-Night Grocers      |75              |
+|>  |23        |Island Trading                    |16              |
+|>  |23        |Königlich Essen                   |56              |
+|>  |23        |La corne d'abondance              |20              |
+|>  |23        |La maison d'Asie                  |49              |
+|>  |23        |Lehmanns Marktstand               |19              |
+|>  |23        |LILA-Supermercado                 |25              |
+|>  |23        |LINO-Delicateses                  |100             |
+|>  |23        |Lonesome Pine Restaurant          |10              |
+|>  |23        |Magazzini Alimentari Riuniti      |30              |
+|>  |23        |Maison Dewey                      |6               |
+|>  |23        |Morgenstern Gesundkost            |10              |
+|>  |23        |Océano Atlántico Ltda.            |10              |
+|>  |23        |Old World Delicatessen            |50              |
+|>  |23        |Piccolo und mehr                  |50              |
+|>  |23        |Queen Cozinha                     |127             |
+|>  |23        |QUICK-Stop                        |167             |
+|>  |23        |Rattlesnake Canyon Grocery        |30              |
+|>  |23        |Reggiani Caseifici                |28              |
+|>  |23        |Ricardo Adocicados                |24              |
+|>  |23        |Richter Supermarkt                |22              |
+|>  |23        |Save-a-lot Markets                |143             |
+|>  |23        |Seven Seas Imports                |4               |
+|>  |23        |Suprêmes délices                  |42              |
+|>  |23        |Toms Spezialitäten                |40              |
+|>  |23        |Tortuga Restaurante               |60              |
+|>  |23        |Vaffeljernet                      |60              |
+|>  |23        |Wilman Kala                       |20              |
+|>  |24        |Antonio Moreno Taquería           |25              |
+|>  |24        |Around the Horn                   |76              |
+|>  |24        |Berglunds snabbköp                |37              |
+|>  |24        |Blauer See Delikatessen           |8               |
+|>  |24        |Blondesddsl père et fils          |20              |
+|>  |24        |Bólido Comidas preparadas         |40              |
+|>  |24        |Bon app'                          |40              |
+|>  |24        |Bottom-Dollar Markets             |24              |
+|>  |24        |Chop-suey Chinese                 |30              |
+|>  |24        |Die Wandernde Kuh                 |20              |
+|>  |24        |Drachenblut Delikatessen          |20              |
+|>  |24        |Du monde entier                   |9               |
+|>  |24        |Ernst Handel                      |120             |
+|>  |24        |Familia Arquibaldo                |29              |
+|>  |24        |Folies gourmandes                 |15              |
+|>  |24        |Folk och fä HB                    |88              |
+|>  |24        |Franchi S.p.A.                    |10              |
+|>  |24        |Frankenversand                    |10              |
+|>  |24        |Godos Cocina Típica               |40              |
+|>  |24        |Gourmet Lanchonetes               |28              |
+|>  |24        |Hanari Carnes                     |47              |
+|>  |24        |HILARION-Abastos                  |115             |
+|>  |24        |Hungry Owl All-Night Grocers      |74              |
+|>  |24        |La corne d'abondance              |5               |
+|>  |24        |Laughing Bacchus Wine Cellars     |5               |
+|>  |24        |Lehmanns Marktstand               |8               |
+|>  |24        |LILA-Supermercado                 |20              |
+|>  |24        |Lonesome Pine Restaurant          |23              |
+|>  |24        |North/South                       |6               |
+|>  |24        |Old World Delicatessen            |40              |
+|>  |24        |Ottilies Käseladen                |24              |
+|>  |24        |Pericles Comidas clásicas         |46              |
+|>  |24        |Princesa Isabel Vinhos            |18              |
+|>  |24        |Que Delícia                       |17              |
+|>  |24        |Queen Cozinha                     |6               |
+|>  |24        |QUICK-Stop                        |148             |
+|>  |24        |Rancho grande                     |7               |
+|>  |24        |Rattlesnake Canyon Grocery        |30              |
+|>  |24        |Reggiani Caseifici                |28              |
+|>  |24        |Ricardo Adocicados                |70              |
+|>  |24        |Richter Supermarkt                |136             |
+|>  |24        |Romero y tomillo                  |10              |
+|>  |24        |Santé Gourmet                     |5               |
+|>  |24        |Save-a-lot Markets                |165             |
+|>  |24        |Seven Seas Imports                |88              |
+|>  |24        |Simons bistro                     |30              |
+|>  |24        |Split Rail Beer & Ale             |6               |
+|>  |24        |The Cracker Box                   |10              |
+|>  |24        |Toms Spezialitäten                |55              |
+|>  |24        |Vaffeljernet                      |15              |
+|>  |24        |Victuailles en stock              |12              |
+|>  |24        |Vins et alcools Chevalier         |18              |
+|>  |24        |Wartian Herkku                    |75              |
+|>  |24        |Wellington Importadora            |35              |
+|>  |24        |White Clover Markets              |10              |
+|>  |25        |Around the Horn                   |21              |
+|>  |25        |Berglunds snabbköp                |56              |
+|>  |25        |Blauer See Delikatessen           |20              |
+|>  |25        |Blondesddsl père et fils          |46              |
+|>  |25        |Bon app'                          |39              |
+|>  |25        |Bottom-Dollar Markets             |15              |
+|>  |25        |Chop-suey Chinese                 |21              |
+|>  |25        |Die Wandernde Kuh                 |16              |
+|>  |25        |Eastern Connection                |35              |
+|>  |25        |Ernst Handel                      |145             |
+|>  |25        |Familia Arquibaldo                |36              |
+|>  |25        |Folies gourmandes                 |6               |
+|>  |25        |Folk och fä HB                    |36              |
+|>  |25        |Frankenversand                    |90              |
+|>  |25        |Furia Bacalhau e Frutos do Mar    |20              |
+|>  |25        |Godos Cocina Típica               |14              |
+|>  |25        |Hungry Coyote Import Store        |14              |
+|>  |25        |Königlich Essen                   |71              |
+|>  |25        |La maison d'Asie                  |10              |
+|>  |25        |Lehmanns Marktstand               |10              |
+|>  |25        |Let's Stop N Shop                 |40              |
+|>  |25        |LILA-Supermercado                 |80              |
+|>  |25        |LINO-Delicateses                  |30              |
+|>  |25        |Maison Dewey                      |14              |
+|>  |25        |Que Delícia                       |6               |
+|>  |25        |Queen Cozinha                     |36              |
+|>  |25        |QUICK-Stop                        |120             |
+|>  |25        |Rattlesnake Canyon Grocery        |27              |
+|>  |25        |Reggiani Caseifici                |10              |
+|>  |25        |Romero y tomillo                  |5               |
+|>  |25        |Save-a-lot Markets                |226             |
+|>  |25        |Seven Seas Imports                |7               |
+|>  |25        |Simons bistro                     |60              |
+|>  |25        |Split Rail Beer & Ale             |64              |
+|>  |25        |Suprêmes délices                  |35              |
+|>  |25        |Tortuga Restaurante               |10              |
+|>  |25        |Tradição Hipermercados            |20              |
+|>  |25        |Vaffeljernet                      |68              |
+|>  |25        |Victuailles en stock              |6               |
+|>  |25        |White Clover Markets              |60              |
+|>  |25        |Wilman Kala                       |5               |
+|>  |26        |Antonio Moreno Taquería           |5               |
+|>  |26        |Around the Horn                   |85              |
+|>  |26        |B's Beverages                     |26              |
+|>  |26        |Blauer See Delikatessen           |4               |
+|>  |26        |Blondesddsl père et fils          |55              |
+|>  |26        |Bólido Comidas preparadas         |16              |
+|>  |26        |Bon app'                          |44              |
+|>  |26        |Bottom-Dollar Markets             |18              |
+|>  |26        |Chop-suey Chinese                 |72              |
+|>  |26        |Comércio Mineiro                  |30              |
+|>  |26        |Die Wandernde Kuh                 |20              |
+|>  |26        |Ernst Handel                      |149             |
+|>  |26        |Folk och fä HB                    |60              |
+|>  |26        |Furia Bacalhau e Frutos do Mar    |42              |
+|>  |26        |Galería del gastrónomo            |5               |
+|>  |26        |Gourmet Lanchonetes               |20              |
+|>  |26        |Great Lakes Food Market           |14              |
+|>  |26        |Hanari Carnes                     |20              |
+|>  |26        |HILARION-Abastos                  |20              |
+|>  |26        |Hungry Owl All-Night Grocers      |30              |
+|>  |26        |Island Trading                    |15              |
+|>  |26        |Lehmanns Marktstand               |14              |
+|>  |26        |Let's Stop N Shop                 |21              |
+|>  |26        |LILA-Supermercado                 |15              |
+|>  |26        |LINO-Delicateses                  |28              |
+|>  |26        |Lonesome Pine Restaurant          |5               |
+|>  |26        |Maison Dewey                      |16              |
+|>  |26        |Mère Paillarde                    |80              |
+|>  |26        |Old World Delicatessen            |44              |
+|>  |26        |Ottilies Käseladen                |50              |
+|>  |26        |Piccolo und mehr                  |20              |
+|>  |26        |Princesa Isabel Vinhos            |28              |
+|>  |26        |Queen Cozinha                     |60              |
+|>  |26        |Rancho grande                     |20              |
+|>  |26        |Rattlesnake Canyon Grocery        |122             |
+|>  |26        |Reggiani Caseifici                |10              |
+|>  |26        |Ricardo Adocicados                |10              |
+|>  |26        |Richter Supermarkt                |30              |
+|>  |26        |Save-a-lot Markets                |146             |
+|>  |26        |Split Rail Beer & Ale             |30              |
+|>  |26        |Suprêmes délices                  |45              |
+|>  |26        |Toms Spezialitäten                |43              |
+|>  |26        |Victuailles en stock              |15              |
+|>  |26        |Vins et alcools Chevalier         |4               |
+|>  |26        |Wartian Herkku                    |70              |
+|>  |26        |White Clover Markets              |19              |
+|>  |27        |Alfreds Futterkiste               |40              |
+|>  |27        |Folk och fä HB                    |30              |
+|>  |27        |Frankenversand                    |30              |
+|>  |27        |HILARION-Abastos                  |12              |
+|>  |27        |Hungry Owl All-Night Grocers      |129             |
+|>  |27        |LINO-Delicateses                  |30              |
+|>  |27        |Old World Delicatessen            |30              |
+|>  |27        |Queen Cozinha                     |15              |
+|>  |27        |QUICK-Stop                        |60              |
+|>  |27        |Rattlesnake Canyon Grocery        |30              |
+|>  |27        |Richter Supermarkt                |20              |
+|>  |27        |Save-a-lot Markets                |12              |
+|>  |27        |Suprêmes délices                  |30              |
+|>  |27        |Tradição Hipermercados            |30              |
+|>  |27        |Wartian Herkku                    |6               |
+|>  |27        |White Clover Markets              |15              |
+|>  |27        |Wolski  Zajazd                    |15              |
+|>  |28        |Alfreds Futterkiste               |15              |
+|>  |28        |Ana Trujillo Emparedados y helados|10              |
+|>  |28        |Antonio Moreno Taquería           |15              |
+|>  |28        |Around the Horn                   |15              |
+|>  |28        |B's Beverages                     |4               |
+|>  |28        |Berglunds snabbköp                |50              |
+|>  |28        |Blauer See Delikatessen           |21              |
+|>  |28        |Blondesddsl père et fils          |12              |
+|>  |28        |Bottom-Dollar Markets             |100             |
+|>  |28        |Chop-suey Chinese                 |10              |
+|>  |28        |Drachenblut Delikatessen          |30              |
+|>  |28        |Eastern Connection                |50              |
+|>  |28        |Ernst Handel                      |340             |
+|>  |28        |Familia Arquibaldo                |12              |
+|>  |28        |Folies gourmandes                 |12              |
+|>  |28        |Folk och fä HB                    |35              |
+|>  |28        |Franchi S.p.A.                    |4               |
+|>  |28        |Frankenversand                    |156             |
+|>  |28        |Furia Bacalhau e Frutos do Mar    |31              |
+|>  |28        |Godos Cocina Típica               |9               |
+|>  |28        |Gourmet Lanchonetes               |30              |
+|>  |28        |Great Lakes Food Market           |45              |
+|>  |28        |HILARION-Abastos                  |95              |
+|>  |28        |Hungry Owl All-Night Grocers      |118             |
+|>  |28        |Island Trading                    |27              |
+|>  |28        |Königlich Essen                   |85              |
+|>  |28        |Lehmanns Marktstand               |80              |
+|>  |28        |LILA-Supermercado                 |83              |
+|>  |28        |LINO-Delicateses                  |24              |
+|>  |28        |Magazzini Alimentari Riuniti      |6               |
+|>  |28        |Maison Dewey                      |40              |
+|>  |28        |Mère Paillarde                    |90              |
+|>  |28        |Morgenstern Gesundkost            |12              |
+|>  |28        |North/South                       |4               |
+|>  |28        |Old World Delicatessen            |8               |
+|>  |28        |Ottilies Käseladen                |30              |
+|>  |28        |Pericles Comidas clásicas         |4               |
+|>  |28        |Queen Cozinha                     |85              |
+|>  |28        |QUICK-Stop                        |313             |
+|>  |28        |Rattlesnake Canyon Grocery        |83              |
+|>  |28        |Reggiani Caseifici                |10              |
+|>  |28        |Ricardo Adocicados                |117             |
+|>  |28        |Richter Supermarkt                |90              |
+|>  |28        |Romero y tomillo                  |10              |
+|>  |28        |Santé Gourmet                     |12              |
+|>  |28        |Save-a-lot Markets                |262             |
+|>  |28        |Seven Seas Imports                |80              |
+|>  |28        |Simons bistro                     |9               |
+|>  |28        |Split Rail Beer & Ale             |20              |
+|>  |28        |Suprêmes délices                  |90              |
+|>  |28        |Tortuga Restaurante               |10              |
+|>  |28        |Tradição Hipermercados            |30              |
+|>  |28        |Vaffeljernet                      |18              |
+|>  |28        |Wartian Herkku                    |49              |
+|>  |28        |Wellington Importadora            |15              |
+|>  |28        |White Clover Markets              |30              |
+|>  |28        |Wilman Kala                       |10              |
+|>  |28        |Wolski  Zajazd                    |15              |
+|>  |29        |B's Beverages                     |10              |
+|>  |29        |Blauer See Delikatessen           |4               |
+|>  |29        |Blondesddsl père et fils          |35              |
+|>  |29        |Bon app'                          |14              |
+|>  |29        |Bottom-Dollar Markets             |101             |
+|>  |29        |Chop-suey Chinese                 |21              |
+|>  |29        |Comércio Mineiro                  |4               |
+|>  |29        |Die Wandernde Kuh                 |15              |
+|>  |29        |Ernst Handel                      |266             |
+|>  |29        |Folies gourmandes                 |35              |
+|>  |29        |Folk och fä HB                    |36              |
+|>  |29        |France restauration               |10              |
+|>  |29        |Frankenversand                    |15              |
+|>  |29        |Godos Cocina Típica               |30              |
+|>  |29        |Great Lakes Food Market           |20              |
+|>  |29        |Hanari Carnes                     |10              |
+|>  |29        |Hungry Coyote Import Store        |10              |
+|>  |29        |Hungry Owl All-Night Grocers      |15              |
+|>  |29        |Island Trading                    |32              |
+|>  |29        |Königlich Essen                   |45              |
+|>  |29        |La maison d'Asie                  |40              |
+|>  |29        |Let's Stop N Shop                 |20              |
+|>  |29        |Lonesome Pine Restaurant          |10              |
+|>  |29        |Mère Paillarde                    |36              |
+|>  |29        |Morgenstern Gesundkost            |32              |
+|>  |29        |Old World Delicatessen            |6               |
+|>  |29        |Ottilies Käseladen                |35              |
+|>  |29        |Piccolo und mehr                  |20              |
+|>  |29        |QUICK-Stop                        |104             |
+|>  |29        |Rancho grande                     |10              |
+|>  |29        |Rattlesnake Canyon Grocery        |185             |
+|>  |29        |Reggiani Caseifici                |10              |
+|>  |29        |Save-a-lot Markets                |165             |
+|>  |29        |Simons bistro                     |25              |
+|>  |29        |The Big Cheese                    |5               |
+|>  |29        |Tradição Hipermercados            |10              |
+|>  |29        |Trail's Head Gourmet Provisioners |13              |
+|>  |29        |Vaffeljernet                      |35              |
+|>  |29        |Victuailles en stock              |70              |
+|>  |29        |Wartian Herkku                    |25              |
+|>  |29        |White Clover Markets              |63              |
+|>  |29        |Wilman Kala                       |5               |
+|>  |29        |Wolski  Zajazd                    |34              |
+[testDE103PracticalTest].[TEST QUESTION 12] failed: (Error) Could not find stored procedure 'Question12'.[16,62]{testDE103PracticalTest.TEST QUESTION 12,11}
+[testDE103PracticalTest].[TEST QUESTION 13] failed: (Error) Could not find stored procedure 'Question13'.[16,62]{testDE103PracticalTest.TEST QUESTION 13,11}
+[testDE103PracticalTest].[TEST QUESTION 15] failed: (Error) Could not find stored procedure 'Question15'.[16,62]{testDE103PracticalTest.TEST QUESTION 15,12}
+ 
++----------------------+
+|Test Execution Summary|
++----------------------+
+ 
+|No|Test Case Name                             |Dur(ms)|Result |
++--+-------------------------------------------+-------+-------+
+|1 |[testDE103PracticalTest].[TEST QUESTION 02]|     16|Success|
+|2 |[testDE103PracticalTest].[TEST QUESTION 03]|     20|Success|
+|3 |[testDE103PracticalTest].[TEST QUESTION 04]|      3|Error  |
+|4 |[testDE103PracticalTest].[TEST QUESTION 05]|     16|Success|
+|5 |[testDE103PracticalTest].[TEST QUESTION 06]|      3|Error  |
+|6 |[testDE103PracticalTest].[TEST QUESTION 07]|     16|Success|
+|7 |[testDE103PracticalTest].[TEST QUESTION 08]|     23|Failure|
+|8 |[testDE103PracticalTest].[TEST QUESTION 09]|      6|Error  |
+|9 |[testDE103PracticalTest].[TEST QUESTION 10]|     16|Success|
+|10|[testDE103PracticalTest].[TEST QUESTION 11]|     40|Failure|
+|11|[testDE103PracticalTest].[TEST QUESTION 12]|      0|Error  |
+|12|[testDE103PracticalTest].[TEST QUESTION 13]|      3|Error  |
+|13|[testDE103PracticalTest].[TEST QUESTION 14]|     36|Success|
+|14|[testDE103PracticalTest].[TEST QUESTION 15]|      3|Error  |
+|15|[testDE103PracticalTest].[TEST QUESTION 16]|     26|Success|
+|16|[testDE103PracticalTest].[TEST QUESTION 17]|     23|Success|
+|17|[testDE103PracticalTest].[TEST QUESTION 18]|     16|Success|
+|18|[testDE103PracticalTest].[TEST QUESTION 19]|     13|Success|
+------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------

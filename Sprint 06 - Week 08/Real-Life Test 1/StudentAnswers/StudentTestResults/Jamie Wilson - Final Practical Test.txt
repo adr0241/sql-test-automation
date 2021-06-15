@@ -1,0 +1,205 @@
+C:\Users\adity\Documents\ADITYA SCHOOL WORK\PROJECT\INDUSTRY\Sprint 06 - Week 08\Real-Life Test 1\StudentAnswers\Jamie Wilson - Final Practical Test.sql
+Test Case Summary: 18 test case(s) executed, 8 succeeded, 0 skipped, 3 failed, 7 errored.
+[testDE103PracticalTest].[TEST QUESTION 02] failed: (Error) Column name or number of supplied values does not match table definition.[16,7]{Question2,4} (There was also a ROLLBACK ERROR --> The current transaction cannot be committed and cannot be rolled back to a savepoint. Roll back the entire transaction.{tSQLt.Private_RunTest,187})
+[testDE103PracticalTest].[TEST QUESTION 03] failed: (Error) Column name or number of supplied values does not match table definition.[16,7]{Question3,4} (There was also a ROLLBACK ERROR --> The current transaction cannot be committed and cannot be rolled back to a savepoint. Roll back the entire transaction.{tSQLt.Private_RunTest,187})
+[testDE103PracticalTest].[TEST QUESTION 04] failed: (Failure) Incorrect Answer!
+Unexpected/missing resultset rows!
+|_m_|FirstName       |LastName                      |Address                       |City    |Region|ShipCountry|
++---+----------------+------------------------------+------------------------------+--------+------+-----------+
+|<  |Andrew          |Fuller                        |908 W. Capital Way            |Tacoma  |WA    |Belgium    |
+|<  |Andrew          |Fuller                        |908 W. Capital Way            |Tacoma  |WA    |Belgium    |
+|<  |Anne            |Dodsworth                     |7 Houndstooth Rd.             |London  |!NULL!|Belgium    |
+|<  |Anne            |Dodsworth                     |7 Houndstooth Rd.             |London  |!NULL!|Belgium    |
+|<  |Margaret        |Peacock                       |4110 Old Redmond Rd.          |Redmond |WA    |Belgium    |
+|<  |Margaret        |Peacock                       |4110 Old Redmond Rd.          |Redmond |WA    |Belgium    |
+|<  |Margaret        |Peacock                       |4110 Old Redmond Rd.          |Redmond |WA    |Belgium    |
+|<  |Margaret        |Peacock                       |4110 Old Redmond Rd.          |Redmond |WA    |Belgium    |
+|<  |Margaret        |Peacock                       |4110 Old Redmond Rd.          |Redmond |WA    |Belgium    |
+|<  |Margaret        |Peacock                       |4110 Old Redmond Rd.          |Redmond |WA    |Belgium    |
+|<  |Janet           |Leverling                     |722 Moss Bay Blvd.            |Kirkland|WA    |Belgium    |
+|<  |Michael         |Suyama                        |Coventry House
+Miner Rd.     |London  |!NULL!|Belgium    |
+|<  |Nancy           |Davolio                       |507 - 20th Ave. E.
+Apt. 2A   |Seattle |WA    |Belgium    |
+|<  |Robert          |King                          |Edgeham Hollow
+Winchester Way|London  |!NULL!|Belgium    |
+|<  |Robert          |King                          |Edgeham Hollow
+Winchester Way|London  |!NULL!|Belgium    |
+|<  |Steven          |Buchanan                      |14 Garrett Hill               |London  |!NULL!|Belgium    |
+|<  |Steven          |Buchanan                      |14 Garrett Hill               |London  |!NULL!|Belgium    |
+|<  |Steven          |Buchanan                      |14 Garrett Hill               |London  |!NULL!|Belgium    |
+|<  |Steven          |Buchanan                      |14 Garrett Hill               |London  |!NULL!|Belgium    |
+|>  |Steven Buchanan |14 Garrett Hill               |London                        |!NULL!  |UK    |Belgium    |
+|>  |Robert King     |Edgeham Hollow
+Winchester Way|London                        |!NULL!  |UK    |Belgium    |
+|>  |Nancy Davolio   |507 - 20th Ave. E.
+Apt. 2A   |Seattle                       |WA      |USA   |Belgium    |
+|>  |Michael Suyama  |Coventry House
+Miner Rd.     |London                        |!NULL!  |UK    |Belgium    |
+|>  |Janet Leverling |722 Moss Bay Blvd.            |Kirkland                      |WA      |USA   |Belgium    |
+|>  |Margaret Peacock|4110 Old Redmond Rd.          |Redmond                       |WA      |USA   |Belgium    |
+|>  |Anne Dodsworth  |7 Houndstooth Rd.             |London                        |!NULL!  |UK    |Belgium    |
+|>  |Andrew Fuller   |908 W. Capital Way            |Tacoma                        |WA      |USA   |Belgium    |
+[testDE103PracticalTest].[TEST QUESTION 06] failed: (Error) Column name or number of supplied values does not match table definition.[16,7]{Question6,4} (There was also a ROLLBACK ERROR --> The current transaction cannot be committed and cannot be rolled back to a savepoint. Roll back the entire transaction.{tSQLt.Private_RunTest,187})
+[testDE103PracticalTest].[TEST QUESTION 07] failed: (Error) Could not find stored procedure 'Question7'.[16,62]{testDE103PracticalTest.TEST QUESTION 07,12}
+[testDE103PracticalTest].[TEST QUESTION 08] failed: (Error) Could not find stored procedure 'Question8'.[16,62]{testDE103PracticalTest.TEST QUESTION 08,12}
+[testDE103PracticalTest].[TEST QUESTION 09] failed: (Error) Column name or number of supplied values does not match table definition.[16,7]{Question9,4} (There was also a ROLLBACK ERROR --> The current transaction cannot be committed and cannot be rolled back to a savepoint. Roll back the entire transaction.{tSQLt.Private_RunTest,187})
+[testDE103PracticalTest].[TEST QUESTION 11] failed: (Error) Could not find stored procedure 'Question11'.[16,62]{testDE103PracticalTest.TEST QUESTION 11,12}
+[testDE103PracticalTest].[TEST QUESTION 13] failed: (Failure) Incorrect Answer!
+Unexpected/missing resultset rows!
+|_m_|CompanyName                   |NumberOfPurchases|
++---+------------------------------+-----------------+
+|<  |Great Lakes Food Market       |11               |
+|<  |Blondesddsl père et fils      |11               |
+|<  |Ricardo Adocicados            |11               |
+|<  |Vaffeljernet                  |11               |
+|<  |Bottom-Dollar Markets         |14               |
+|<  |Hanari Carnes                 |14               |
+|<  |Königlich Essen               |14               |
+|<  |La maison d'Asie              |14               |
+|<  |LILA-Supermercado             |14               |
+|<  |Reggiani Caseifici            |12               |
+|<  |Suprêmes délices              |12               |
+|<  |Around the Horn               |13               |
+|<  |Mère Paillarde                |13               |
+|<  |Queen Cozinha                 |13               |
+|<  |White Clover Markets          |14               |
+|<  |Frankenversand                |15               |
+|<  |Lehmanns Marktstand           |15               |
+|<  |Wartian Herkku                |15               |
+|<  |LINO-Delicateses              |12               |
+|<  |Bon app'                      |17               |
+|<  |Hungry Owl All-Night Grocers  |19               |
+|<  |Save-a-lot Markets            |31               |
+|<  |Berglunds snabbköp            |18               |
+|<  |HILARION-Abastos              |18               |
+|<  |Rattlesnake Canyon Grocery    |18               |
+|<  |QUICK-Stop                    |28               |
+|<  |Folk och fä HB                |19               |
+|<  |Ernst Handel                  |30               |
+|>  |Richter Supermarkt            |30               |
+|>  |La maison d'Asie              |31               |
+|>  |Gourmet Lanchonetes           |19               |
+|>  |Ottilies Käseladen            |29               |
+|>  |Tortuga Restaurante           |29               |
+|>  |Around the Horn               |30               |
+|>  |Familia Arquibaldo            |19               |
+|>  |Vaffeljernet                  |31               |
+|>  |Hanari Carnes                 |32               |
+|>  |Mère Paillarde                |32               |
+|>  |LILA-Supermercado             |34               |
+|>  |Bottom-Dollar Markets         |35               |
+|>  |LINO-Delicateses              |35               |
+|>  |Wartian Herkku                |37               |
+|>  |Königlich Essen               |39               |
+|>  |Lehmanns Marktstand           |39               |
+|>  |Suprêmes délices              |39               |
+|>  |Queen Cozinha                 |40               |
+|>  |White Clover Markets          |40               |
+|>  |Bon app'                      |44               |
+|>  |Folk och fä HB                |45               |
+|>  |HILARION-Abastos              |45               |
+|>  |Frankenversand                |48               |
+|>  |Berglunds snabbköp            |52               |
+|>  |Hungry Owl All-Night Grocers  |55               |
+|>  |Rattlesnake Canyon Grocery    |71               |
+|>  |QUICK-Stop                    |86               |
+|>  |Ernst Handel                  |102              |
+|>  |Save-a-lot Markets            |116              |
+|>  |Wellington Importadora        |19               |
+|>  |Furia Bacalhau e Frutos do Mar|20               |
+|>  |Split Rail Beer & Ale         |20               |
+|>  |Eastern Connection            |21               |
+|>  |Magazzini Alimentari Riuniti  |21               |
+|>  |B's Beverages                 |22               |
+|>  |Chop-suey Chinese             |22               |
+|>  |Great Lakes Food Market       |22               |
+|>  |Reggiani Caseifici            |22               |
+|>  |Island Trading                |23               |
+|>  |Piccolo und mehr              |23               |
+|>  |Old World Delicatessen        |24               |
+|>  |Que Delícia                   |24               |
+|>  |Victuailles en stock          |25               |
+|>  |Blondesddsl père et fils      |26               |
+|>  |Die Wandernde Kuh             |26               |
+|>  |Godos Cocina Típica           |26               |
+|>  |Seven Seas Imports            |26               |
+|>  |Ricardo Adocicados            |27               |
+|>  |Maison Dewey                  |17               |
+|>  |Wilman Kala                   |17               |
+|>  |Rancho grande                 |12               |
+|>  |Folies gourmandes             |16               |
+|>  |Santé Gourmet                 |16               |
+|>  |Wolski  Zajazd                |16               |
+|>  |Antonio Moreno Taquería       |17               |
+|>  |Simons bistro                 |15               |
+|>  |Tradição Hipermercados        |13               |
+|>  |Blauer See Delikatessen       |14               |
+|>  |Lonesome Pine Restaurant      |14               |
+|>  |Pericles Comidas clásicas     |14               |
+|>  |Romero y tomillo              |14               |
+|>  |Toms Spezialitäten            |14               |
+|>  |Alfreds Futterkiste           |12               |
+|>  |Cactus Comidas para llevar    |11               |
+|>  |La corne d'abondance          |11               |
+|>  |Morgenstern Gesundkost        |11               |
+|>  |Océano Atlántico Ltda.        |11               |
+[testDE103PracticalTest].[TEST QUESTION 17] failed: (Failure) Incorrect Answer!
+Unexpected/missing resultset rows!
+|_m_|ProductName              |UnitsOnOrder|UnitsInStock|
++---+-------------------------+------------+------------+
+|<  |Aniseed Syrup            |70          |13          |
+|<  |Chang                    |40          |17          |
+|<  |Chocolade                |70          |15          |
+|<  |Gorgonzola Telino        |70          |0           |
+|<  |Gravad lax               |50          |11          |
+|<  |Longlife Tofu            |20          |4           |
+|<  |Louisiana Hot Spiced Okra|100         |4           |
+|<  |Mascarpone Fabioli       |40          |9           |
+|<  |Maxilaku                 |60          |10          |
+|<  |Queso Cabrales           |30          |22          |
+|<  |Rogede sild              |70          |5           |
+|<  |Scottish Longbreads      |10          |6           |
+|<  |Sir Rodney's Scones      |40          |3           |
+|<  |Wimmers gute Semmelknödel|80          |22          |
+|>  |Aniseed Syrup            |13          |70          |
+|>  |Wimmers gute Semmelknödel|22          |80          |
+|>  |Sir Rodney's Scones      |3           |40          |
+|>  |Scottish Longbreads      |6           |10          |
+|>  |Rogede sild              |5           |70          |
+|>  |Queso Cabrales           |22          |30          |
+|>  |Maxilaku                 |10          |60          |
+|>  |Mascarpone Fabioli       |9           |40          |
+|>  |Louisiana Hot Spiced Okra|4           |100         |
+|>  |Longlife Tofu            |4           |20          |
+|>  |Gravad lax               |11          |50          |
+|>  |Gorgonzola Telino        |0           |70          |
+|>  |Chocolade                |15          |70          |
+|>  |Chang                    |17          |40          |
+ 
++----------------------+
+|Test Execution Summary|
++----------------------+
+ 
+|No|Test Case Name                             |Dur(ms)|Result |
++--+-------------------------------------------+-------+-------+
+|1 |[testDE103PracticalTest].[TEST QUESTION 02]|    300|Error  |
+|2 |[testDE103PracticalTest].[TEST QUESTION 03]|      3|Error  |
+|3 |[testDE103PracticalTest].[TEST QUESTION 04]|    436|Failure|
+|4 |[testDE103PracticalTest].[TEST QUESTION 05]|     16|Success|
+|5 |[testDE103PracticalTest].[TEST QUESTION 06]|      3|Error  |
+|6 |[testDE103PracticalTest].[TEST QUESTION 07]|      3|Error  |
+|7 |[testDE103PracticalTest].[TEST QUESTION 08]|      3|Error  |
+|8 |[testDE103PracticalTest].[TEST QUESTION 09]|      3|Error  |
+|9 |[testDE103PracticalTest].[TEST QUESTION 10]|     16|Success|
+|10|[testDE103PracticalTest].[TEST QUESTION 11]|      3|Error  |
+|11|[testDE103PracticalTest].[TEST QUESTION 12]|     16|Success|
+|12|[testDE103PracticalTest].[TEST QUESTION 13]|     23|Failure|
+|13|[testDE103PracticalTest].[TEST QUESTION 14]|     20|Success|
+|14|[testDE103PracticalTest].[TEST QUESTION 15]|     26|Success|
+|15|[testDE103PracticalTest].[TEST QUESTION 16]|     20|Success|
+|16|[testDE103PracticalTest].[TEST QUESTION 17]|     16|Failure|
+|17|[testDE103PracticalTest].[TEST QUESTION 18]|     13|Success|
+|18|[testDE103PracticalTest].[TEST QUESTION 19]|     13|Success|
+-----------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------
