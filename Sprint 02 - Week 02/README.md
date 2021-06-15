@@ -1,4 +1,4 @@
-Running Sprint 2 Instructions
+# Running Sprint 2 Instructions
 
 ## CORRECT ANSWER TESTS
 1. Execute = SetupCorrectAnswerScript.sql
