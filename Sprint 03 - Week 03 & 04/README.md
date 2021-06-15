@@ -1,4 +1,4 @@
-# Running Sprint 3 Instructions
+# Sprint 3
 These are instructions for checking the work of 2 students, one with all correct answers and the other with all incorrect answers. Between each student, the SQL Server may need disconnecting and reconnecting to allow for the databases to change.
 
 ## Student with Correct Answers
