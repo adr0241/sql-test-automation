@@ -1,0 +1,42 @@
+C:\PROJECT\Sprint 07 - Week 09\Real-Life Test 2\Student Answers\Jason Henson 11400870.sql
+Test Case Summary: 21 test case(s) executed, 20 succeeded, 0 skipped, 1 failed, 0 errored.
+[testSQLPracticalTest].[TEST QUESTION 12] failed: (Failure) Incorrect Answer!
+Unexpected/missing resultset rows!
+|_m_|city        |Maximum balance|
++---+------------+---------------+
+|<  |Christchurch|320.75         |
+|<  |Dunedin     |575.50         |
+|<  |Palmerston  |908.75         |
+|>  |Palmerston  |1119.50        |
+|>  |Dunedin     |1478.32        |
+|>  |Christchurch|787.10         |
+ 
++----------------------+
+|Test Execution Summary|
++----------------------+
+ 
+|No|Test Case Name                           |Dur(ms)|Result |
++--+-----------------------------------------+-------+-------+
+|1 |[testSQLPracticalTest].[TEST QUESTION 02]|     23|Success|
+|2 |[testSQLPracticalTest].[TEST QUESTION 03]|     14|Success|
+|3 |[testSQLPracticalTest].[TEST QUESTION 04]|     13|Success|
+|4 |[testSQLPracticalTest].[TEST QUESTION 05]|     13|Success|
+|5 |[testSQLPracticalTest].[TEST QUESTION 06]|     13|Success|
+|6 |[testSQLPracticalTest].[TEST QUESTION 07]|     13|Success|
+|7 |[testSQLPracticalTest].[TEST QUESTION 08]|     16|Success|
+|8 |[testSQLPracticalTest].[TEST QUESTION 09]|     13|Success|
+|9 |[testSQLPracticalTest].[TEST QUESTION 10]|     13|Success|
+|10|[testSQLPracticalTest].[TEST QUESTION 11]|     14|Success|
+|11|[testSQLPracticalTest].[TEST QUESTION 12]|     17|Failure|
+|12|[testSQLPracticalTest].[TEST QUESTION 13]|     13|Success|
+|13|[testSQLPracticalTest].[TEST QUESTION 14]|     20|Success|
+|14|[testSQLPracticalTest].[TEST QUESTION 15]|     17|Success|
+|15|[testSQLPracticalTest].[TEST QUESTION 16]|     17|Success|
+|16|[testSQLPracticalTest].[TEST QUESTION 17]|     30|Success|
+|17|[testSQLPracticalTest].[TEST QUESTION 18]|     24|Success|
+|18|[testSQLPracticalTest].[TEST QUESTION 19]|     20|Success|
+|19|[testSQLPracticalTest].[TEST QUESTION 20]|     24|Success|
+|20|[testSQLPracticalTest].[TEST QUESTION 21]|     17|Success|
+|21|[testSQLPracticalTest].[TEST QUESTION 22]|     13|Success|
+------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------

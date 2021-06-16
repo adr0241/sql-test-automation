@@ -1,0 +1,282 @@
+C:\PROJECT\Sprint 07 - Week 09\Real-Life Test 2\Student Answers\Robbie Macky.sql
+Test Case Summary: 21 test case(s) executed, 10 succeeded, 0 skipped, 7 failed, 4 errored.
+[testSQLPracticalTest].[TEST QUESTION 09] failed: (Error) Column name or number of supplied values does not match table definition.[16,7]{Question9,4} (There was also a ROLLBACK ERROR --> The current transaction cannot be committed and cannot be rolled back to a savepoint. Roll back the entire transaction.{tSQLt.Private_RunTest,187})
+[testSQLPracticalTest].[TEST QUESTION 13] failed: (Failure) Incorrect Answer!
+Unexpected/missing resultset rows!
+|_m_|Client name    |Rep name     |
++---+---------------+-------------+
+|=  |Margaret Jones |Mary Jones   |
+|=  |Mary Nelson    |Mary Jones   |
+|=  |Peter Paulls   |Mary Jones   |
+|=  |Tom Daniels    |Mary Jones   |
+|=  |Al Williams    |Sam Brown    |
+|=  |Ann Samuals    |Sam Brown    |
+|=  |Jo Baker       |Mary Jones   |
+|=  |Sally Adams    |Mary Jones   |
+|=  |Robert McKenzie|Sam Brown    |
+|=  |Dan Martin     |William Smith|
+|=  |Don Charles    |William Smith|
+|=  |Greg Johnson   |William Smith|
+|=  |Judy Roberts   |William Smith|
+|=  |Peter Yu       |William Smith|
+|=  |Sandra Adams   |William Smith|
+|>  |Tom Daniels    |William Smith|
+|>  |Robert McKenzie|William Smith|
+|>  |Sally Adams    |William Smith|
+|>  |Margaret Jones |William Smith|
+|>  |Mary Nelson    |William Smith|
+|>  |Peter Paulls   |William Smith|
+|>  |Jo Baker       |William Smith|
+|>  |Sally Adams    |Sam Brown    |
+|>  |Sandra Adams   |Sam Brown    |
+|>  |Tom Daniels    |Sam Brown    |
+|>  |Al Williams    |William Smith|
+|>  |Ann Samuals    |William Smith|
+|>  |Sandra Adams   |Mary Jones   |
+|>  |Judy Roberts   |Mary Jones   |
+|>  |Dan Martin     |Sam Brown    |
+|>  |Don Charles    |Sam Brown    |
+|>  |Greg Johnson   |Sam Brown    |
+|>  |Jo Baker       |Sam Brown    |
+|>  |Judy Roberts   |Sam Brown    |
+|>  |Margaret Jones |Sam Brown    |
+|>  |Mary Nelson    |Sam Brown    |
+|>  |Peter Paulls   |Sam Brown    |
+|>  |Peter Yu       |Sam Brown    |
+|>  |Peter Yu       |Mary Jones   |
+|>  |Robert McKenzie|Mary Jones   |
+|>  |Al Williams    |Mary Jones   |
+|>  |Ann Samuals    |Mary Jones   |
+|>  |Dan Martin     |Mary Jones   |
+|>  |Don Charles    |Mary Jones   |
+|>  |Greg Johnson   |Mary Jones   |
+[testSQLPracticalTest].[TEST QUESTION 14] failed: (Failure) Incorrect Answer!
+Unexpected/missing resultset rows!
+|_m_|orderref|firstname|lastname|orderdate |
++---+--------+---------+--------+----------+
+|=  |1004    |Ann      |Samuals |1999-05-18|
+|=  |1005    |Sally    |Adams   |1999-06-06|
+|=  |1006    |Mary     |Nelson  |1999-06-12|
+|=  |1007    |Judy     |Roberts |1999-06-13|
+|=  |1003    |Sally    |Adams   |1999-05-18|
+|>  |1003    |Sandra   |Adams   |1999-05-18|
+|>  |1003    |Tom      |Daniels |1999-05-18|
+|>  |1004    |Al       |Williams|1999-05-18|
+|>  |1007    |Margaret |Jones   |1999-06-13|
+|>  |1007    |Mary     |Nelson  |1999-06-13|
+|>  |1007    |Peter    |Paulls  |1999-06-13|
+|>  |1007    |Peter    |Yu      |1999-06-13|
+|>  |1007    |Robert   |McKenzie|1999-06-13|
+|>  |1007    |Sally    |Adams   |1999-06-13|
+|>  |1007    |Sandra   |Adams   |1999-06-13|
+|>  |1007    |Tom      |Daniels |1999-06-13|
+|>  |1006    |Peter    |Paulls  |1999-06-12|
+|>  |1006    |Peter    |Yu      |1999-06-12|
+|>  |1006    |Robert   |McKenzie|1999-06-12|
+|>  |1006    |Sally    |Adams   |1999-06-12|
+|>  |1006    |Sandra   |Adams   |1999-06-12|
+|>  |1006    |Tom      |Daniels |1999-06-12|
+|>  |1007    |Al       |Williams|1999-06-13|
+|>  |1007    |Ann      |Samuals |1999-06-13|
+|>  |1007    |Dan      |Martin  |1999-06-13|
+|>  |1007    |Don      |Charles |1999-06-13|
+|>  |1007    |Greg     |Johnson |1999-06-13|
+|>  |1007    |Jo       |Baker   |1999-06-13|
+|>  |1005    |Sandra   |Adams   |1999-06-06|
+|>  |1005    |Tom      |Daniels |1999-06-06|
+|>  |1006    |Al       |Williams|1999-06-12|
+|>  |1006    |Ann      |Samuals |1999-06-12|
+|>  |1006    |Dan      |Martin  |1999-06-12|
+|>  |1006    |Don      |Charles |1999-06-12|
+|>  |1006    |Greg     |Johnson |1999-06-12|
+|>  |1006    |Jo       |Baker   |1999-06-12|
+|>  |1006    |Judy     |Roberts |1999-06-12|
+|>  |1006    |Margaret |Jones   |1999-06-12|
+|>  |1003    |Al       |Williams|1999-05-18|
+|>  |1003    |Ann      |Samuals |1999-05-18|
+|>  |1003    |Dan      |Martin  |1999-05-18|
+|>  |1003    |Don      |Charles |1999-05-18|
+|>  |1003    |Greg     |Johnson |1999-05-18|
+|>  |1003    |Jo       |Baker   |1999-05-18|
+|>  |1003    |Judy     |Roberts |1999-05-18|
+|>  |1003    |Margaret |Jones   |1999-05-18|
+|>  |1003    |Mary     |Nelson  |1999-05-18|
+|>  |1003    |Peter    |Paulls  |1999-05-18|
+|>  |1003    |Peter    |Yu      |1999-05-18|
+|>  |1003    |Robert   |McKenzie|1999-05-18|
+|>  |1004    |Dan      |Martin  |1999-05-18|
+|>  |1004    |Don      |Charles |1999-05-18|
+|>  |1004    |Greg     |Johnson |1999-05-18|
+|>  |1004    |Jo       |Baker   |1999-05-18|
+|>  |1004    |Judy     |Roberts |1999-05-18|
+|>  |1004    |Margaret |Jones   |1999-05-18|
+|>  |1004    |Mary     |Nelson  |1999-05-18|
+|>  |1004    |Peter    |Paulls  |1999-05-18|
+|>  |1004    |Peter    |Yu      |1999-05-18|
+|>  |1004    |Robert   |McKenzie|1999-05-18|
+|>  |1004    |Sally    |Adams   |1999-05-18|
+|>  |1004    |Sandra   |Adams   |1999-05-18|
+|>  |1004    |Tom      |Daniels |1999-05-18|
+|>  |1005    |Al       |Williams|1999-06-06|
+|>  |1005    |Ann      |Samuals |1999-06-06|
+|>  |1005    |Dan      |Martin  |1999-06-06|
+|>  |1005    |Don      |Charles |1999-06-06|
+|>  |1005    |Greg     |Johnson |1999-06-06|
+|>  |1005    |Jo       |Baker   |1999-06-06|
+|>  |1005    |Judy     |Roberts |1999-06-06|
+|>  |1005    |Margaret |Jones   |1999-06-06|
+|>  |1005    |Mary     |Nelson  |1999-06-06|
+|>  |1005    |Peter    |Paulls  |1999-06-06|
+|>  |1005    |Peter    |Yu      |1999-06-06|
+|>  |1005    |Robert   |McKenzie|1999-06-06|
+[testSQLPracticalTest].[TEST QUESTION 15] failed: (Failure) Incorrect Answer!
+Unexpected/missing resultset rows!
+|_m_|orderref|description|onhand|
++---+--------+-----------+------+
+|=  |1007    |Bike       |35    |
+|=  |1007    |Skates     |302   |
+|>  |1007    |Skates     |302   |
+|>  |1007    |Stove      |12    |
+|>  |1007    |Stove      |12    |
+|>  |1007    |Washer     |15    |
+|>  |1007    |Washer     |15    |
+|>  |1007    |Bike       |35    |
+|>  |1007    |Iron       |200   |
+|>  |1007    |Iron       |200   |
+|>  |1007    |Mixer      |180   |
+|>  |1007    |Mixer      |180   |
+[testSQLPracticalTest].[TEST QUESTION 16] failed: (Failure) Incorrect Answer!
+Unexpected/missing resultset rows!
+|_m_|orderref|description|quotedPrice|quantity|
++---+--------+-----------+-----------+--------+
+|=  |1003    |Stove      |399.00     |5       |
+|=  |1003    |Washer     |320.00     |4       |
+|=  |1004    |Stove      |402.99     |2       |
+|=  |1005    |Bike       |187.50     |5       |
+|=  |1005    |Iron       |17.50      |20      |
+|=  |1005    |Skates     |24.95      |3       |
+|=  |1007    |Bike       |199.00     |1       |
+|=  |1007    |Skates     |24.95      |35      |
+|=  |1006    |Stove      |402.99     |1       |
+|>  |1006    |Washer     |402.99     |1       |
+|>  |1007    |Bike       |24.95      |35      |
+|>  |1007    |Skates     |199.00     |1       |
+|>  |1007    |Stove      |24.95      |35      |
+|>  |1007    |Stove      |199.00     |1       |
+|>  |1007    |Washer     |24.95      |35      |
+|>  |1007    |Washer     |199.00     |1       |
+|>  |1007    |Iron       |24.95      |35      |
+|>  |1007    |Iron       |199.00     |1       |
+|>  |1007    |Mixer      |24.95      |35      |
+|>  |1007    |Mixer      |199.00     |1       |
+|>  |1005    |Skates     |187.50     |5       |
+|>  |1005    |Stove      |17.50      |20      |
+|>  |1005    |Stove      |24.95      |3       |
+|>  |1005    |Stove      |187.50     |5       |
+|>  |1005    |Washer     |17.50      |20      |
+|>  |1005    |Washer     |24.95      |3       |
+|>  |1005    |Washer     |187.50     |5       |
+|>  |1006    |Bike       |402.99     |1       |
+|>  |1006    |Iron       |402.99     |1       |
+|>  |1006    |Mixer      |402.99     |1       |
+|>  |1006    |Skates     |402.99     |1       |
+|>  |1005    |Iron       |24.95      |3       |
+|>  |1005    |Iron       |187.50     |5       |
+|>  |1005    |Mixer      |17.50      |20      |
+|>  |1005    |Mixer      |24.95      |3       |
+|>  |1005    |Mixer      |187.50     |5       |
+|>  |1005    |Skates     |17.50      |20      |
+|>  |1004    |Washer     |402.99     |2       |
+|>  |1005    |Bike       |17.50      |20      |
+|>  |1005    |Bike       |24.95      |3       |
+|>  |1003    |Washer     |399.00     |5       |
+|>  |1004    |Bike       |402.99     |2       |
+|>  |1004    |Iron       |402.99     |2       |
+|>  |1004    |Mixer      |402.99     |2       |
+|>  |1004    |Skates     |402.99     |2       |
+|>  |1003    |Bike       |320.00     |4       |
+|>  |1003    |Bike       |399.00     |5       |
+|>  |1003    |Iron       |320.00     |4       |
+|>  |1003    |Iron       |399.00     |5       |
+|>  |1003    |Mixer      |320.00     |4       |
+|>  |1003    |Mixer      |399.00     |5       |
+|>  |1003    |Skates     |320.00     |4       |
+|>  |1003    |Skates     |399.00     |5       |
+|>  |1003    |Stove      |320.00     |4       |
+[testSQLPracticalTest].[TEST QUESTION 17] failed: (Failure) Incorrect Answer!
+Unexpected/missing resultset rows!
+|_m_|orderref|description|quotedPrice|quantity|
++---+--------+-----------+-----------+--------+
+|=  |1003    |Stove      |399.00     |5       |
+|=  |1003    |Washer     |320.00     |4       |
+|=  |1004    |Stove      |402.99     |2       |
+|=  |1006    |Stove      |402.99     |1       |
+|>  |1006    |Washer     |402.99     |1       |
+|>  |1004    |Washer     |402.99     |2       |
+|>  |1006    |Bike       |402.99     |1       |
+|>  |1006    |Iron       |402.99     |1       |
+|>  |1006    |Mixer      |402.99     |1       |
+|>  |1006    |Skates     |402.99     |1       |
+|>  |1003    |Washer     |399.00     |5       |
+|>  |1004    |Bike       |402.99     |2       |
+|>  |1004    |Iron       |402.99     |2       |
+|>  |1004    |Mixer      |402.99     |2       |
+|>  |1004    |Skates     |402.99     |2       |
+|>  |1003    |Bike       |320.00     |4       |
+|>  |1003    |Bike       |399.00     |5       |
+|>  |1003    |Iron       |320.00     |4       |
+|>  |1003    |Iron       |399.00     |5       |
+|>  |1003    |Mixer      |320.00     |4       |
+|>  |1003    |Mixer      |399.00     |5       |
+|>  |1003    |Skates     |320.00     |4       |
+|>  |1003    |Skates     |399.00     |5       |
+|>  |1003    |Stove      |320.00     |4       |
+[testSQLPracticalTest].[TEST QUESTION 18] failed: (Error) Column name or number of supplied values does not match table definition.[16,7]{Question18,4} (There was also a ROLLBACK ERROR --> The current transaction cannot be committed and cannot be rolled back to a savepoint. Roll back the entire transaction.{tSQLt.Private_RunTest,187})
+[testSQLPracticalTest].[TEST QUESTION 19] failed: (Error) Column name or number of supplied values does not match table definition.[16,7]{Question19,4} (There was also a ROLLBACK ERROR --> The current transaction cannot be committed and cannot be rolled back to a savepoint. Roll back the entire transaction.{tSQLt.Private_RunTest,187})
+[testSQLPracticalTest].[TEST QUESTION 20] failed: (Error) Column name or number of supplied values does not match table definition.[16,7]{Question20,4} (There was also a ROLLBACK ERROR --> The current transaction cannot be committed and cannot be rolled back to a savepoint. Roll back the entire transaction.{tSQLt.Private_RunTest,187})
+[testSQLPracticalTest].[TEST QUESTION 21] failed: (Failure) Incorrect Answer!
+Unexpected/missing resultset rows!
+|_m_|Rep Name     |Total balance|
++---+-------------+-------------+
+|<  |Sam Brown    |412.50       |
+|<  |Mary Jones   |1205.32      |
+|<  |William Smith|1767.10      |
+[testSQLPracticalTest].[TEST QUESTION 22] failed: (Failure) Incorrect Answer!
+Unexpected/missing resultset rows!
+|_m_|orderref|Total Linetotal|
++---+--------+---------------+
+|<  |1006    |402.99         |
+|<  |1004    |805.98         |
+|<  |1007    |1072.25        |
+|<  |1005    |1362.35        |
+|<  |1003    |3275.00        |
+ 
++----------------------+
+|Test Execution Summary|
++----------------------+
+ 
+|No|Test Case Name                           |Dur(ms)|Result |
++--+-----------------------------------------+-------+-------+
+|1 |[testSQLPracticalTest].[TEST QUESTION 02]|     30|Success|
+|2 |[testSQLPracticalTest].[TEST QUESTION 03]|     16|Success|
+|3 |[testSQLPracticalTest].[TEST QUESTION 04]|     16|Success|
+|4 |[testSQLPracticalTest].[TEST QUESTION 05]|     13|Success|
+|5 |[testSQLPracticalTest].[TEST QUESTION 06]|     17|Success|
+|6 |[testSQLPracticalTest].[TEST QUESTION 07]|     13|Success|
+|7 |[testSQLPracticalTest].[TEST QUESTION 08]|     23|Success|
+|8 |[testSQLPracticalTest].[TEST QUESTION 09]|      3|Error  |
+|9 |[testSQLPracticalTest].[TEST QUESTION 10]|     14|Success|
+|10|[testSQLPracticalTest].[TEST QUESTION 11]|     13|Success|
+|11|[testSQLPracticalTest].[TEST QUESTION 12]|     13|Success|
+|12|[testSQLPracticalTest].[TEST QUESTION 13]|     17|Failure|
+|13|[testSQLPracticalTest].[TEST QUESTION 14]|     16|Failure|
+|14|[testSQLPracticalTest].[TEST QUESTION 15]|     14|Failure|
+|15|[testSQLPracticalTest].[TEST QUESTION 16]|     17|Failure|
+|16|[testSQLPracticalTest].[TEST QUESTION 17]|     16|Failure|
+|17|[testSQLPracticalTest].[TEST QUESTION 18]|      3|Error  |
+|18|[testSQLPracticalTest].[TEST QUESTION 19]|      3|Error  |
+|19|[testSQLPracticalTest].[TEST QUESTION 20]|      4|Error  |
+|20|[testSQLPracticalTest].[TEST QUESTION 21]|     13|Failure|
+|21|[testSQLPracticalTest].[TEST QUESTION 22]|     13|Failure|
+------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------

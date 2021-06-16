@@ -1,0 +1,62 @@
+C:\PROJECT\Sprint 07 - Week 09\Real-Life Test 2\Student Answers\AlexMcPherson.sql
+Test Case Summary: 21 test case(s) executed, 16 succeeded, 0 skipped, 4 failed, 1 errored.
+[testSQLPracticalTest].[TEST QUESTION 04] failed: (Failure) Incorrect Answer!
+Unexpected/missing resultset rows!
+|_m_|firstname|lastname|balance|
++---+---------+--------+-------+
+|<  |Judy     |Roberts |57.75  |
+|<  |Margaret |Jones   |114.56 |
+|<  |Peter    |Paulls  |100.56 |
+[testSQLPracticalTest].[TEST QUESTION 05] failed: (Failure) Incorrect Answer!
+Unexpected/missing resultset rows!
+|_m_|firstname|lastname|city        |
++---+---------+--------+------------+
+|<  |Mary     |Nelson  |Christchurch|
+[testSQLPracticalTest].[TEST QUESTION 06] failed: (Error) Column name or number of supplied values does not match table definition.[16,7]{Question6,4} (There was also a ROLLBACK ERROR --> The current transaction cannot be committed and cannot be rolled back to a savepoint. Roll back the entire transaction.{tSQLt.Private_RunTest,187})
+[testSQLPracticalTest].[TEST QUESTION 10] failed: (Failure) Incorrect Answer!
+Unexpected/missing resultset rows!
+|_m_|city        |Number in each city|
++---+------------+-------------------+
+|=  |Christchurch|5                  |
+|=  |Dunedin     |7                  |
+|>  |Palmerston  |3                  |
+[testSQLPracticalTest].[TEST QUESTION 12] failed: (Failure) Incorrect Answer!
+Unexpected/missing resultset rows!
+|_m_|city        |Maximum balance|
++---+------------+---------------+
+|<  |Christchurch|320.75         |
+|<  |Dunedin     |575.50         |
+|<  |Palmerston  |908.75         |
+|>  |Palmerston  |1119.50        |
+|>  |Dunedin     |1478.32        |
+|>  |Christchurch|787.10         |
+ 
++----------------------+
+|Test Execution Summary|
++----------------------+
+ 
+|No|Test Case Name                           |Dur(ms)|Result |
++--+-----------------------------------------+-------+-------+
+|1 |[testSQLPracticalTest].[TEST QUESTION 02]|     14|Success|
+|2 |[testSQLPracticalTest].[TEST QUESTION 03]|     13|Success|
+|3 |[testSQLPracticalTest].[TEST QUESTION 04]|     13|Failure|
+|4 |[testSQLPracticalTest].[TEST QUESTION 05]|     10|Failure|
+|5 |[testSQLPracticalTest].[TEST QUESTION 06]|      4|Error  |
+|6 |[testSQLPracticalTest].[TEST QUESTION 07]|     13|Success|
+|7 |[testSQLPracticalTest].[TEST QUESTION 08]|     20|Success|
+|8 |[testSQLPracticalTest].[TEST QUESTION 09]|     13|Success|
+|9 |[testSQLPracticalTest].[TEST QUESTION 10]|     13|Failure|
+|10|[testSQLPracticalTest].[TEST QUESTION 11]|     13|Success|
+|11|[testSQLPracticalTest].[TEST QUESTION 12]|     14|Failure|
+|12|[testSQLPracticalTest].[TEST QUESTION 13]|     14|Success|
+|13|[testSQLPracticalTest].[TEST QUESTION 14]|     17|Success|
+|14|[testSQLPracticalTest].[TEST QUESTION 15]|     13|Success|
+|15|[testSQLPracticalTest].[TEST QUESTION 16]|     16|Success|
+|16|[testSQLPracticalTest].[TEST QUESTION 17]|     13|Success|
+|17|[testSQLPracticalTest].[TEST QUESTION 18]|     17|Success|
+|18|[testSQLPracticalTest].[TEST QUESTION 19]|     20|Success|
+|19|[testSQLPracticalTest].[TEST QUESTION 20]|     20|Success|
+|20|[testSQLPracticalTest].[TEST QUESTION 21]|     14|Success|
+|21|[testSQLPracticalTest].[TEST QUESTION 22]|     14|Success|
+------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------

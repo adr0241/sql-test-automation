@@ -1,0 +1,1679 @@
+C:\PROJECT\Sprint 07 - Week 09\Real-Life Test 2\Student Answers\Adam Rae SQL File.sql
+Test Case Summary: 21 test case(s) executed, 9 succeeded, 0 skipped, 7 failed, 5 errored.
+[testSQLPracticalTest].[TEST QUESTION 11] failed: (Error) Could not find stored procedure 'Question11'.[16,62]{testSQLPracticalTest.TEST QUESTION 11,16}
+[testSQLPracticalTest].[TEST QUESTION 12] failed: (Error) Could not find stored procedure 'Question12'.[16,62]{testSQLPracticalTest.TEST QUESTION 12,16}
+[testSQLPracticalTest].[TEST QUESTION 13] failed: (Error) Could not find stored procedure 'Question13'.[16,62]{testSQLPracticalTest.TEST QUESTION 13,16}
+[testSQLPracticalTest].[TEST QUESTION 14] failed: (Error) Could not find stored procedure 'Question14'.[16,62]{testSQLPracticalTest.TEST QUESTION 14,20}
+[testSQLPracticalTest].[TEST QUESTION 15] failed: (Failure) Incorrect Answer!
+Unexpected/missing resultset rows!
+|_m_|orderref|description|onhand|
++---+--------+-----------+------+
+|=  |1007    |Bike       |35    |
+|=  |1007    |Skates     |302   |
+|>  |1007    |Skates     |302   |
+|>  |1007    |Stove      |12    |
+|>  |1007    |Stove      |12    |
+|>  |1007    |Washer     |15    |
+|>  |1007    |Washer     |15    |
+|>  |1007    |Bike       |35    |
+|>  |1007    |Iron       |200   |
+|>  |1007    |Iron       |200   |
+|>  |1007    |Mixer      |180   |
+|>  |1007    |Mixer      |180   |
+[testSQLPracticalTest].[TEST QUESTION 16] failed: (Failure) Incorrect Answer!
+Unexpected/missing resultset rows!
+|_m_|orderref|description|quotedPrice|quantity|
++---+--------+-----------+-----------+--------+
+|=  |1003    |Stove      |399.00     |5       |
+|=  |1003    |Washer     |320.00     |4       |
+|=  |1004    |Stove      |402.99     |2       |
+|=  |1005    |Bike       |187.50     |5       |
+|=  |1005    |Iron       |17.50      |20      |
+|=  |1005    |Skates     |24.95      |3       |
+|=  |1007    |Bike       |199.00     |1       |
+|=  |1007    |Skates     |24.95      |35      |
+|=  |1006    |Stove      |402.99     |1       |
+|>  |1006    |Washer     |402.99     |1       |
+|>  |1007    |Bike       |24.95      |35      |
+|>  |1007    |Skates     |199.00     |1       |
+|>  |1007    |Stove      |24.95      |35      |
+|>  |1007    |Stove      |199.00     |1       |
+|>  |1007    |Washer     |24.95      |35      |
+|>  |1007    |Washer     |199.00     |1       |
+|>  |1007    |Iron       |24.95      |35      |
+|>  |1007    |Iron       |199.00     |1       |
+|>  |1007    |Mixer      |24.95      |35      |
+|>  |1007    |Mixer      |199.00     |1       |
+|>  |1005    |Skates     |187.50     |5       |
+|>  |1005    |Stove      |17.50      |20      |
+|>  |1005    |Stove      |24.95      |3       |
+|>  |1005    |Stove      |187.50     |5       |
+|>  |1005    |Washer     |17.50      |20      |
+|>  |1005    |Washer     |24.95      |3       |
+|>  |1005    |Washer     |187.50     |5       |
+|>  |1006    |Bike       |402.99     |1       |
+|>  |1006    |Iron       |402.99     |1       |
+|>  |1006    |Mixer      |402.99     |1       |
+|>  |1006    |Skates     |402.99     |1       |
+|>  |1005    |Iron       |24.95      |3       |
+|>  |1005    |Iron       |187.50     |5       |
+|>  |1005    |Mixer      |17.50      |20      |
+|>  |1005    |Mixer      |24.95      |3       |
+|>  |1005    |Mixer      |187.50     |5       |
+|>  |1005    |Skates     |17.50      |20      |
+|>  |1004    |Washer     |402.99     |2       |
+|>  |1005    |Bike       |17.50      |20      |
+|>  |1005    |Bike       |24.95      |3       |
+|>  |1003    |Washer     |399.00     |5       |
+|>  |1004    |Bike       |402.99     |2       |
+|>  |1004    |Iron       |402.99     |2       |
+|>  |1004    |Mixer      |402.99     |2       |
+|>  |1004    |Skates     |402.99     |2       |
+|>  |1003    |Bike       |320.00     |4       |
+|>  |1003    |Bike       |399.00     |5       |
+|>  |1003    |Iron       |320.00     |4       |
+|>  |1003    |Iron       |399.00     |5       |
+|>  |1003    |Mixer      |320.00     |4       |
+|>  |1003    |Mixer      |399.00     |5       |
+|>  |1003    |Skates     |320.00     |4       |
+|>  |1003    |Skates     |399.00     |5       |
+|>  |1003    |Stove      |320.00     |4       |
+[testSQLPracticalTest].[TEST QUESTION 17] failed: (Failure) Incorrect Answer!
+Unexpected/missing resultset rows!
+|_m_|orderref|description|quotedPrice|quantity|
++---+--------+-----------+-----------+--------+
+|<  |1003    |Stove      |399.00     |5       |
+|<  |1003    |Washer     |320.00     |4       |
+|<  |1004    |Stove      |402.99     |2       |
+|<  |1006    |Stove      |402.99     |1       |
+[testSQLPracticalTest].[TEST QUESTION 18] failed: (Failure) Incorrect Answer!
+Unexpected/missing resultset rows!
+|_m_|orderref|orderdate |firstname|lastname|description|unitprice|
++---+--------+----------+---------+--------+-----------+---------+
+|<  |1003    |1999-05-18|Sally    |Adams   |Stove      |402.99   |
+|<  |1003    |1999-05-18|Sally    |Adams   |Washer     |311.95   |
+|<  |1004    |1999-05-18|Ann      |Samuals |Stove      |402.99   |
+|<  |1005    |1999-06-06|Sally    |Adams   |Bike       |187.50   |
+|<  |1005    |1999-06-06|Sally    |Adams   |Iron       |17.95    |
+|<  |1005    |1999-06-06|Sally    |Adams   |Skates     |24.95    |
+|<  |1006    |1999-06-12|Mary     |Nelson  |Stove      |402.99   |
+|<  |1007    |1999-06-13|Judy     |Roberts |Bike       |187.50   |
+|<  |1007    |1999-06-13|Judy     |Roberts |Skates     |24.95    |
+[testSQLPracticalTest].[TEST QUESTION 19] failed: (Failure) Incorrect Answer!
+Unexpected/missing resultset rows!
+|_m_|orderref|orderdate |firstname|lastname|description|unitprice|
++---+--------+----------+---------+--------+-----------+---------+
+|=  |1006    |1999-06-12|Mary     |Nelson  |Stove      |402.99   |
+|=  |1007    |1999-06-13|Judy     |Roberts |Skates     |24.95    |
+|=  |1007    |1999-06-13|Judy     |Roberts |Bike       |187.50   |
+|>  |1007    |1999-06-13|Judy     |Roberts |Iron       |17.95    |
+|>  |1007    |1999-06-13|Judy     |Roberts |Mixer      |57.95    |
+|>  |1007    |1999-06-13|Judy     |Roberts |Stove      |402.99   |
+|>  |1007    |1999-06-13|Judy     |Roberts |Washer     |311.95   |
+|>  |1007    |1999-06-13|Margaret |Jones   |Bike       |187.50   |
+|>  |1007    |1999-06-13|Margaret |Jones   |Iron       |17.95    |
+|>  |1007    |1999-06-13|Margaret |Jones   |Mixer      |57.95    |
+|>  |1007    |1999-06-13|Margaret |Jones   |Skates     |24.95    |
+|>  |1007    |1999-06-13|Margaret |Jones   |Stove      |402.99   |
+|>  |1007    |1999-06-13|Margaret |Jones   |Washer     |311.95   |
+|>  |1007    |1999-06-13|Mary     |Nelson  |Bike       |187.50   |
+|>  |1007    |1999-06-13|Mary     |Nelson  |Iron       |17.95    |
+|>  |1007    |1999-06-13|Mary     |Nelson  |Mixer      |57.95    |
+|>  |1007    |1999-06-13|Mary     |Nelson  |Skates     |24.95    |
+|>  |1007    |1999-06-13|Mary     |Nelson  |Stove      |402.99   |
+|>  |1007    |1999-06-13|Mary     |Nelson  |Washer     |311.95   |
+|>  |1007    |1999-06-13|Peter    |Paulls  |Bike       |187.50   |
+|>  |1007    |1999-06-13|Peter    |Paulls  |Iron       |17.95    |
+|>  |1007    |1999-06-13|Peter    |Paulls  |Mixer      |57.95    |
+|>  |1007    |1999-06-13|Peter    |Paulls  |Skates     |24.95    |
+|>  |1007    |1999-06-13|Peter    |Paulls  |Stove      |402.99   |
+|>  |1007    |1999-06-13|Peter    |Paulls  |Washer     |311.95   |
+|>  |1007    |1999-06-13|Peter    |Yu      |Bike       |187.50   |
+|>  |1007    |1999-06-13|Peter    |Yu      |Iron       |17.95    |
+|>  |1007    |1999-06-13|Peter    |Yu      |Mixer      |57.95    |
+|>  |1007    |1999-06-13|Peter    |Yu      |Skates     |24.95    |
+|>  |1007    |1999-06-13|Peter    |Yu      |Stove      |402.99   |
+|>  |1007    |1999-06-13|Peter    |Yu      |Washer     |311.95   |
+|>  |1007    |1999-06-13|Robert   |McKenzie|Bike       |187.50   |
+|>  |1007    |1999-06-13|Robert   |McKenzie|Iron       |17.95    |
+|>  |1007    |1999-06-13|Robert   |McKenzie|Mixer      |57.95    |
+|>  |1007    |1999-06-13|Robert   |McKenzie|Skates     |24.95    |
+|>  |1007    |1999-06-13|Robert   |McKenzie|Stove      |402.99   |
+|>  |1007    |1999-06-13|Robert   |McKenzie|Washer     |311.95   |
+|>  |1007    |1999-06-13|Sally    |Adams   |Bike       |187.50   |
+|>  |1007    |1999-06-13|Sally    |Adams   |Iron       |17.95    |
+|>  |1007    |1999-06-13|Sally    |Adams   |Mixer      |57.95    |
+|>  |1007    |1999-06-13|Sally    |Adams   |Skates     |24.95    |
+|>  |1007    |1999-06-13|Sally    |Adams   |Stove      |402.99   |
+|>  |1007    |1999-06-13|Sally    |Adams   |Washer     |311.95   |
+|>  |1007    |1999-06-13|Sandra   |Adams   |Bike       |187.50   |
+|>  |1007    |1999-06-13|Sandra   |Adams   |Iron       |17.95    |
+|>  |1007    |1999-06-13|Sandra   |Adams   |Mixer      |57.95    |
+|>  |1007    |1999-06-13|Sandra   |Adams   |Skates     |24.95    |
+|>  |1007    |1999-06-13|Sandra   |Adams   |Stove      |402.99   |
+|>  |1007    |1999-06-13|Sandra   |Adams   |Washer     |311.95   |
+|>  |1007    |1999-06-13|Tom      |Daniels |Bike       |187.50   |
+|>  |1007    |1999-06-13|Tom      |Daniels |Iron       |17.95    |
+|>  |1007    |1999-06-13|Tom      |Daniels |Mixer      |57.95    |
+|>  |1007    |1999-06-13|Tom      |Daniels |Skates     |24.95    |
+|>  |1007    |1999-06-13|Tom      |Daniels |Stove      |402.99   |
+|>  |1007    |1999-06-13|Tom      |Daniels |Washer     |311.95   |
+|>  |1006    |1999-06-12|Al       |Williams|Bike       |187.50   |
+|>  |1006    |1999-06-12|Al       |Williams|Iron       |17.95    |
+|>  |1006    |1999-06-12|Al       |Williams|Mixer      |57.95    |
+|>  |1006    |1999-06-12|Al       |Williams|Skates     |24.95    |
+|>  |1006    |1999-06-12|Al       |Williams|Stove      |402.99   |
+|>  |1006    |1999-06-12|Al       |Williams|Washer     |311.95   |
+|>  |1006    |1999-06-12|Ann      |Samuals |Bike       |187.50   |
+|>  |1006    |1999-06-12|Ann      |Samuals |Iron       |17.95    |
+|>  |1006    |1999-06-12|Ann      |Samuals |Mixer      |57.95    |
+|>  |1006    |1999-06-12|Ann      |Samuals |Skates     |24.95    |
+|>  |1006    |1999-06-12|Ann      |Samuals |Stove      |402.99   |
+|>  |1006    |1999-06-12|Ann      |Samuals |Washer     |311.95   |
+|>  |1006    |1999-06-12|Dan      |Martin  |Bike       |187.50   |
+|>  |1006    |1999-06-12|Dan      |Martin  |Iron       |17.95    |
+|>  |1006    |1999-06-12|Dan      |Martin  |Mixer      |57.95    |
+|>  |1006    |1999-06-12|Dan      |Martin  |Skates     |24.95    |
+|>  |1006    |1999-06-12|Dan      |Martin  |Stove      |402.99   |
+|>  |1006    |1999-06-12|Dan      |Martin  |Washer     |311.95   |
+|>  |1006    |1999-06-12|Don      |Charles |Bike       |187.50   |
+|>  |1006    |1999-06-12|Don      |Charles |Iron       |17.95    |
+|>  |1006    |1999-06-12|Don      |Charles |Mixer      |57.95    |
+|>  |1006    |1999-06-12|Don      |Charles |Skates     |24.95    |
+|>  |1006    |1999-06-12|Don      |Charles |Stove      |402.99   |
+|>  |1006    |1999-06-12|Don      |Charles |Washer     |311.95   |
+|>  |1006    |1999-06-12|Greg     |Johnson |Bike       |187.50   |
+|>  |1006    |1999-06-12|Greg     |Johnson |Iron       |17.95    |
+|>  |1006    |1999-06-12|Greg     |Johnson |Mixer      |57.95    |
+|>  |1006    |1999-06-12|Greg     |Johnson |Skates     |24.95    |
+|>  |1006    |1999-06-12|Greg     |Johnson |Stove      |402.99   |
+|>  |1006    |1999-06-12|Greg     |Johnson |Washer     |311.95   |
+|>  |1006    |1999-06-12|Jo       |Baker   |Bike       |187.50   |
+|>  |1006    |1999-06-12|Jo       |Baker   |Iron       |17.95    |
+|>  |1006    |1999-06-12|Jo       |Baker   |Mixer      |57.95    |
+|>  |1006    |1999-06-12|Jo       |Baker   |Skates     |24.95    |
+|>  |1006    |1999-06-12|Jo       |Baker   |Stove      |402.99   |
+|>  |1006    |1999-06-12|Jo       |Baker   |Washer     |311.95   |
+|>  |1006    |1999-06-12|Judy     |Roberts |Bike       |187.50   |
+|>  |1006    |1999-06-12|Judy     |Roberts |Iron       |17.95    |
+|>  |1006    |1999-06-12|Judy     |Roberts |Mixer      |57.95    |
+|>  |1006    |1999-06-12|Judy     |Roberts |Skates     |24.95    |
+|>  |1006    |1999-06-12|Judy     |Roberts |Stove      |402.99   |
+|>  |1006    |1999-06-12|Judy     |Roberts |Washer     |311.95   |
+|>  |1006    |1999-06-12|Margaret |Jones   |Bike       |187.50   |
+|>  |1006    |1999-06-12|Margaret |Jones   |Iron       |17.95    |
+|>  |1006    |1999-06-12|Margaret |Jones   |Mixer      |57.95    |
+|>  |1006    |1999-06-12|Margaret |Jones   |Skates     |24.95    |
+|>  |1006    |1999-06-12|Margaret |Jones   |Stove      |402.99   |
+|>  |1006    |1999-06-12|Margaret |Jones   |Washer     |311.95   |
+|>  |1006    |1999-06-12|Mary     |Nelson  |Bike       |187.50   |
+|>  |1006    |1999-06-12|Mary     |Nelson  |Iron       |17.95    |
+|>  |1006    |1999-06-12|Mary     |Nelson  |Mixer      |57.95    |
+|>  |1006    |1999-06-12|Mary     |Nelson  |Skates     |24.95    |
+|>  |1006    |1999-06-12|Mary     |Nelson  |Washer     |311.95   |
+|>  |1006    |1999-06-12|Peter    |Paulls  |Bike       |187.50   |
+|>  |1006    |1999-06-12|Peter    |Paulls  |Iron       |17.95    |
+|>  |1006    |1999-06-12|Peter    |Paulls  |Mixer      |57.95    |
+|>  |1006    |1999-06-12|Peter    |Paulls  |Skates     |24.95    |
+|>  |1006    |1999-06-12|Peter    |Paulls  |Stove      |402.99   |
+|>  |1006    |1999-06-12|Peter    |Paulls  |Washer     |311.95   |
+|>  |1006    |1999-06-12|Peter    |Yu      |Bike       |187.50   |
+|>  |1006    |1999-06-12|Peter    |Yu      |Iron       |17.95    |
+|>  |1006    |1999-06-12|Peter    |Yu      |Mixer      |57.95    |
+|>  |1006    |1999-06-12|Peter    |Yu      |Skates     |24.95    |
+|>  |1006    |1999-06-12|Peter    |Yu      |Stove      |402.99   |
+|>  |1006    |1999-06-12|Peter    |Yu      |Washer     |311.95   |
+|>  |1006    |1999-06-12|Robert   |McKenzie|Bike       |187.50   |
+|>  |1006    |1999-06-12|Robert   |McKenzie|Iron       |17.95    |
+|>  |1006    |1999-06-12|Robert   |McKenzie|Mixer      |57.95    |
+|>  |1006    |1999-06-12|Robert   |McKenzie|Skates     |24.95    |
+|>  |1006    |1999-06-12|Robert   |McKenzie|Stove      |402.99   |
+|>  |1006    |1999-06-12|Robert   |McKenzie|Washer     |311.95   |
+|>  |1006    |1999-06-12|Sally    |Adams   |Bike       |187.50   |
+|>  |1006    |1999-06-12|Sally    |Adams   |Iron       |17.95    |
+|>  |1006    |1999-06-12|Sally    |Adams   |Mixer      |57.95    |
+|>  |1006    |1999-06-12|Sally    |Adams   |Skates     |24.95    |
+|>  |1006    |1999-06-12|Sally    |Adams   |Stove      |402.99   |
+|>  |1006    |1999-06-12|Sally    |Adams   |Washer     |311.95   |
+|>  |1006    |1999-06-12|Sandra   |Adams   |Bike       |187.50   |
+|>  |1006    |1999-06-12|Sandra   |Adams   |Iron       |17.95    |
+|>  |1006    |1999-06-12|Sandra   |Adams   |Mixer      |57.95    |
+|>  |1006    |1999-06-12|Sandra   |Adams   |Skates     |24.95    |
+|>  |1006    |1999-06-12|Sandra   |Adams   |Stove      |402.99   |
+|>  |1006    |1999-06-12|Sandra   |Adams   |Washer     |311.95   |
+|>  |1006    |1999-06-12|Tom      |Daniels |Bike       |187.50   |
+|>  |1006    |1999-06-12|Tom      |Daniels |Iron       |17.95    |
+|>  |1006    |1999-06-12|Tom      |Daniels |Mixer      |57.95    |
+|>  |1006    |1999-06-12|Tom      |Daniels |Skates     |24.95    |
+|>  |1006    |1999-06-12|Tom      |Daniels |Stove      |402.99   |
+|>  |1006    |1999-06-12|Tom      |Daniels |Washer     |311.95   |
+|>  |1007    |1999-06-13|Al       |Williams|Bike       |187.50   |
+|>  |1007    |1999-06-13|Al       |Williams|Iron       |17.95    |
+|>  |1007    |1999-06-13|Al       |Williams|Mixer      |57.95    |
+|>  |1007    |1999-06-13|Al       |Williams|Skates     |24.95    |
+|>  |1007    |1999-06-13|Al       |Williams|Stove      |402.99   |
+|>  |1007    |1999-06-13|Al       |Williams|Washer     |311.95   |
+|>  |1007    |1999-06-13|Ann      |Samuals |Bike       |187.50   |
+|>  |1007    |1999-06-13|Ann      |Samuals |Iron       |17.95    |
+|>  |1007    |1999-06-13|Ann      |Samuals |Mixer      |57.95    |
+|>  |1007    |1999-06-13|Ann      |Samuals |Skates     |24.95    |
+|>  |1007    |1999-06-13|Ann      |Samuals |Stove      |402.99   |
+|>  |1007    |1999-06-13|Ann      |Samuals |Washer     |311.95   |
+|>  |1007    |1999-06-13|Dan      |Martin  |Bike       |187.50   |
+|>  |1007    |1999-06-13|Dan      |Martin  |Iron       |17.95    |
+|>  |1007    |1999-06-13|Dan      |Martin  |Mixer      |57.95    |
+|>  |1007    |1999-06-13|Dan      |Martin  |Skates     |24.95    |
+|>  |1007    |1999-06-13|Dan      |Martin  |Stove      |402.99   |
+|>  |1007    |1999-06-13|Dan      |Martin  |Washer     |311.95   |
+|>  |1007    |1999-06-13|Don      |Charles |Bike       |187.50   |
+|>  |1007    |1999-06-13|Don      |Charles |Iron       |17.95    |
+|>  |1007    |1999-06-13|Don      |Charles |Mixer      |57.95    |
+|>  |1007    |1999-06-13|Don      |Charles |Skates     |24.95    |
+|>  |1007    |1999-06-13|Don      |Charles |Stove      |402.99   |
+|>  |1007    |1999-06-13|Don      |Charles |Washer     |311.95   |
+|>  |1007    |1999-06-13|Greg     |Johnson |Bike       |187.50   |
+|>  |1007    |1999-06-13|Greg     |Johnson |Iron       |17.95    |
+|>  |1007    |1999-06-13|Greg     |Johnson |Mixer      |57.95    |
+|>  |1007    |1999-06-13|Greg     |Johnson |Skates     |24.95    |
+|>  |1007    |1999-06-13|Greg     |Johnson |Stove      |402.99   |
+|>  |1007    |1999-06-13|Greg     |Johnson |Washer     |311.95   |
+|>  |1007    |1999-06-13|Jo       |Baker   |Bike       |187.50   |
+|>  |1007    |1999-06-13|Jo       |Baker   |Iron       |17.95    |
+|>  |1007    |1999-06-13|Jo       |Baker   |Mixer      |57.95    |
+|>  |1007    |1999-06-13|Jo       |Baker   |Skates     |24.95    |
+|>  |1007    |1999-06-13|Jo       |Baker   |Stove      |402.99   |
+|>  |1007    |1999-06-13|Jo       |Baker   |Washer     |311.95   |
+[testSQLPracticalTest].[TEST QUESTION 20] failed: (Failure) Incorrect Answer!
+Unexpected/missing resultset rows!
+|_m_|orderref|orderdate |firstname|lastname|repfirstname|replastname|description|
++---+--------+----------+---------+--------+------------+-----------+-----------+
+|=  |1007    |1999-06-13|Judy     |Roberts |William     |Smith      |Skates     |
+|=  |1005    |1999-06-06|Sally    |Adams   |Mary        |Jones      |Skates     |
+|=  |1004    |1999-05-18|Ann      |Samuals |Sam         |Brown      |Stove      |
+|=  |1007    |1999-06-13|Judy     |Roberts |William     |Smith      |Bike       |
+|=  |1006    |1999-06-12|Mary     |Nelson  |Mary        |Jones      |Stove      |
+|=  |1003    |1999-05-18|Sally    |Adams   |Mary        |Jones      |Stove      |
+|=  |1003    |1999-05-18|Sally    |Adams   |Mary        |Jones      |Washer     |
+|=  |1005    |1999-06-06|Sally    |Adams   |Mary        |Jones      |Bike       |
+|=  |1005    |1999-06-06|Sally    |Adams   |Mary        |Jones      |Iron       |
+|>  |1004    |1999-05-18|Ann      |Samuals |Sam         |Brown      |Washer     |
+|>  |1004    |1999-05-18|Ann      |Samuals |William     |Smith      |Bike       |
+|>  |1004    |1999-05-18|Ann      |Samuals |William     |Smith      |Iron       |
+|>  |1004    |1999-05-18|Ann      |Samuals |William     |Smith      |Mixer      |
+|>  |1004    |1999-05-18|Ann      |Samuals |William     |Smith      |Skates     |
+|>  |1004    |1999-05-18|Ann      |Samuals |William     |Smith      |Stove      |
+|>  |1004    |1999-05-18|Ann      |Samuals |William     |Smith      |Washer     |
+|>  |1004    |1999-05-18|Dan      |Martin  |Mary        |Jones      |Bike       |
+|>  |1004    |1999-05-18|Dan      |Martin  |Mary        |Jones      |Iron       |
+|>  |1004    |1999-05-18|Dan      |Martin  |Mary        |Jones      |Mixer      |
+|>  |1004    |1999-05-18|Dan      |Martin  |Mary        |Jones      |Skates     |
+|>  |1004    |1999-05-18|Dan      |Martin  |Mary        |Jones      |Stove      |
+|>  |1004    |1999-05-18|Dan      |Martin  |Mary        |Jones      |Washer     |
+|>  |1004    |1999-05-18|Dan      |Martin  |Sam         |Brown      |Bike       |
+|>  |1004    |1999-05-18|Dan      |Martin  |Sam         |Brown      |Iron       |
+|>  |1004    |1999-05-18|Dan      |Martin  |Sam         |Brown      |Mixer      |
+|>  |1004    |1999-05-18|Dan      |Martin  |Sam         |Brown      |Skates     |
+|>  |1004    |1999-05-18|Dan      |Martin  |Sam         |Brown      |Stove      |
+|>  |1004    |1999-05-18|Dan      |Martin  |Sam         |Brown      |Washer     |
+|>  |1004    |1999-05-18|Dan      |Martin  |William     |Smith      |Bike       |
+|>  |1004    |1999-05-18|Dan      |Martin  |William     |Smith      |Iron       |
+|>  |1004    |1999-05-18|Dan      |Martin  |William     |Smith      |Mixer      |
+|>  |1004    |1999-05-18|Dan      |Martin  |William     |Smith      |Skates     |
+|>  |1004    |1999-05-18|Dan      |Martin  |William     |Smith      |Stove      |
+|>  |1004    |1999-05-18|Dan      |Martin  |William     |Smith      |Washer     |
+|>  |1004    |1999-05-18|Don      |Charles |Mary        |Jones      |Bike       |
+|>  |1004    |1999-05-18|Don      |Charles |Mary        |Jones      |Iron       |
+|>  |1004    |1999-05-18|Don      |Charles |Mary        |Jones      |Mixer      |
+|>  |1004    |1999-05-18|Don      |Charles |Mary        |Jones      |Skates     |
+|>  |1004    |1999-05-18|Don      |Charles |Mary        |Jones      |Stove      |
+|>  |1004    |1999-05-18|Don      |Charles |Mary        |Jones      |Washer     |
+|>  |1004    |1999-05-18|Don      |Charles |Sam         |Brown      |Bike       |
+|>  |1004    |1999-05-18|Don      |Charles |Sam         |Brown      |Iron       |
+|>  |1004    |1999-05-18|Don      |Charles |Sam         |Brown      |Mixer      |
+|>  |1004    |1999-05-18|Don      |Charles |Sam         |Brown      |Skates     |
+|>  |1004    |1999-05-18|Don      |Charles |Sam         |Brown      |Stove      |
+|>  |1004    |1999-05-18|Don      |Charles |Sam         |Brown      |Washer     |
+|>  |1004    |1999-05-18|Don      |Charles |William     |Smith      |Bike       |
+|>  |1004    |1999-05-18|Don      |Charles |William     |Smith      |Iron       |
+|>  |1004    |1999-05-18|Don      |Charles |William     |Smith      |Mixer      |
+|>  |1004    |1999-05-18|Don      |Charles |William     |Smith      |Skates     |
+|>  |1004    |1999-05-18|Don      |Charles |William     |Smith      |Stove      |
+|>  |1004    |1999-05-18|Don      |Charles |William     |Smith      |Washer     |
+|>  |1004    |1999-05-18|Greg     |Johnson |Mary        |Jones      |Bike       |
+|>  |1004    |1999-05-18|Greg     |Johnson |Mary        |Jones      |Iron       |
+|>  |1004    |1999-05-18|Greg     |Johnson |Mary        |Jones      |Mixer      |
+|>  |1004    |1999-05-18|Greg     |Johnson |Mary        |Jones      |Skates     |
+|>  |1004    |1999-05-18|Greg     |Johnson |Mary        |Jones      |Stove      |
+|>  |1004    |1999-05-18|Greg     |Johnson |Mary        |Jones      |Washer     |
+|>  |1004    |1999-05-18|Greg     |Johnson |Sam         |Brown      |Bike       |
+|>  |1004    |1999-05-18|Greg     |Johnson |Sam         |Brown      |Iron       |
+|>  |1004    |1999-05-18|Greg     |Johnson |Sam         |Brown      |Mixer      |
+|>  |1004    |1999-05-18|Greg     |Johnson |Sam         |Brown      |Skates     |
+|>  |1004    |1999-05-18|Greg     |Johnson |Sam         |Brown      |Stove      |
+|>  |1004    |1999-05-18|Greg     |Johnson |Sam         |Brown      |Washer     |
+|>  |1004    |1999-05-18|Greg     |Johnson |William     |Smith      |Bike       |
+|>  |1004    |1999-05-18|Greg     |Johnson |William     |Smith      |Iron       |
+|>  |1004    |1999-05-18|Greg     |Johnson |William     |Smith      |Mixer      |
+|>  |1004    |1999-05-18|Greg     |Johnson |William     |Smith      |Skates     |
+|>  |1004    |1999-05-18|Greg     |Johnson |William     |Smith      |Stove      |
+|>  |1004    |1999-05-18|Greg     |Johnson |William     |Smith      |Washer     |
+|>  |1004    |1999-05-18|Jo       |Baker   |Mary        |Jones      |Bike       |
+|>  |1004    |1999-05-18|Jo       |Baker   |Mary        |Jones      |Iron       |
+|>  |1004    |1999-05-18|Jo       |Baker   |Mary        |Jones      |Mixer      |
+|>  |1004    |1999-05-18|Jo       |Baker   |Mary        |Jones      |Skates     |
+|>  |1004    |1999-05-18|Jo       |Baker   |Mary        |Jones      |Stove      |
+|>  |1004    |1999-05-18|Jo       |Baker   |Mary        |Jones      |Washer     |
+|>  |1004    |1999-05-18|Jo       |Baker   |Sam         |Brown      |Bike       |
+|>  |1004    |1999-05-18|Jo       |Baker   |Sam         |Brown      |Iron       |
+|>  |1004    |1999-05-18|Jo       |Baker   |Sam         |Brown      |Mixer      |
+|>  |1004    |1999-05-18|Jo       |Baker   |Sam         |Brown      |Skates     |
+|>  |1004    |1999-05-18|Jo       |Baker   |Sam         |Brown      |Stove      |
+|>  |1004    |1999-05-18|Jo       |Baker   |Sam         |Brown      |Washer     |
+|>  |1004    |1999-05-18|Jo       |Baker   |William     |Smith      |Bike       |
+|>  |1004    |1999-05-18|Jo       |Baker   |William     |Smith      |Iron       |
+|>  |1004    |1999-05-18|Jo       |Baker   |William     |Smith      |Mixer      |
+|>  |1004    |1999-05-18|Jo       |Baker   |William     |Smith      |Skates     |
+|>  |1004    |1999-05-18|Jo       |Baker   |William     |Smith      |Stove      |
+|>  |1004    |1999-05-18|Jo       |Baker   |William     |Smith      |Washer     |
+|>  |1004    |1999-05-18|Judy     |Roberts |Mary        |Jones      |Bike       |
+|>  |1004    |1999-05-18|Judy     |Roberts |Mary        |Jones      |Iron       |
+|>  |1004    |1999-05-18|Judy     |Roberts |Mary        |Jones      |Mixer      |
+|>  |1004    |1999-05-18|Judy     |Roberts |Mary        |Jones      |Skates     |
+|>  |1004    |1999-05-18|Judy     |Roberts |Mary        |Jones      |Stove      |
+|>  |1004    |1999-05-18|Judy     |Roberts |Mary        |Jones      |Washer     |
+|>  |1004    |1999-05-18|Judy     |Roberts |Sam         |Brown      |Bike       |
+|>  |1004    |1999-05-18|Judy     |Roberts |Sam         |Brown      |Iron       |
+|>  |1004    |1999-05-18|Judy     |Roberts |Sam         |Brown      |Mixer      |
+|>  |1004    |1999-05-18|Judy     |Roberts |Sam         |Brown      |Skates     |
+|>  |1004    |1999-05-18|Judy     |Roberts |Sam         |Brown      |Stove      |
+|>  |1004    |1999-05-18|Judy     |Roberts |Sam         |Brown      |Washer     |
+|>  |1004    |1999-05-18|Judy     |Roberts |William     |Smith      |Bike       |
+|>  |1004    |1999-05-18|Judy     |Roberts |William     |Smith      |Iron       |
+|>  |1004    |1999-05-18|Judy     |Roberts |William     |Smith      |Mixer      |
+|>  |1004    |1999-05-18|Judy     |Roberts |William     |Smith      |Skates     |
+|>  |1004    |1999-05-18|Judy     |Roberts |William     |Smith      |Stove      |
+|>  |1004    |1999-05-18|Judy     |Roberts |William     |Smith      |Washer     |
+|>  |1004    |1999-05-18|Margaret |Jones   |Mary        |Jones      |Bike       |
+|>  |1004    |1999-05-18|Margaret |Jones   |Mary        |Jones      |Iron       |
+|>  |1004    |1999-05-18|Margaret |Jones   |Mary        |Jones      |Mixer      |
+|>  |1004    |1999-05-18|Margaret |Jones   |Mary        |Jones      |Skates     |
+|>  |1004    |1999-05-18|Margaret |Jones   |Mary        |Jones      |Stove      |
+|>  |1004    |1999-05-18|Margaret |Jones   |Mary        |Jones      |Washer     |
+|>  |1004    |1999-05-18|Margaret |Jones   |Sam         |Brown      |Bike       |
+|>  |1004    |1999-05-18|Margaret |Jones   |Sam         |Brown      |Iron       |
+|>  |1004    |1999-05-18|Margaret |Jones   |Sam         |Brown      |Mixer      |
+|>  |1004    |1999-05-18|Margaret |Jones   |Sam         |Brown      |Skates     |
+|>  |1004    |1999-05-18|Margaret |Jones   |Sam         |Brown      |Stove      |
+|>  |1004    |1999-05-18|Margaret |Jones   |Sam         |Brown      |Washer     |
+|>  |1004    |1999-05-18|Margaret |Jones   |William     |Smith      |Bike       |
+|>  |1004    |1999-05-18|Margaret |Jones   |William     |Smith      |Iron       |
+|>  |1004    |1999-05-18|Margaret |Jones   |William     |Smith      |Mixer      |
+|>  |1004    |1999-05-18|Margaret |Jones   |William     |Smith      |Skates     |
+|>  |1004    |1999-05-18|Margaret |Jones   |William     |Smith      |Stove      |
+|>  |1004    |1999-05-18|Margaret |Jones   |William     |Smith      |Washer     |
+|>  |1004    |1999-05-18|Mary     |Nelson  |Mary        |Jones      |Bike       |
+|>  |1004    |1999-05-18|Mary     |Nelson  |Mary        |Jones      |Iron       |
+|>  |1004    |1999-05-18|Mary     |Nelson  |Mary        |Jones      |Mixer      |
+|>  |1004    |1999-05-18|Mary     |Nelson  |Mary        |Jones      |Skates     |
+|>  |1004    |1999-05-18|Mary     |Nelson  |Mary        |Jones      |Stove      |
+|>  |1004    |1999-05-18|Mary     |Nelson  |Mary        |Jones      |Washer     |
+|>  |1004    |1999-05-18|Mary     |Nelson  |Sam         |Brown      |Bike       |
+|>  |1004    |1999-05-18|Mary     |Nelson  |Sam         |Brown      |Iron       |
+|>  |1004    |1999-05-18|Mary     |Nelson  |Sam         |Brown      |Mixer      |
+|>  |1004    |1999-05-18|Mary     |Nelson  |Sam         |Brown      |Skates     |
+|>  |1004    |1999-05-18|Mary     |Nelson  |Sam         |Brown      |Stove      |
+|>  |1004    |1999-05-18|Mary     |Nelson  |Sam         |Brown      |Washer     |
+|>  |1004    |1999-05-18|Mary     |Nelson  |William     |Smith      |Bike       |
+|>  |1004    |1999-05-18|Mary     |Nelson  |William     |Smith      |Iron       |
+|>  |1004    |1999-05-18|Mary     |Nelson  |William     |Smith      |Mixer      |
+|>  |1004    |1999-05-18|Mary     |Nelson  |William     |Smith      |Skates     |
+|>  |1004    |1999-05-18|Mary     |Nelson  |William     |Smith      |Stove      |
+|>  |1004    |1999-05-18|Mary     |Nelson  |William     |Smith      |Washer     |
+|>  |1004    |1999-05-18|Peter    |Paulls  |Mary        |Jones      |Bike       |
+|>  |1004    |1999-05-18|Peter    |Paulls  |Mary        |Jones      |Iron       |
+|>  |1004    |1999-05-18|Peter    |Paulls  |Mary        |Jones      |Mixer      |
+|>  |1004    |1999-05-18|Peter    |Paulls  |Mary        |Jones      |Skates     |
+|>  |1004    |1999-05-18|Peter    |Paulls  |Mary        |Jones      |Stove      |
+|>  |1004    |1999-05-18|Peter    |Paulls  |Mary        |Jones      |Washer     |
+|>  |1004    |1999-05-18|Peter    |Paulls  |Sam         |Brown      |Bike       |
+|>  |1004    |1999-05-18|Peter    |Paulls  |Sam         |Brown      |Iron       |
+|>  |1004    |1999-05-18|Peter    |Paulls  |Sam         |Brown      |Mixer      |
+|>  |1004    |1999-05-18|Peter    |Paulls  |Sam         |Brown      |Skates     |
+|>  |1004    |1999-05-18|Peter    |Paulls  |Sam         |Brown      |Stove      |
+|>  |1004    |1999-05-18|Peter    |Paulls  |Sam         |Brown      |Washer     |
+|>  |1004    |1999-05-18|Peter    |Paulls  |William     |Smith      |Bike       |
+|>  |1004    |1999-05-18|Peter    |Paulls  |William     |Smith      |Iron       |
+|>  |1004    |1999-05-18|Peter    |Paulls  |William     |Smith      |Mixer      |
+|>  |1004    |1999-05-18|Peter    |Paulls  |William     |Smith      |Skates     |
+|>  |1004    |1999-05-18|Peter    |Paulls  |William     |Smith      |Stove      |
+|>  |1004    |1999-05-18|Peter    |Paulls  |William     |Smith      |Washer     |
+|>  |1004    |1999-05-18|Peter    |Yu      |Mary        |Jones      |Bike       |
+|>  |1004    |1999-05-18|Peter    |Yu      |Mary        |Jones      |Iron       |
+|>  |1004    |1999-05-18|Peter    |Yu      |Mary        |Jones      |Mixer      |
+|>  |1004    |1999-05-18|Peter    |Yu      |Mary        |Jones      |Skates     |
+|>  |1004    |1999-05-18|Peter    |Yu      |Mary        |Jones      |Stove      |
+|>  |1004    |1999-05-18|Peter    |Yu      |Mary        |Jones      |Washer     |
+|>  |1004    |1999-05-18|Peter    |Yu      |Sam         |Brown      |Bike       |
+|>  |1004    |1999-05-18|Peter    |Yu      |Sam         |Brown      |Iron       |
+|>  |1004    |1999-05-18|Peter    |Yu      |Sam         |Brown      |Mixer      |
+|>  |1004    |1999-05-18|Peter    |Yu      |Sam         |Brown      |Skates     |
+|>  |1004    |1999-05-18|Peter    |Yu      |Sam         |Brown      |Stove      |
+|>  |1004    |1999-05-18|Peter    |Yu      |Sam         |Brown      |Washer     |
+|>  |1004    |1999-05-18|Peter    |Yu      |William     |Smith      |Bike       |
+|>  |1004    |1999-05-18|Peter    |Yu      |William     |Smith      |Iron       |
+|>  |1004    |1999-05-18|Peter    |Yu      |William     |Smith      |Mixer      |
+|>  |1004    |1999-05-18|Peter    |Yu      |William     |Smith      |Skates     |
+|>  |1004    |1999-05-18|Peter    |Yu      |William     |Smith      |Stove      |
+|>  |1004    |1999-05-18|Peter    |Yu      |William     |Smith      |Washer     |
+|>  |1004    |1999-05-18|Robert   |McKenzie|Mary        |Jones      |Bike       |
+|>  |1004    |1999-05-18|Robert   |McKenzie|Mary        |Jones      |Iron       |
+|>  |1004    |1999-05-18|Robert   |McKenzie|Mary        |Jones      |Mixer      |
+|>  |1004    |1999-05-18|Robert   |McKenzie|Mary        |Jones      |Skates     |
+|>  |1004    |1999-05-18|Robert   |McKenzie|Mary        |Jones      |Stove      |
+|>  |1004    |1999-05-18|Robert   |McKenzie|Mary        |Jones      |Washer     |
+|>  |1004    |1999-05-18|Robert   |McKenzie|Sam         |Brown      |Bike       |
+|>  |1004    |1999-05-18|Robert   |McKenzie|Sam         |Brown      |Iron       |
+|>  |1004    |1999-05-18|Robert   |McKenzie|Sam         |Brown      |Mixer      |
+|>  |1004    |1999-05-18|Robert   |McKenzie|Sam         |Brown      |Skates     |
+|>  |1004    |1999-05-18|Robert   |McKenzie|Sam         |Brown      |Stove      |
+|>  |1004    |1999-05-18|Robert   |McKenzie|Sam         |Brown      |Washer     |
+|>  |1004    |1999-05-18|Robert   |McKenzie|William     |Smith      |Bike       |
+|>  |1004    |1999-05-18|Robert   |McKenzie|William     |Smith      |Iron       |
+|>  |1004    |1999-05-18|Robert   |McKenzie|William     |Smith      |Mixer      |
+|>  |1004    |1999-05-18|Robert   |McKenzie|William     |Smith      |Skates     |
+|>  |1004    |1999-05-18|Robert   |McKenzie|William     |Smith      |Stove      |
+|>  |1004    |1999-05-18|Robert   |McKenzie|William     |Smith      |Washer     |
+|>  |1004    |1999-05-18|Sally    |Adams   |Mary        |Jones      |Bike       |
+|>  |1004    |1999-05-18|Sally    |Adams   |Mary        |Jones      |Iron       |
+|>  |1004    |1999-05-18|Sally    |Adams   |Mary        |Jones      |Mixer      |
+|>  |1004    |1999-05-18|Sally    |Adams   |Mary        |Jones      |Skates     |
+|>  |1004    |1999-05-18|Sally    |Adams   |Mary        |Jones      |Stove      |
+|>  |1004    |1999-05-18|Sally    |Adams   |Mary        |Jones      |Washer     |
+|>  |1004    |1999-05-18|Sally    |Adams   |Sam         |Brown      |Bike       |
+|>  |1004    |1999-05-18|Sally    |Adams   |Sam         |Brown      |Iron       |
+|>  |1004    |1999-05-18|Sally    |Adams   |Sam         |Brown      |Mixer      |
+|>  |1004    |1999-05-18|Sally    |Adams   |Sam         |Brown      |Skates     |
+|>  |1004    |1999-05-18|Sally    |Adams   |Sam         |Brown      |Stove      |
+|>  |1004    |1999-05-18|Sally    |Adams   |Sam         |Brown      |Washer     |
+|>  |1004    |1999-05-18|Sally    |Adams   |William     |Smith      |Bike       |
+|>  |1004    |1999-05-18|Sally    |Adams   |William     |Smith      |Iron       |
+|>  |1004    |1999-05-18|Sally    |Adams   |William     |Smith      |Mixer      |
+|>  |1004    |1999-05-18|Sally    |Adams   |William     |Smith      |Skates     |
+|>  |1004    |1999-05-18|Sally    |Adams   |William     |Smith      |Stove      |
+|>  |1004    |1999-05-18|Sally    |Adams   |William     |Smith      |Washer     |
+|>  |1004    |1999-05-18|Sandra   |Adams   |Mary        |Jones      |Bike       |
+|>  |1004    |1999-05-18|Sandra   |Adams   |Mary        |Jones      |Iron       |
+|>  |1004    |1999-05-18|Sandra   |Adams   |Mary        |Jones      |Mixer      |
+|>  |1004    |1999-05-18|Sandra   |Adams   |Mary        |Jones      |Skates     |
+|>  |1004    |1999-05-18|Sandra   |Adams   |Mary        |Jones      |Stove      |
+|>  |1004    |1999-05-18|Sandra   |Adams   |Mary        |Jones      |Washer     |
+|>  |1004    |1999-05-18|Sandra   |Adams   |Sam         |Brown      |Bike       |
+|>  |1004    |1999-05-18|Sandra   |Adams   |Sam         |Brown      |Iron       |
+|>  |1004    |1999-05-18|Sandra   |Adams   |Sam         |Brown      |Mixer      |
+|>  |1004    |1999-05-18|Sandra   |Adams   |Sam         |Brown      |Skates     |
+|>  |1004    |1999-05-18|Sandra   |Adams   |Sam         |Brown      |Stove      |
+|>  |1004    |1999-05-18|Sandra   |Adams   |Sam         |Brown      |Washer     |
+|>  |1004    |1999-05-18|Sandra   |Adams   |William     |Smith      |Bike       |
+|>  |1004    |1999-05-18|Sandra   |Adams   |William     |Smith      |Iron       |
+|>  |1004    |1999-05-18|Sandra   |Adams   |William     |Smith      |Mixer      |
+|>  |1004    |1999-05-18|Sandra   |Adams   |William     |Smith      |Skates     |
+|>  |1004    |1999-05-18|Sandra   |Adams   |William     |Smith      |Stove      |
+|>  |1004    |1999-05-18|Sandra   |Adams   |William     |Smith      |Washer     |
+|>  |1004    |1999-05-18|Tom      |Daniels |Mary        |Jones      |Bike       |
+|>  |1004    |1999-05-18|Tom      |Daniels |Mary        |Jones      |Iron       |
+|>  |1004    |1999-05-18|Tom      |Daniels |Mary        |Jones      |Mixer      |
+|>  |1004    |1999-05-18|Tom      |Daniels |Mary        |Jones      |Skates     |
+|>  |1004    |1999-05-18|Tom      |Daniels |Mary        |Jones      |Stove      |
+|>  |1004    |1999-05-18|Tom      |Daniels |Mary        |Jones      |Washer     |
+|>  |1004    |1999-05-18|Tom      |Daniels |Sam         |Brown      |Bike       |
+|>  |1004    |1999-05-18|Tom      |Daniels |Sam         |Brown      |Iron       |
+|>  |1004    |1999-05-18|Tom      |Daniels |Sam         |Brown      |Mixer      |
+|>  |1004    |1999-05-18|Tom      |Daniels |Sam         |Brown      |Skates     |
+|>  |1004    |1999-05-18|Tom      |Daniels |Sam         |Brown      |Stove      |
+|>  |1004    |1999-05-18|Tom      |Daniels |Sam         |Brown      |Washer     |
+|>  |1004    |1999-05-18|Tom      |Daniels |William     |Smith      |Bike       |
+|>  |1004    |1999-05-18|Tom      |Daniels |William     |Smith      |Iron       |
+|>  |1004    |1999-05-18|Tom      |Daniels |William     |Smith      |Mixer      |
+|>  |1004    |1999-05-18|Tom      |Daniels |William     |Smith      |Skates     |
+|>  |1004    |1999-05-18|Tom      |Daniels |William     |Smith      |Stove      |
+|>  |1004    |1999-05-18|Tom      |Daniels |William     |Smith      |Washer     |
+|>  |1005    |1999-06-06|Al       |Williams|Mary        |Jones      |Bike       |
+|>  |1005    |1999-06-06|Al       |Williams|Mary        |Jones      |Iron       |
+|>  |1005    |1999-06-06|Al       |Williams|Mary        |Jones      |Mixer      |
+|>  |1005    |1999-06-06|Al       |Williams|Mary        |Jones      |Skates     |
+|>  |1005    |1999-06-06|Al       |Williams|Mary        |Jones      |Stove      |
+|>  |1005    |1999-06-06|Al       |Williams|Mary        |Jones      |Washer     |
+|>  |1005    |1999-06-06|Al       |Williams|Sam         |Brown      |Bike       |
+|>  |1005    |1999-06-06|Al       |Williams|Sam         |Brown      |Iron       |
+|>  |1005    |1999-06-06|Al       |Williams|Sam         |Brown      |Mixer      |
+|>  |1005    |1999-06-06|Al       |Williams|Sam         |Brown      |Skates     |
+|>  |1005    |1999-06-06|Al       |Williams|Sam         |Brown      |Stove      |
+|>  |1005    |1999-06-06|Al       |Williams|Sam         |Brown      |Washer     |
+|>  |1005    |1999-06-06|Al       |Williams|William     |Smith      |Bike       |
+|>  |1005    |1999-06-06|Al       |Williams|William     |Smith      |Iron       |
+|>  |1005    |1999-06-06|Al       |Williams|William     |Smith      |Mixer      |
+|>  |1005    |1999-06-06|Al       |Williams|William     |Smith      |Skates     |
+|>  |1005    |1999-06-06|Al       |Williams|William     |Smith      |Stove      |
+|>  |1005    |1999-06-06|Al       |Williams|William     |Smith      |Washer     |
+|>  |1005    |1999-06-06|Ann      |Samuals |Mary        |Jones      |Bike       |
+|>  |1005    |1999-06-06|Ann      |Samuals |Mary        |Jones      |Iron       |
+|>  |1005    |1999-06-06|Ann      |Samuals |Mary        |Jones      |Mixer      |
+|>  |1005    |1999-06-06|Ann      |Samuals |Mary        |Jones      |Skates     |
+|>  |1005    |1999-06-06|Ann      |Samuals |Mary        |Jones      |Stove      |
+|>  |1005    |1999-06-06|Ann      |Samuals |Mary        |Jones      |Washer     |
+|>  |1005    |1999-06-06|Ann      |Samuals |Sam         |Brown      |Bike       |
+|>  |1005    |1999-06-06|Ann      |Samuals |Sam         |Brown      |Iron       |
+|>  |1005    |1999-06-06|Ann      |Samuals |Sam         |Brown      |Mixer      |
+|>  |1005    |1999-06-06|Ann      |Samuals |Sam         |Brown      |Skates     |
+|>  |1005    |1999-06-06|Ann      |Samuals |Sam         |Brown      |Stove      |
+|>  |1005    |1999-06-06|Ann      |Samuals |Sam         |Brown      |Washer     |
+|>  |1005    |1999-06-06|Ann      |Samuals |William     |Smith      |Bike       |
+|>  |1005    |1999-06-06|Ann      |Samuals |William     |Smith      |Iron       |
+|>  |1005    |1999-06-06|Ann      |Samuals |William     |Smith      |Mixer      |
+|>  |1005    |1999-06-06|Ann      |Samuals |William     |Smith      |Skates     |
+|>  |1005    |1999-06-06|Ann      |Samuals |William     |Smith      |Stove      |
+|>  |1005    |1999-06-06|Ann      |Samuals |William     |Smith      |Washer     |
+|>  |1005    |1999-06-06|Dan      |Martin  |Mary        |Jones      |Bike       |
+|>  |1005    |1999-06-06|Dan      |Martin  |Mary        |Jones      |Iron       |
+|>  |1005    |1999-06-06|Dan      |Martin  |Mary        |Jones      |Mixer      |
+|>  |1005    |1999-06-06|Dan      |Martin  |Mary        |Jones      |Skates     |
+|>  |1005    |1999-06-06|Dan      |Martin  |Mary        |Jones      |Stove      |
+|>  |1005    |1999-06-06|Dan      |Martin  |Mary        |Jones      |Washer     |
+|>  |1005    |1999-06-06|Dan      |Martin  |Sam         |Brown      |Bike       |
+|>  |1005    |1999-06-06|Dan      |Martin  |Sam         |Brown      |Iron       |
+|>  |1005    |1999-06-06|Dan      |Martin  |Sam         |Brown      |Mixer      |
+|>  |1005    |1999-06-06|Dan      |Martin  |Sam         |Brown      |Skates     |
+|>  |1005    |1999-06-06|Dan      |Martin  |Sam         |Brown      |Stove      |
+|>  |1005    |1999-06-06|Dan      |Martin  |Sam         |Brown      |Washer     |
+|>  |1005    |1999-06-06|Dan      |Martin  |William     |Smith      |Bike       |
+|>  |1005    |1999-06-06|Dan      |Martin  |William     |Smith      |Iron       |
+|>  |1005    |1999-06-06|Dan      |Martin  |William     |Smith      |Mixer      |
+|>  |1005    |1999-06-06|Dan      |Martin  |William     |Smith      |Skates     |
+|>  |1005    |1999-06-06|Dan      |Martin  |William     |Smith      |Stove      |
+|>  |1005    |1999-06-06|Dan      |Martin  |William     |Smith      |Washer     |
+|>  |1005    |1999-06-06|Don      |Charles |Mary        |Jones      |Bike       |
+|>  |1005    |1999-06-06|Don      |Charles |Mary        |Jones      |Iron       |
+|>  |1005    |1999-06-06|Don      |Charles |Mary        |Jones      |Mixer      |
+|>  |1005    |1999-06-06|Don      |Charles |Mary        |Jones      |Skates     |
+|>  |1005    |1999-06-06|Don      |Charles |Mary        |Jones      |Stove      |
+|>  |1005    |1999-06-06|Don      |Charles |Mary        |Jones      |Washer     |
+|>  |1005    |1999-06-06|Don      |Charles |Sam         |Brown      |Bike       |
+|>  |1005    |1999-06-06|Don      |Charles |Sam         |Brown      |Iron       |
+|>  |1005    |1999-06-06|Don      |Charles |Sam         |Brown      |Mixer      |
+|>  |1005    |1999-06-06|Don      |Charles |Sam         |Brown      |Skates     |
+|>  |1005    |1999-06-06|Don      |Charles |Sam         |Brown      |Stove      |
+|>  |1005    |1999-06-06|Don      |Charles |Sam         |Brown      |Washer     |
+|>  |1005    |1999-06-06|Don      |Charles |William     |Smith      |Bike       |
+|>  |1005    |1999-06-06|Don      |Charles |William     |Smith      |Iron       |
+|>  |1005    |1999-06-06|Don      |Charles |William     |Smith      |Mixer      |
+|>  |1005    |1999-06-06|Don      |Charles |William     |Smith      |Skates     |
+|>  |1005    |1999-06-06|Don      |Charles |William     |Smith      |Stove      |
+|>  |1005    |1999-06-06|Don      |Charles |William     |Smith      |Washer     |
+|>  |1005    |1999-06-06|Greg     |Johnson |Mary        |Jones      |Bike       |
+|>  |1005    |1999-06-06|Greg     |Johnson |Mary        |Jones      |Iron       |
+|>  |1005    |1999-06-06|Greg     |Johnson |Mary        |Jones      |Mixer      |
+|>  |1005    |1999-06-06|Greg     |Johnson |Mary        |Jones      |Skates     |
+|>  |1005    |1999-06-06|Greg     |Johnson |Mary        |Jones      |Stove      |
+|>  |1005    |1999-06-06|Greg     |Johnson |Mary        |Jones      |Washer     |
+|>  |1005    |1999-06-06|Greg     |Johnson |Sam         |Brown      |Bike       |
+|>  |1005    |1999-06-06|Greg     |Johnson |Sam         |Brown      |Iron       |
+|>  |1005    |1999-06-06|Greg     |Johnson |Sam         |Brown      |Mixer      |
+|>  |1005    |1999-06-06|Greg     |Johnson |Sam         |Brown      |Skates     |
+|>  |1005    |1999-06-06|Greg     |Johnson |Sam         |Brown      |Stove      |
+|>  |1005    |1999-06-06|Greg     |Johnson |Sam         |Brown      |Washer     |
+|>  |1005    |1999-06-06|Greg     |Johnson |William     |Smith      |Bike       |
+|>  |1005    |1999-06-06|Greg     |Johnson |William     |Smith      |Iron       |
+|>  |1005    |1999-06-06|Greg     |Johnson |William     |Smith      |Mixer      |
+|>  |1005    |1999-06-06|Greg     |Johnson |William     |Smith      |Skates     |
+|>  |1005    |1999-06-06|Greg     |Johnson |William     |Smith      |Stove      |
+|>  |1005    |1999-06-06|Greg     |Johnson |William     |Smith      |Washer     |
+|>  |1005    |1999-06-06|Jo       |Baker   |Mary        |Jones      |Bike       |
+|>  |1005    |1999-06-06|Jo       |Baker   |Mary        |Jones      |Iron       |
+|>  |1005    |1999-06-06|Jo       |Baker   |Mary        |Jones      |Mixer      |
+|>  |1005    |1999-06-06|Jo       |Baker   |Mary        |Jones      |Skates     |
+|>  |1005    |1999-06-06|Jo       |Baker   |Mary        |Jones      |Stove      |
+|>  |1005    |1999-06-06|Jo       |Baker   |Mary        |Jones      |Washer     |
+|>  |1005    |1999-06-06|Jo       |Baker   |Sam         |Brown      |Bike       |
+|>  |1005    |1999-06-06|Jo       |Baker   |Sam         |Brown      |Iron       |
+|>  |1005    |1999-06-06|Jo       |Baker   |Sam         |Brown      |Mixer      |
+|>  |1005    |1999-06-06|Jo       |Baker   |Sam         |Brown      |Skates     |
+|>  |1005    |1999-06-06|Jo       |Baker   |Sam         |Brown      |Stove      |
+|>  |1005    |1999-06-06|Jo       |Baker   |Sam         |Brown      |Washer     |
+|>  |1005    |1999-06-06|Jo       |Baker   |William     |Smith      |Bike       |
+|>  |1005    |1999-06-06|Jo       |Baker   |William     |Smith      |Iron       |
+|>  |1005    |1999-06-06|Jo       |Baker   |William     |Smith      |Mixer      |
+|>  |1005    |1999-06-06|Jo       |Baker   |William     |Smith      |Skates     |
+|>  |1005    |1999-06-06|Jo       |Baker   |William     |Smith      |Stove      |
+|>  |1005    |1999-06-06|Jo       |Baker   |William     |Smith      |Washer     |
+|>  |1005    |1999-06-06|Judy     |Roberts |Mary        |Jones      |Bike       |
+|>  |1005    |1999-06-06|Judy     |Roberts |Mary        |Jones      |Iron       |
+|>  |1005    |1999-06-06|Judy     |Roberts |Mary        |Jones      |Mixer      |
+|>  |1005    |1999-06-06|Judy     |Roberts |Mary        |Jones      |Skates     |
+|>  |1005    |1999-06-06|Judy     |Roberts |Mary        |Jones      |Stove      |
+|>  |1005    |1999-06-06|Judy     |Roberts |Mary        |Jones      |Washer     |
+|>  |1005    |1999-06-06|Judy     |Roberts |Sam         |Brown      |Bike       |
+|>  |1005    |1999-06-06|Judy     |Roberts |Sam         |Brown      |Iron       |
+|>  |1005    |1999-06-06|Judy     |Roberts |Sam         |Brown      |Mixer      |
+|>  |1005    |1999-06-06|Judy     |Roberts |Sam         |Brown      |Skates     |
+|>  |1005    |1999-06-06|Judy     |Roberts |Sam         |Brown      |Stove      |
+|>  |1005    |1999-06-06|Judy     |Roberts |Sam         |Brown      |Washer     |
+|>  |1005    |1999-06-06|Judy     |Roberts |William     |Smith      |Bike       |
+|>  |1005    |1999-06-06|Judy     |Roberts |William     |Smith      |Iron       |
+|>  |1005    |1999-06-06|Judy     |Roberts |William     |Smith      |Mixer      |
+|>  |1005    |1999-06-06|Judy     |Roberts |William     |Smith      |Skates     |
+|>  |1005    |1999-06-06|Judy     |Roberts |William     |Smith      |Stove      |
+|>  |1005    |1999-06-06|Judy     |Roberts |William     |Smith      |Washer     |
+|>  |1005    |1999-06-06|Margaret |Jones   |Mary        |Jones      |Bike       |
+|>  |1005    |1999-06-06|Margaret |Jones   |Mary        |Jones      |Iron       |
+|>  |1005    |1999-06-06|Margaret |Jones   |Mary        |Jones      |Mixer      |
+|>  |1005    |1999-06-06|Margaret |Jones   |Mary        |Jones      |Skates     |
+|>  |1005    |1999-06-06|Margaret |Jones   |Mary        |Jones      |Stove      |
+|>  |1005    |1999-06-06|Margaret |Jones   |Mary        |Jones      |Washer     |
+|>  |1005    |1999-06-06|Margaret |Jones   |Sam         |Brown      |Bike       |
+|>  |1005    |1999-06-06|Margaret |Jones   |Sam         |Brown      |Iron       |
+|>  |1005    |1999-06-06|Margaret |Jones   |Sam         |Brown      |Mixer      |
+|>  |1005    |1999-06-06|Margaret |Jones   |Sam         |Brown      |Skates     |
+|>  |1005    |1999-06-06|Margaret |Jones   |Sam         |Brown      |Stove      |
+|>  |1005    |1999-06-06|Margaret |Jones   |Sam         |Brown      |Washer     |
+|>  |1005    |1999-06-06|Margaret |Jones   |William     |Smith      |Bike       |
+|>  |1005    |1999-06-06|Margaret |Jones   |William     |Smith      |Iron       |
+|>  |1005    |1999-06-06|Margaret |Jones   |William     |Smith      |Mixer      |
+|>  |1005    |1999-06-06|Margaret |Jones   |William     |Smith      |Skates     |
+|>  |1005    |1999-06-06|Margaret |Jones   |William     |Smith      |Stove      |
+|>  |1005    |1999-06-06|Margaret |Jones   |William     |Smith      |Washer     |
+|>  |1005    |1999-06-06|Mary     |Nelson  |Mary        |Jones      |Bike       |
+|>  |1005    |1999-06-06|Mary     |Nelson  |Mary        |Jones      |Iron       |
+|>  |1005    |1999-06-06|Mary     |Nelson  |Mary        |Jones      |Mixer      |
+|>  |1005    |1999-06-06|Mary     |Nelson  |Mary        |Jones      |Skates     |
+|>  |1005    |1999-06-06|Mary     |Nelson  |Mary        |Jones      |Stove      |
+|>  |1005    |1999-06-06|Mary     |Nelson  |Mary        |Jones      |Washer     |
+|>  |1005    |1999-06-06|Mary     |Nelson  |Sam         |Brown      |Bike       |
+|>  |1005    |1999-06-06|Mary     |Nelson  |Sam         |Brown      |Iron       |
+|>  |1005    |1999-06-06|Mary     |Nelson  |Sam         |Brown      |Mixer      |
+|>  |1005    |1999-06-06|Mary     |Nelson  |Sam         |Brown      |Skates     |
+|>  |1005    |1999-06-06|Mary     |Nelson  |Sam         |Brown      |Stove      |
+|>  |1005    |1999-06-06|Mary     |Nelson  |Sam         |Brown      |Washer     |
+|>  |1005    |1999-06-06|Mary     |Nelson  |William     |Smith      |Bike       |
+|>  |1005    |1999-06-06|Mary     |Nelson  |William     |Smith      |Iron       |
+|>  |1005    |1999-06-06|Mary     |Nelson  |William     |Smith      |Mixer      |
+|>  |1005    |1999-06-06|Mary     |Nelson  |William     |Smith      |Skates     |
+|>  |1005    |1999-06-06|Mary     |Nelson  |William     |Smith      |Stove      |
+|>  |1005    |1999-06-06|Mary     |Nelson  |William     |Smith      |Washer     |
+|>  |1005    |1999-06-06|Peter    |Paulls  |Mary        |Jones      |Bike       |
+|>  |1005    |1999-06-06|Peter    |Paulls  |Mary        |Jones      |Iron       |
+|>  |1005    |1999-06-06|Peter    |Paulls  |Mary        |Jones      |Mixer      |
+|>  |1005    |1999-06-06|Peter    |Paulls  |Mary        |Jones      |Skates     |
+|>  |1005    |1999-06-06|Peter    |Paulls  |Mary        |Jones      |Stove      |
+|>  |1005    |1999-06-06|Peter    |Paulls  |Mary        |Jones      |Washer     |
+|>  |1005    |1999-06-06|Peter    |Paulls  |Sam         |Brown      |Bike       |
+|>  |1005    |1999-06-06|Peter    |Paulls  |Sam         |Brown      |Iron       |
+|>  |1005    |1999-06-06|Peter    |Paulls  |Sam         |Brown      |Mixer      |
+|>  |1005    |1999-06-06|Peter    |Paulls  |Sam         |Brown      |Skates     |
+|>  |1005    |1999-06-06|Peter    |Paulls  |Sam         |Brown      |Stove      |
+|>  |1005    |1999-06-06|Peter    |Paulls  |Sam         |Brown      |Washer     |
+|>  |1005    |1999-06-06|Peter    |Paulls  |William     |Smith      |Bike       |
+|>  |1005    |1999-06-06|Peter    |Paulls  |William     |Smith      |Iron       |
+|>  |1005    |1999-06-06|Peter    |Paulls  |William     |Smith      |Mixer      |
+|>  |1005    |1999-06-06|Peter    |Paulls  |William     |Smith      |Skates     |
+|>  |1005    |1999-06-06|Peter    |Paulls  |William     |Smith      |Stove      |
+|>  |1005    |1999-06-06|Peter    |Paulls  |William     |Smith      |Washer     |
+|>  |1005    |1999-06-06|Peter    |Yu      |Mary        |Jones      |Bike       |
+|>  |1005    |1999-06-06|Peter    |Yu      |Mary        |Jones      |Iron       |
+|>  |1005    |1999-06-06|Peter    |Yu      |Mary        |Jones      |Mixer      |
+|>  |1005    |1999-06-06|Peter    |Yu      |Mary        |Jones      |Skates     |
+|>  |1005    |1999-06-06|Peter    |Yu      |Mary        |Jones      |Stove      |
+|>  |1005    |1999-06-06|Peter    |Yu      |Mary        |Jones      |Washer     |
+|>  |1005    |1999-06-06|Peter    |Yu      |Sam         |Brown      |Bike       |
+|>  |1005    |1999-06-06|Peter    |Yu      |Sam         |Brown      |Iron       |
+|>  |1005    |1999-06-06|Peter    |Yu      |Sam         |Brown      |Mixer      |
+|>  |1005    |1999-06-06|Peter    |Yu      |Sam         |Brown      |Skates     |
+|>  |1005    |1999-06-06|Peter    |Yu      |Sam         |Brown      |Stove      |
+|>  |1005    |1999-06-06|Peter    |Yu      |Sam         |Brown      |Washer     |
+|>  |1005    |1999-06-06|Peter    |Yu      |William     |Smith      |Bike       |
+|>  |1005    |1999-06-06|Peter    |Yu      |William     |Smith      |Iron       |
+|>  |1005    |1999-06-06|Peter    |Yu      |William     |Smith      |Mixer      |
+|>  |1005    |1999-06-06|Peter    |Yu      |William     |Smith      |Skates     |
+|>  |1005    |1999-06-06|Peter    |Yu      |William     |Smith      |Stove      |
+|>  |1005    |1999-06-06|Peter    |Yu      |William     |Smith      |Washer     |
+|>  |1005    |1999-06-06|Robert   |McKenzie|Mary        |Jones      |Bike       |
+|>  |1005    |1999-06-06|Robert   |McKenzie|Mary        |Jones      |Iron       |
+|>  |1005    |1999-06-06|Robert   |McKenzie|Mary        |Jones      |Mixer      |
+|>  |1005    |1999-06-06|Robert   |McKenzie|Mary        |Jones      |Skates     |
+|>  |1005    |1999-06-06|Robert   |McKenzie|Mary        |Jones      |Stove      |
+|>  |1005    |1999-06-06|Robert   |McKenzie|Mary        |Jones      |Washer     |
+|>  |1005    |1999-06-06|Robert   |McKenzie|Sam         |Brown      |Bike       |
+|>  |1005    |1999-06-06|Robert   |McKenzie|Sam         |Brown      |Iron       |
+|>  |1005    |1999-06-06|Robert   |McKenzie|Sam         |Brown      |Mixer      |
+|>  |1005    |1999-06-06|Robert   |McKenzie|Sam         |Brown      |Skates     |
+|>  |1005    |1999-06-06|Robert   |McKenzie|Sam         |Brown      |Stove      |
+|>  |1005    |1999-06-06|Robert   |McKenzie|Sam         |Brown      |Washer     |
+|>  |1005    |1999-06-06|Robert   |McKenzie|William     |Smith      |Bike       |
+|>  |1005    |1999-06-06|Robert   |McKenzie|William     |Smith      |Iron       |
+|>  |1005    |1999-06-06|Robert   |McKenzie|William     |Smith      |Mixer      |
+|>  |1005    |1999-06-06|Robert   |McKenzie|William     |Smith      |Skates     |
+|>  |1005    |1999-06-06|Robert   |McKenzie|William     |Smith      |Stove      |
+|>  |1005    |1999-06-06|Robert   |McKenzie|William     |Smith      |Washer     |
+|>  |1003    |1999-05-18|Al       |Williams|Mary        |Jones      |Bike       |
+|>  |1003    |1999-05-18|Al       |Williams|Mary        |Jones      |Iron       |
+|>  |1003    |1999-05-18|Al       |Williams|Mary        |Jones      |Mixer      |
+|>  |1003    |1999-05-18|Al       |Williams|Mary        |Jones      |Skates     |
+|>  |1003    |1999-05-18|Al       |Williams|Mary        |Jones      |Stove      |
+|>  |1003    |1999-05-18|Al       |Williams|Mary        |Jones      |Washer     |
+|>  |1003    |1999-05-18|Al       |Williams|Sam         |Brown      |Bike       |
+|>  |1003    |1999-05-18|Al       |Williams|Sam         |Brown      |Iron       |
+|>  |1003    |1999-05-18|Al       |Williams|Sam         |Brown      |Mixer      |
+|>  |1003    |1999-05-18|Al       |Williams|Sam         |Brown      |Skates     |
+|>  |1003    |1999-05-18|Al       |Williams|Sam         |Brown      |Stove      |
+|>  |1003    |1999-05-18|Al       |Williams|Sam         |Brown      |Washer     |
+|>  |1003    |1999-05-18|Al       |Williams|William     |Smith      |Bike       |
+|>  |1003    |1999-05-18|Al       |Williams|William     |Smith      |Iron       |
+|>  |1003    |1999-05-18|Al       |Williams|William     |Smith      |Mixer      |
+|>  |1003    |1999-05-18|Al       |Williams|William     |Smith      |Skates     |
+|>  |1003    |1999-05-18|Al       |Williams|William     |Smith      |Stove      |
+|>  |1003    |1999-05-18|Al       |Williams|William     |Smith      |Washer     |
+|>  |1003    |1999-05-18|Ann      |Samuals |Mary        |Jones      |Bike       |
+|>  |1003    |1999-05-18|Ann      |Samuals |Mary        |Jones      |Iron       |
+|>  |1003    |1999-05-18|Ann      |Samuals |Mary        |Jones      |Mixer      |
+|>  |1003    |1999-05-18|Ann      |Samuals |Mary        |Jones      |Skates     |
+|>  |1003    |1999-05-18|Ann      |Samuals |Mary        |Jones      |Stove      |
+|>  |1003    |1999-05-18|Ann      |Samuals |Mary        |Jones      |Washer     |
+|>  |1003    |1999-05-18|Ann      |Samuals |Sam         |Brown      |Bike       |
+|>  |1003    |1999-05-18|Ann      |Samuals |Sam         |Brown      |Iron       |
+|>  |1003    |1999-05-18|Ann      |Samuals |Sam         |Brown      |Mixer      |
+|>  |1003    |1999-05-18|Ann      |Samuals |Sam         |Brown      |Skates     |
+|>  |1003    |1999-05-18|Ann      |Samuals |Sam         |Brown      |Stove      |
+|>  |1003    |1999-05-18|Ann      |Samuals |Sam         |Brown      |Washer     |
+|>  |1003    |1999-05-18|Ann      |Samuals |William     |Smith      |Bike       |
+|>  |1003    |1999-05-18|Ann      |Samuals |William     |Smith      |Iron       |
+|>  |1003    |1999-05-18|Ann      |Samuals |William     |Smith      |Mixer      |
+|>  |1003    |1999-05-18|Ann      |Samuals |William     |Smith      |Skates     |
+|>  |1003    |1999-05-18|Ann      |Samuals |William     |Smith      |Stove      |
+|>  |1003    |1999-05-18|Ann      |Samuals |William     |Smith      |Washer     |
+|>  |1003    |1999-05-18|Dan      |Martin  |Mary        |Jones      |Bike       |
+|>  |1003    |1999-05-18|Dan      |Martin  |Mary        |Jones      |Iron       |
+|>  |1003    |1999-05-18|Dan      |Martin  |Mary        |Jones      |Mixer      |
+|>  |1003    |1999-05-18|Dan      |Martin  |Mary        |Jones      |Skates     |
+|>  |1003    |1999-05-18|Dan      |Martin  |Mary        |Jones      |Stove      |
+|>  |1003    |1999-05-18|Dan      |Martin  |Mary        |Jones      |Washer     |
+|>  |1003    |1999-05-18|Dan      |Martin  |Sam         |Brown      |Bike       |
+|>  |1003    |1999-05-18|Dan      |Martin  |Sam         |Brown      |Iron       |
+|>  |1003    |1999-05-18|Dan      |Martin  |Sam         |Brown      |Mixer      |
+|>  |1003    |1999-05-18|Dan      |Martin  |Sam         |Brown      |Skates     |
+|>  |1003    |1999-05-18|Dan      |Martin  |Sam         |Brown      |Stove      |
+|>  |1003    |1999-05-18|Dan      |Martin  |Sam         |Brown      |Washer     |
+|>  |1003    |1999-05-18|Dan      |Martin  |William     |Smith      |Bike       |
+|>  |1003    |1999-05-18|Dan      |Martin  |William     |Smith      |Iron       |
+|>  |1003    |1999-05-18|Dan      |Martin  |William     |Smith      |Mixer      |
+|>  |1003    |1999-05-18|Dan      |Martin  |William     |Smith      |Skates     |
+|>  |1003    |1999-05-18|Dan      |Martin  |William     |Smith      |Stove      |
+|>  |1003    |1999-05-18|Dan      |Martin  |William     |Smith      |Washer     |
+|>  |1003    |1999-05-18|Don      |Charles |Mary        |Jones      |Bike       |
+|>  |1003    |1999-05-18|Don      |Charles |Mary        |Jones      |Iron       |
+|>  |1003    |1999-05-18|Don      |Charles |Mary        |Jones      |Mixer      |
+|>  |1003    |1999-05-18|Don      |Charles |Mary        |Jones      |Skates     |
+|>  |1003    |1999-05-18|Don      |Charles |Mary        |Jones      |Stove      |
+|>  |1003    |1999-05-18|Don      |Charles |Mary        |Jones      |Washer     |
+|>  |1003    |1999-05-18|Don      |Charles |Sam         |Brown      |Bike       |
+|>  |1003    |1999-05-18|Don      |Charles |Sam         |Brown      |Iron       |
+|>  |1003    |1999-05-18|Don      |Charles |Sam         |Brown      |Mixer      |
+|>  |1003    |1999-05-18|Don      |Charles |Sam         |Brown      |Skates     |
+|>  |1003    |1999-05-18|Don      |Charles |Sam         |Brown      |Stove      |
+|>  |1003    |1999-05-18|Don      |Charles |Sam         |Brown      |Washer     |
+|>  |1003    |1999-05-18|Don      |Charles |William     |Smith      |Bike       |
+|>  |1003    |1999-05-18|Don      |Charles |William     |Smith      |Iron       |
+|>  |1003    |1999-05-18|Don      |Charles |William     |Smith      |Mixer      |
+|>  |1003    |1999-05-18|Don      |Charles |William     |Smith      |Skates     |
+|>  |1003    |1999-05-18|Don      |Charles |William     |Smith      |Stove      |
+|>  |1003    |1999-05-18|Don      |Charles |William     |Smith      |Washer     |
+|>  |1003    |1999-05-18|Greg     |Johnson |Mary        |Jones      |Bike       |
+|>  |1003    |1999-05-18|Greg     |Johnson |Mary        |Jones      |Iron       |
+|>  |1003    |1999-05-18|Greg     |Johnson |Mary        |Jones      |Mixer      |
+|>  |1003    |1999-05-18|Greg     |Johnson |Mary        |Jones      |Skates     |
+|>  |1003    |1999-05-18|Greg     |Johnson |Mary        |Jones      |Stove      |
+|>  |1003    |1999-05-18|Greg     |Johnson |Mary        |Jones      |Washer     |
+|>  |1003    |1999-05-18|Greg     |Johnson |Sam         |Brown      |Bike       |
+|>  |1003    |1999-05-18|Greg     |Johnson |Sam         |Brown      |Iron       |
+|>  |1003    |1999-05-18|Greg     |Johnson |Sam         |Brown      |Mixer      |
+|>  |1003    |1999-05-18|Greg     |Johnson |Sam         |Brown      |Skates     |
+|>  |1003    |1999-05-18|Greg     |Johnson |Sam         |Brown      |Stove      |
+|>  |1003    |1999-05-18|Greg     |Johnson |Sam         |Brown      |Washer     |
+|>  |1003    |1999-05-18|Greg     |Johnson |William     |Smith      |Bike       |
+|>  |1003    |1999-05-18|Greg     |Johnson |William     |Smith      |Iron       |
+|>  |1003    |1999-05-18|Greg     |Johnson |William     |Smith      |Mixer      |
+|>  |1003    |1999-05-18|Greg     |Johnson |William     |Smith      |Skates     |
+|>  |1003    |1999-05-18|Greg     |Johnson |William     |Smith      |Stove      |
+|>  |1003    |1999-05-18|Greg     |Johnson |William     |Smith      |Washer     |
+|>  |1003    |1999-05-18|Jo       |Baker   |Mary        |Jones      |Bike       |
+|>  |1003    |1999-05-18|Jo       |Baker   |Mary        |Jones      |Iron       |
+|>  |1003    |1999-05-18|Jo       |Baker   |Mary        |Jones      |Mixer      |
+|>  |1003    |1999-05-18|Jo       |Baker   |Mary        |Jones      |Skates     |
+|>  |1003    |1999-05-18|Jo       |Baker   |Mary        |Jones      |Stove      |
+|>  |1003    |1999-05-18|Jo       |Baker   |Mary        |Jones      |Washer     |
+|>  |1003    |1999-05-18|Jo       |Baker   |Sam         |Brown      |Bike       |
+|>  |1003    |1999-05-18|Jo       |Baker   |Sam         |Brown      |Iron       |
+|>  |1003    |1999-05-18|Jo       |Baker   |Sam         |Brown      |Mixer      |
+|>  |1003    |1999-05-18|Jo       |Baker   |Sam         |Brown      |Skates     |
+|>  |1003    |1999-05-18|Jo       |Baker   |Sam         |Brown      |Stove      |
+|>  |1003    |1999-05-18|Jo       |Baker   |Sam         |Brown      |Washer     |
+|>  |1003    |1999-05-18|Jo       |Baker   |William     |Smith      |Bike       |
+|>  |1003    |1999-05-18|Jo       |Baker   |William     |Smith      |Iron       |
+|>  |1003    |1999-05-18|Jo       |Baker   |William     |Smith      |Mixer      |
+|>  |1003    |1999-05-18|Jo       |Baker   |William     |Smith      |Skates     |
+|>  |1003    |1999-05-18|Jo       |Baker   |William     |Smith      |Stove      |
+|>  |1003    |1999-05-18|Jo       |Baker   |William     |Smith      |Washer     |
+|>  |1003    |1999-05-18|Judy     |Roberts |Mary        |Jones      |Bike       |
+|>  |1003    |1999-05-18|Judy     |Roberts |Mary        |Jones      |Iron       |
+|>  |1003    |1999-05-18|Judy     |Roberts |Mary        |Jones      |Mixer      |
+|>  |1003    |1999-05-18|Judy     |Roberts |Mary        |Jones      |Skates     |
+|>  |1003    |1999-05-18|Judy     |Roberts |Mary        |Jones      |Stove      |
+|>  |1003    |1999-05-18|Judy     |Roberts |Mary        |Jones      |Washer     |
+|>  |1003    |1999-05-18|Judy     |Roberts |Sam         |Brown      |Bike       |
+|>  |1003    |1999-05-18|Judy     |Roberts |Sam         |Brown      |Iron       |
+|>  |1003    |1999-05-18|Judy     |Roberts |Sam         |Brown      |Mixer      |
+|>  |1003    |1999-05-18|Judy     |Roberts |Sam         |Brown      |Skates     |
+|>  |1003    |1999-05-18|Judy     |Roberts |Sam         |Brown      |Stove      |
+|>  |1003    |1999-05-18|Judy     |Roberts |Sam         |Brown      |Washer     |
+|>  |1003    |1999-05-18|Judy     |Roberts |William     |Smith      |Bike       |
+|>  |1003    |1999-05-18|Judy     |Roberts |William     |Smith      |Iron       |
+|>  |1003    |1999-05-18|Judy     |Roberts |William     |Smith      |Mixer      |
+|>  |1003    |1999-05-18|Judy     |Roberts |William     |Smith      |Skates     |
+|>  |1003    |1999-05-18|Judy     |Roberts |William     |Smith      |Stove      |
+|>  |1003    |1999-05-18|Judy     |Roberts |William     |Smith      |Washer     |
+|>  |1003    |1999-05-18|Margaret |Jones   |Mary        |Jones      |Bike       |
+|>  |1003    |1999-05-18|Margaret |Jones   |Mary        |Jones      |Iron       |
+|>  |1003    |1999-05-18|Margaret |Jones   |Mary        |Jones      |Mixer      |
+|>  |1003    |1999-05-18|Margaret |Jones   |Mary        |Jones      |Skates     |
+|>  |1003    |1999-05-18|Margaret |Jones   |Mary        |Jones      |Stove      |
+|>  |1003    |1999-05-18|Margaret |Jones   |Mary        |Jones      |Washer     |
+|>  |1003    |1999-05-18|Margaret |Jones   |Sam         |Brown      |Bike       |
+|>  |1003    |1999-05-18|Margaret |Jones   |Sam         |Brown      |Iron       |
+|>  |1003    |1999-05-18|Margaret |Jones   |Sam         |Brown      |Mixer      |
+|>  |1003    |1999-05-18|Margaret |Jones   |Sam         |Brown      |Skates     |
+|>  |1003    |1999-05-18|Margaret |Jones   |Sam         |Brown      |Stove      |
+|>  |1003    |1999-05-18|Margaret |Jones   |Sam         |Brown      |Washer     |
+|>  |1003    |1999-05-18|Margaret |Jones   |William     |Smith      |Bike       |
+|>  |1003    |1999-05-18|Margaret |Jones   |William     |Smith      |Iron       |
+|>  |1003    |1999-05-18|Margaret |Jones   |William     |Smith      |Mixer      |
+|>  |1003    |1999-05-18|Margaret |Jones   |William     |Smith      |Skates     |
+|>  |1003    |1999-05-18|Margaret |Jones   |William     |Smith      |Stove      |
+|>  |1003    |1999-05-18|Margaret |Jones   |William     |Smith      |Washer     |
+|>  |1003    |1999-05-18|Mary     |Nelson  |Mary        |Jones      |Bike       |
+|>  |1003    |1999-05-18|Mary     |Nelson  |Mary        |Jones      |Iron       |
+|>  |1003    |1999-05-18|Mary     |Nelson  |Mary        |Jones      |Mixer      |
+|>  |1003    |1999-05-18|Mary     |Nelson  |Mary        |Jones      |Skates     |
+|>  |1003    |1999-05-18|Mary     |Nelson  |Mary        |Jones      |Stove      |
+|>  |1003    |1999-05-18|Mary     |Nelson  |Mary        |Jones      |Washer     |
+|>  |1003    |1999-05-18|Mary     |Nelson  |Sam         |Brown      |Bike       |
+|>  |1003    |1999-05-18|Mary     |Nelson  |Sam         |Brown      |Iron       |
+|>  |1003    |1999-05-18|Mary     |Nelson  |Sam         |Brown      |Mixer      |
+|>  |1003    |1999-05-18|Mary     |Nelson  |Sam         |Brown      |Skates     |
+|>  |1003    |1999-05-18|Mary     |Nelson  |Sam         |Brown      |Stove      |
+|>  |1003    |1999-05-18|Mary     |Nelson  |Sam         |Brown      |Washer     |
+|>  |1003    |1999-05-18|Mary     |Nelson  |William     |Smith      |Bike       |
+|>  |1003    |1999-05-18|Mary     |Nelson  |William     |Smith      |Iron       |
+|>  |1003    |1999-05-18|Mary     |Nelson  |William     |Smith      |Mixer      |
+|>  |1003    |1999-05-18|Mary     |Nelson  |William     |Smith      |Skates     |
+|>  |1003    |1999-05-18|Mary     |Nelson  |William     |Smith      |Stove      |
+|>  |1003    |1999-05-18|Mary     |Nelson  |William     |Smith      |Washer     |
+|>  |1003    |1999-05-18|Peter    |Paulls  |Mary        |Jones      |Bike       |
+|>  |1003    |1999-05-18|Peter    |Paulls  |Mary        |Jones      |Iron       |
+|>  |1003    |1999-05-18|Peter    |Paulls  |Mary        |Jones      |Mixer      |
+|>  |1003    |1999-05-18|Peter    |Paulls  |Mary        |Jones      |Skates     |
+|>  |1003    |1999-05-18|Peter    |Paulls  |Mary        |Jones      |Stove      |
+|>  |1003    |1999-05-18|Peter    |Paulls  |Mary        |Jones      |Washer     |
+|>  |1003    |1999-05-18|Peter    |Paulls  |Sam         |Brown      |Bike       |
+|>  |1003    |1999-05-18|Peter    |Paulls  |Sam         |Brown      |Iron       |
+|>  |1003    |1999-05-18|Peter    |Paulls  |Sam         |Brown      |Mixer      |
+|>  |1003    |1999-05-18|Peter    |Paulls  |Sam         |Brown      |Skates     |
+|>  |1003    |1999-05-18|Peter    |Paulls  |Sam         |Brown      |Stove      |
+|>  |1003    |1999-05-18|Peter    |Paulls  |Sam         |Brown      |Washer     |
+|>  |1003    |1999-05-18|Peter    |Paulls  |William     |Smith      |Bike       |
+|>  |1003    |1999-05-18|Peter    |Paulls  |William     |Smith      |Iron       |
+|>  |1003    |1999-05-18|Peter    |Paulls  |William     |Smith      |Mixer      |
+|>  |1003    |1999-05-18|Peter    |Paulls  |William     |Smith      |Skates     |
+|>  |1003    |1999-05-18|Peter    |Paulls  |William     |Smith      |Stove      |
+|>  |1003    |1999-05-18|Peter    |Paulls  |William     |Smith      |Washer     |
+|>  |1003    |1999-05-18|Peter    |Yu      |Mary        |Jones      |Bike       |
+|>  |1003    |1999-05-18|Peter    |Yu      |Mary        |Jones      |Iron       |
+|>  |1003    |1999-05-18|Peter    |Yu      |Mary        |Jones      |Mixer      |
+|>  |1003    |1999-05-18|Peter    |Yu      |Mary        |Jones      |Skates     |
+|>  |1003    |1999-05-18|Peter    |Yu      |Mary        |Jones      |Stove      |
+|>  |1003    |1999-05-18|Peter    |Yu      |Mary        |Jones      |Washer     |
+|>  |1003    |1999-05-18|Peter    |Yu      |Sam         |Brown      |Bike       |
+|>  |1003    |1999-05-18|Peter    |Yu      |Sam         |Brown      |Iron       |
+|>  |1003    |1999-05-18|Peter    |Yu      |Sam         |Brown      |Mixer      |
+|>  |1003    |1999-05-18|Peter    |Yu      |Sam         |Brown      |Skates     |
+|>  |1003    |1999-05-18|Peter    |Yu      |Sam         |Brown      |Stove      |
+|>  |1003    |1999-05-18|Peter    |Yu      |Sam         |Brown      |Washer     |
+|>  |1003    |1999-05-18|Peter    |Yu      |William     |Smith      |Bike       |
+|>  |1003    |1999-05-18|Peter    |Yu      |William     |Smith      |Iron       |
+|>  |1003    |1999-05-18|Peter    |Yu      |William     |Smith      |Mixer      |
+|>  |1003    |1999-05-18|Peter    |Yu      |William     |Smith      |Skates     |
+|>  |1003    |1999-05-18|Peter    |Yu      |William     |Smith      |Stove      |
+|>  |1003    |1999-05-18|Peter    |Yu      |William     |Smith      |Washer     |
+|>  |1003    |1999-05-18|Robert   |McKenzie|Mary        |Jones      |Bike       |
+|>  |1003    |1999-05-18|Robert   |McKenzie|Mary        |Jones      |Iron       |
+|>  |1003    |1999-05-18|Robert   |McKenzie|Mary        |Jones      |Mixer      |
+|>  |1003    |1999-05-18|Robert   |McKenzie|Mary        |Jones      |Skates     |
+|>  |1003    |1999-05-18|Robert   |McKenzie|Mary        |Jones      |Stove      |
+|>  |1003    |1999-05-18|Robert   |McKenzie|Mary        |Jones      |Washer     |
+|>  |1003    |1999-05-18|Robert   |McKenzie|Sam         |Brown      |Bike       |
+|>  |1003    |1999-05-18|Robert   |McKenzie|Sam         |Brown      |Iron       |
+|>  |1003    |1999-05-18|Robert   |McKenzie|Sam         |Brown      |Mixer      |
+|>  |1003    |1999-05-18|Robert   |McKenzie|Sam         |Brown      |Skates     |
+|>  |1003    |1999-05-18|Robert   |McKenzie|Sam         |Brown      |Stove      |
+|>  |1003    |1999-05-18|Robert   |McKenzie|Sam         |Brown      |Washer     |
+|>  |1003    |1999-05-18|Robert   |McKenzie|William     |Smith      |Bike       |
+|>  |1003    |1999-05-18|Robert   |McKenzie|William     |Smith      |Iron       |
+|>  |1003    |1999-05-18|Robert   |McKenzie|William     |Smith      |Mixer      |
+|>  |1003    |1999-05-18|Robert   |McKenzie|William     |Smith      |Skates     |
+|>  |1003    |1999-05-18|Robert   |McKenzie|William     |Smith      |Stove      |
+|>  |1003    |1999-05-18|Robert   |McKenzie|William     |Smith      |Washer     |
+|>  |1003    |1999-05-18|Sally    |Adams   |Mary        |Jones      |Bike       |
+|>  |1003    |1999-05-18|Sally    |Adams   |Mary        |Jones      |Iron       |
+|>  |1003    |1999-05-18|Sally    |Adams   |Mary        |Jones      |Mixer      |
+|>  |1003    |1999-05-18|Sally    |Adams   |Mary        |Jones      |Skates     |
+|>  |1005    |1999-06-06|Sally    |Adams   |Mary        |Jones      |Stove      |
+|>  |1005    |1999-06-06|Sally    |Adams   |Mary        |Jones      |Washer     |
+|>  |1005    |1999-06-06|Sally    |Adams   |Sam         |Brown      |Bike       |
+|>  |1005    |1999-06-06|Sally    |Adams   |Sam         |Brown      |Iron       |
+|>  |1005    |1999-06-06|Sally    |Adams   |Sam         |Brown      |Mixer      |
+|>  |1005    |1999-06-06|Sally    |Adams   |Sam         |Brown      |Skates     |
+|>  |1005    |1999-06-06|Sally    |Adams   |Sam         |Brown      |Stove      |
+|>  |1005    |1999-06-06|Sally    |Adams   |Sam         |Brown      |Washer     |
+|>  |1005    |1999-06-06|Sally    |Adams   |William     |Smith      |Bike       |
+|>  |1005    |1999-06-06|Sally    |Adams   |William     |Smith      |Iron       |
+|>  |1005    |1999-06-06|Sally    |Adams   |William     |Smith      |Mixer      |
+|>  |1005    |1999-06-06|Sally    |Adams   |William     |Smith      |Skates     |
+|>  |1005    |1999-06-06|Sally    |Adams   |William     |Smith      |Stove      |
+|>  |1005    |1999-06-06|Sally    |Adams   |William     |Smith      |Washer     |
+|>  |1005    |1999-06-06|Sandra   |Adams   |Mary        |Jones      |Bike       |
+|>  |1005    |1999-06-06|Sandra   |Adams   |Mary        |Jones      |Iron       |
+|>  |1005    |1999-06-06|Sandra   |Adams   |Mary        |Jones      |Mixer      |
+|>  |1005    |1999-06-06|Sandra   |Adams   |Mary        |Jones      |Skates     |
+|>  |1005    |1999-06-06|Sandra   |Adams   |Mary        |Jones      |Stove      |
+|>  |1005    |1999-06-06|Sandra   |Adams   |Mary        |Jones      |Washer     |
+|>  |1005    |1999-06-06|Sandra   |Adams   |Sam         |Brown      |Bike       |
+|>  |1005    |1999-06-06|Sandra   |Adams   |Sam         |Brown      |Iron       |
+|>  |1005    |1999-06-06|Sandra   |Adams   |Sam         |Brown      |Mixer      |
+|>  |1005    |1999-06-06|Sandra   |Adams   |Sam         |Brown      |Skates     |
+|>  |1005    |1999-06-06|Sandra   |Adams   |Sam         |Brown      |Stove      |
+|>  |1005    |1999-06-06|Sandra   |Adams   |Sam         |Brown      |Washer     |
+|>  |1005    |1999-06-06|Sandra   |Adams   |William     |Smith      |Bike       |
+|>  |1005    |1999-06-06|Sandra   |Adams   |William     |Smith      |Iron       |
+|>  |1005    |1999-06-06|Sandra   |Adams   |William     |Smith      |Mixer      |
+|>  |1005    |1999-06-06|Sandra   |Adams   |William     |Smith      |Skates     |
+|>  |1005    |1999-06-06|Sandra   |Adams   |William     |Smith      |Stove      |
+|>  |1005    |1999-06-06|Sandra   |Adams   |William     |Smith      |Washer     |
+|>  |1005    |1999-06-06|Tom      |Daniels |Mary        |Jones      |Bike       |
+|>  |1005    |1999-06-06|Tom      |Daniels |Mary        |Jones      |Iron       |
+|>  |1005    |1999-06-06|Tom      |Daniels |Mary        |Jones      |Mixer      |
+|>  |1005    |1999-06-06|Tom      |Daniels |Mary        |Jones      |Skates     |
+|>  |1005    |1999-06-06|Tom      |Daniels |Mary        |Jones      |Stove      |
+|>  |1005    |1999-06-06|Tom      |Daniels |Mary        |Jones      |Washer     |
+|>  |1005    |1999-06-06|Tom      |Daniels |Sam         |Brown      |Bike       |
+|>  |1005    |1999-06-06|Tom      |Daniels |Sam         |Brown      |Iron       |
+|>  |1005    |1999-06-06|Tom      |Daniels |Sam         |Brown      |Mixer      |
+|>  |1005    |1999-06-06|Tom      |Daniels |Sam         |Brown      |Skates     |
+|>  |1005    |1999-06-06|Tom      |Daniels |Sam         |Brown      |Stove      |
+|>  |1005    |1999-06-06|Tom      |Daniels |Sam         |Brown      |Washer     |
+|>  |1005    |1999-06-06|Tom      |Daniels |William     |Smith      |Bike       |
+|>  |1005    |1999-06-06|Tom      |Daniels |William     |Smith      |Iron       |
+|>  |1005    |1999-06-06|Tom      |Daniels |William     |Smith      |Mixer      |
+|>  |1005    |1999-06-06|Tom      |Daniels |William     |Smith      |Skates     |
+|>  |1005    |1999-06-06|Tom      |Daniels |William     |Smith      |Stove      |
+|>  |1005    |1999-06-06|Tom      |Daniels |William     |Smith      |Washer     |
+|>  |1006    |1999-06-12|Al       |Williams|Mary        |Jones      |Bike       |
+|>  |1006    |1999-06-12|Al       |Williams|Mary        |Jones      |Iron       |
+|>  |1006    |1999-06-12|Al       |Williams|Mary        |Jones      |Mixer      |
+|>  |1006    |1999-06-12|Al       |Williams|Mary        |Jones      |Skates     |
+|>  |1006    |1999-06-12|Al       |Williams|Mary        |Jones      |Stove      |
+|>  |1006    |1999-06-12|Al       |Williams|Mary        |Jones      |Washer     |
+|>  |1006    |1999-06-12|Al       |Williams|Sam         |Brown      |Bike       |
+|>  |1006    |1999-06-12|Al       |Williams|Sam         |Brown      |Iron       |
+|>  |1006    |1999-06-12|Al       |Williams|Sam         |Brown      |Mixer      |
+|>  |1006    |1999-06-12|Al       |Williams|Sam         |Brown      |Skates     |
+|>  |1006    |1999-06-12|Al       |Williams|Sam         |Brown      |Stove      |
+|>  |1006    |1999-06-12|Al       |Williams|Sam         |Brown      |Washer     |
+|>  |1006    |1999-06-12|Al       |Williams|William     |Smith      |Bike       |
+|>  |1006    |1999-06-12|Al       |Williams|William     |Smith      |Iron       |
+|>  |1006    |1999-06-12|Al       |Williams|William     |Smith      |Mixer      |
+|>  |1006    |1999-06-12|Al       |Williams|William     |Smith      |Skates     |
+|>  |1006    |1999-06-12|Al       |Williams|William     |Smith      |Stove      |
+|>  |1006    |1999-06-12|Al       |Williams|William     |Smith      |Washer     |
+|>  |1006    |1999-06-12|Ann      |Samuals |Mary        |Jones      |Bike       |
+|>  |1006    |1999-06-12|Ann      |Samuals |Mary        |Jones      |Iron       |
+|>  |1006    |1999-06-12|Ann      |Samuals |Mary        |Jones      |Mixer      |
+|>  |1006    |1999-06-12|Ann      |Samuals |Mary        |Jones      |Skates     |
+|>  |1006    |1999-06-12|Ann      |Samuals |Mary        |Jones      |Stove      |
+|>  |1006    |1999-06-12|Ann      |Samuals |Mary        |Jones      |Washer     |
+|>  |1006    |1999-06-12|Ann      |Samuals |Sam         |Brown      |Bike       |
+|>  |1006    |1999-06-12|Ann      |Samuals |Sam         |Brown      |Iron       |
+|>  |1006    |1999-06-12|Ann      |Samuals |Sam         |Brown      |Mixer      |
+|>  |1006    |1999-06-12|Ann      |Samuals |Sam         |Brown      |Skates     |
+|>  |1006    |1999-06-12|Ann      |Samuals |Sam         |Brown      |Stove      |
+|>  |1006    |1999-06-12|Ann      |Samuals |Sam         |Brown      |Washer     |
+|>  |1006    |1999-06-12|Ann      |Samuals |William     |Smith      |Bike       |
+|>  |1006    |1999-06-12|Ann      |Samuals |William     |Smith      |Iron       |
+|>  |1006    |1999-06-12|Ann      |Samuals |William     |Smith      |Mixer      |
+|>  |1006    |1999-06-12|Ann      |Samuals |William     |Smith      |Skates     |
+|>  |1006    |1999-06-12|Ann      |Samuals |William     |Smith      |Stove      |
+|>  |1006    |1999-06-12|Ann      |Samuals |William     |Smith      |Washer     |
+|>  |1006    |1999-06-12|Dan      |Martin  |Mary        |Jones      |Bike       |
+|>  |1006    |1999-06-12|Dan      |Martin  |Mary        |Jones      |Iron       |
+|>  |1006    |1999-06-12|Dan      |Martin  |Mary        |Jones      |Mixer      |
+|>  |1006    |1999-06-12|Dan      |Martin  |Mary        |Jones      |Skates     |
+|>  |1006    |1999-06-12|Dan      |Martin  |Mary        |Jones      |Stove      |
+|>  |1006    |1999-06-12|Dan      |Martin  |Mary        |Jones      |Washer     |
+|>  |1006    |1999-06-12|Dan      |Martin  |Sam         |Brown      |Bike       |
+|>  |1006    |1999-06-12|Dan      |Martin  |Sam         |Brown      |Iron       |
+|>  |1006    |1999-06-12|Dan      |Martin  |Sam         |Brown      |Mixer      |
+|>  |1006    |1999-06-12|Dan      |Martin  |Sam         |Brown      |Skates     |
+|>  |1006    |1999-06-12|Dan      |Martin  |Sam         |Brown      |Stove      |
+|>  |1006    |1999-06-12|Dan      |Martin  |Sam         |Brown      |Washer     |
+|>  |1006    |1999-06-12|Dan      |Martin  |William     |Smith      |Bike       |
+|>  |1006    |1999-06-12|Dan      |Martin  |William     |Smith      |Iron       |
+|>  |1006    |1999-06-12|Dan      |Martin  |William     |Smith      |Mixer      |
+|>  |1006    |1999-06-12|Dan      |Martin  |William     |Smith      |Skates     |
+|>  |1006    |1999-06-12|Dan      |Martin  |William     |Smith      |Stove      |
+|>  |1006    |1999-06-12|Dan      |Martin  |William     |Smith      |Washer     |
+|>  |1006    |1999-06-12|Don      |Charles |Mary        |Jones      |Bike       |
+|>  |1006    |1999-06-12|Don      |Charles |Mary        |Jones      |Iron       |
+|>  |1006    |1999-06-12|Don      |Charles |Mary        |Jones      |Mixer      |
+|>  |1006    |1999-06-12|Don      |Charles |Mary        |Jones      |Skates     |
+|>  |1006    |1999-06-12|Don      |Charles |Mary        |Jones      |Stove      |
+|>  |1006    |1999-06-12|Don      |Charles |Mary        |Jones      |Washer     |
+|>  |1006    |1999-06-12|Don      |Charles |Sam         |Brown      |Bike       |
+|>  |1006    |1999-06-12|Don      |Charles |Sam         |Brown      |Iron       |
+|>  |1006    |1999-06-12|Don      |Charles |Sam         |Brown      |Mixer      |
+|>  |1006    |1999-06-12|Don      |Charles |Sam         |Brown      |Skates     |
+|>  |1006    |1999-06-12|Don      |Charles |Sam         |Brown      |Stove      |
+|>  |1006    |1999-06-12|Don      |Charles |Sam         |Brown      |Washer     |
+|>  |1006    |1999-06-12|Don      |Charles |William     |Smith      |Bike       |
+|>  |1006    |1999-06-12|Don      |Charles |William     |Smith      |Iron       |
+|>  |1006    |1999-06-12|Don      |Charles |William     |Smith      |Mixer      |
+|>  |1006    |1999-06-12|Don      |Charles |William     |Smith      |Skates     |
+|>  |1006    |1999-06-12|Don      |Charles |William     |Smith      |Stove      |
+|>  |1006    |1999-06-12|Don      |Charles |William     |Smith      |Washer     |
+|>  |1006    |1999-06-12|Greg     |Johnson |Mary        |Jones      |Bike       |
+|>  |1006    |1999-06-12|Greg     |Johnson |Mary        |Jones      |Iron       |
+|>  |1006    |1999-06-12|Greg     |Johnson |Mary        |Jones      |Mixer      |
+|>  |1006    |1999-06-12|Greg     |Johnson |Mary        |Jones      |Skates     |
+|>  |1006    |1999-06-12|Greg     |Johnson |Mary        |Jones      |Stove      |
+|>  |1006    |1999-06-12|Greg     |Johnson |Mary        |Jones      |Washer     |
+|>  |1006    |1999-06-12|Greg     |Johnson |Sam         |Brown      |Bike       |
+|>  |1006    |1999-06-12|Greg     |Johnson |Sam         |Brown      |Iron       |
+|>  |1006    |1999-06-12|Greg     |Johnson |Sam         |Brown      |Mixer      |
+|>  |1006    |1999-06-12|Greg     |Johnson |Sam         |Brown      |Skates     |
+|>  |1006    |1999-06-12|Greg     |Johnson |Sam         |Brown      |Stove      |
+|>  |1006    |1999-06-12|Greg     |Johnson |Sam         |Brown      |Washer     |
+|>  |1006    |1999-06-12|Greg     |Johnson |William     |Smith      |Bike       |
+|>  |1006    |1999-06-12|Greg     |Johnson |William     |Smith      |Iron       |
+|>  |1006    |1999-06-12|Greg     |Johnson |William     |Smith      |Mixer      |
+|>  |1006    |1999-06-12|Greg     |Johnson |William     |Smith      |Skates     |
+|>  |1006    |1999-06-12|Greg     |Johnson |William     |Smith      |Stove      |
+|>  |1006    |1999-06-12|Greg     |Johnson |William     |Smith      |Washer     |
+|>  |1006    |1999-06-12|Jo       |Baker   |Mary        |Jones      |Bike       |
+|>  |1006    |1999-06-12|Jo       |Baker   |Mary        |Jones      |Iron       |
+|>  |1006    |1999-06-12|Jo       |Baker   |Mary        |Jones      |Mixer      |
+|>  |1006    |1999-06-12|Jo       |Baker   |Mary        |Jones      |Skates     |
+|>  |1006    |1999-06-12|Jo       |Baker   |Mary        |Jones      |Stove      |
+|>  |1006    |1999-06-12|Jo       |Baker   |Mary        |Jones      |Washer     |
+|>  |1006    |1999-06-12|Jo       |Baker   |Sam         |Brown      |Bike       |
+|>  |1006    |1999-06-12|Jo       |Baker   |Sam         |Brown      |Iron       |
+|>  |1006    |1999-06-12|Jo       |Baker   |Sam         |Brown      |Mixer      |
+|>  |1006    |1999-06-12|Jo       |Baker   |Sam         |Brown      |Skates     |
+|>  |1006    |1999-06-12|Jo       |Baker   |Sam         |Brown      |Stove      |
+|>  |1006    |1999-06-12|Jo       |Baker   |Sam         |Brown      |Washer     |
+|>  |1006    |1999-06-12|Jo       |Baker   |William     |Smith      |Bike       |
+|>  |1006    |1999-06-12|Jo       |Baker   |William     |Smith      |Iron       |
+|>  |1006    |1999-06-12|Jo       |Baker   |William     |Smith      |Mixer      |
+|>  |1006    |1999-06-12|Jo       |Baker   |William     |Smith      |Skates     |
+|>  |1006    |1999-06-12|Jo       |Baker   |William     |Smith      |Stove      |
+|>  |1006    |1999-06-12|Jo       |Baker   |William     |Smith      |Washer     |
+|>  |1006    |1999-06-12|Judy     |Roberts |Mary        |Jones      |Bike       |
+|>  |1006    |1999-06-12|Judy     |Roberts |Mary        |Jones      |Iron       |
+|>  |1006    |1999-06-12|Judy     |Roberts |Mary        |Jones      |Mixer      |
+|>  |1006    |1999-06-12|Judy     |Roberts |Mary        |Jones      |Skates     |
+|>  |1006    |1999-06-12|Judy     |Roberts |Mary        |Jones      |Stove      |
+|>  |1006    |1999-06-12|Judy     |Roberts |Mary        |Jones      |Washer     |
+|>  |1006    |1999-06-12|Judy     |Roberts |Sam         |Brown      |Bike       |
+|>  |1006    |1999-06-12|Judy     |Roberts |Sam         |Brown      |Iron       |
+|>  |1006    |1999-06-12|Judy     |Roberts |Sam         |Brown      |Mixer      |
+|>  |1006    |1999-06-12|Judy     |Roberts |Sam         |Brown      |Skates     |
+|>  |1006    |1999-06-12|Judy     |Roberts |Sam         |Brown      |Stove      |
+|>  |1006    |1999-06-12|Judy     |Roberts |Sam         |Brown      |Washer     |
+|>  |1006    |1999-06-12|Judy     |Roberts |William     |Smith      |Bike       |
+|>  |1006    |1999-06-12|Judy     |Roberts |William     |Smith      |Iron       |
+|>  |1006    |1999-06-12|Judy     |Roberts |William     |Smith      |Mixer      |
+|>  |1006    |1999-06-12|Judy     |Roberts |William     |Smith      |Skates     |
+|>  |1006    |1999-06-12|Judy     |Roberts |William     |Smith      |Stove      |
+|>  |1006    |1999-06-12|Judy     |Roberts |William     |Smith      |Washer     |
+|>  |1006    |1999-06-12|Margaret |Jones   |Mary        |Jones      |Bike       |
+|>  |1006    |1999-06-12|Margaret |Jones   |Mary        |Jones      |Iron       |
+|>  |1006    |1999-06-12|Margaret |Jones   |Mary        |Jones      |Mixer      |
+|>  |1006    |1999-06-12|Margaret |Jones   |Mary        |Jones      |Skates     |
+|>  |1006    |1999-06-12|Margaret |Jones   |Mary        |Jones      |Stove      |
+|>  |1006    |1999-06-12|Margaret |Jones   |Mary        |Jones      |Washer     |
+|>  |1006    |1999-06-12|Margaret |Jones   |Sam         |Brown      |Bike       |
+|>  |1006    |1999-06-12|Margaret |Jones   |Sam         |Brown      |Iron       |
+|>  |1006    |1999-06-12|Margaret |Jones   |Sam         |Brown      |Mixer      |
+|>  |1006    |1999-06-12|Margaret |Jones   |Sam         |Brown      |Skates     |
+|>  |1006    |1999-06-12|Margaret |Jones   |Sam         |Brown      |Stove      |
+|>  |1006    |1999-06-12|Margaret |Jones   |Sam         |Brown      |Washer     |
+|>  |1006    |1999-06-12|Margaret |Jones   |William     |Smith      |Bike       |
+|>  |1006    |1999-06-12|Margaret |Jones   |William     |Smith      |Iron       |
+|>  |1006    |1999-06-12|Margaret |Jones   |William     |Smith      |Mixer      |
+|>  |1006    |1999-06-12|Margaret |Jones   |William     |Smith      |Skates     |
+|>  |1006    |1999-06-12|Margaret |Jones   |William     |Smith      |Stove      |
+|>  |1006    |1999-06-12|Margaret |Jones   |William     |Smith      |Washer     |
+|>  |1006    |1999-06-12|Mary     |Nelson  |Mary        |Jones      |Bike       |
+|>  |1006    |1999-06-12|Mary     |Nelson  |Mary        |Jones      |Iron       |
+|>  |1006    |1999-06-12|Mary     |Nelson  |Mary        |Jones      |Mixer      |
+|>  |1006    |1999-06-12|Mary     |Nelson  |Mary        |Jones      |Skates     |
+|>  |1006    |1999-06-12|Mary     |Nelson  |Mary        |Jones      |Washer     |
+|>  |1006    |1999-06-12|Mary     |Nelson  |Sam         |Brown      |Bike       |
+|>  |1006    |1999-06-12|Mary     |Nelson  |Sam         |Brown      |Iron       |
+|>  |1006    |1999-06-12|Mary     |Nelson  |Sam         |Brown      |Mixer      |
+|>  |1006    |1999-06-12|Mary     |Nelson  |Sam         |Brown      |Skates     |
+|>  |1006    |1999-06-12|Mary     |Nelson  |Sam         |Brown      |Stove      |
+|>  |1006    |1999-06-12|Mary     |Nelson  |Sam         |Brown      |Washer     |
+|>  |1006    |1999-06-12|Mary     |Nelson  |William     |Smith      |Bike       |
+|>  |1006    |1999-06-12|Mary     |Nelson  |William     |Smith      |Iron       |
+|>  |1006    |1999-06-12|Mary     |Nelson  |William     |Smith      |Mixer      |
+|>  |1006    |1999-06-12|Mary     |Nelson  |William     |Smith      |Skates     |
+|>  |1006    |1999-06-12|Mary     |Nelson  |William     |Smith      |Stove      |
+|>  |1006    |1999-06-12|Mary     |Nelson  |William     |Smith      |Washer     |
+|>  |1006    |1999-06-12|Peter    |Paulls  |Mary        |Jones      |Bike       |
+|>  |1006    |1999-06-12|Peter    |Paulls  |Mary        |Jones      |Iron       |
+|>  |1006    |1999-06-12|Peter    |Paulls  |Mary        |Jones      |Mixer      |
+|>  |1006    |1999-06-12|Peter    |Paulls  |Mary        |Jones      |Skates     |
+|>  |1006    |1999-06-12|Peter    |Paulls  |Mary        |Jones      |Stove      |
+|>  |1006    |1999-06-12|Peter    |Paulls  |Mary        |Jones      |Washer     |
+|>  |1006    |1999-06-12|Peter    |Paulls  |Sam         |Brown      |Bike       |
+|>  |1006    |1999-06-12|Peter    |Paulls  |Sam         |Brown      |Iron       |
+|>  |1006    |1999-06-12|Peter    |Paulls  |Sam         |Brown      |Mixer      |
+|>  |1006    |1999-06-12|Peter    |Paulls  |Sam         |Brown      |Skates     |
+|>  |1006    |1999-06-12|Peter    |Paulls  |Sam         |Brown      |Stove      |
+|>  |1006    |1999-06-12|Peter    |Paulls  |Sam         |Brown      |Washer     |
+|>  |1006    |1999-06-12|Peter    |Paulls  |William     |Smith      |Bike       |
+|>  |1006    |1999-06-12|Peter    |Paulls  |William     |Smith      |Iron       |
+|>  |1006    |1999-06-12|Peter    |Paulls  |William     |Smith      |Mixer      |
+|>  |1006    |1999-06-12|Peter    |Paulls  |William     |Smith      |Skates     |
+|>  |1006    |1999-06-12|Peter    |Paulls  |William     |Smith      |Stove      |
+|>  |1006    |1999-06-12|Peter    |Paulls  |William     |Smith      |Washer     |
+|>  |1006    |1999-06-12|Peter    |Yu      |Mary        |Jones      |Bike       |
+|>  |1006    |1999-06-12|Peter    |Yu      |Mary        |Jones      |Iron       |
+|>  |1006    |1999-06-12|Peter    |Yu      |Mary        |Jones      |Mixer      |
+|>  |1006    |1999-06-12|Peter    |Yu      |Mary        |Jones      |Skates     |
+|>  |1006    |1999-06-12|Peter    |Yu      |Mary        |Jones      |Stove      |
+|>  |1006    |1999-06-12|Peter    |Yu      |Mary        |Jones      |Washer     |
+|>  |1006    |1999-06-12|Peter    |Yu      |Sam         |Brown      |Bike       |
+|>  |1006    |1999-06-12|Peter    |Yu      |Sam         |Brown      |Iron       |
+|>  |1006    |1999-06-12|Peter    |Yu      |Sam         |Brown      |Mixer      |
+|>  |1006    |1999-06-12|Peter    |Yu      |Sam         |Brown      |Skates     |
+|>  |1006    |1999-06-12|Peter    |Yu      |Sam         |Brown      |Stove      |
+|>  |1006    |1999-06-12|Peter    |Yu      |Sam         |Brown      |Washer     |
+|>  |1006    |1999-06-12|Peter    |Yu      |William     |Smith      |Bike       |
+|>  |1006    |1999-06-12|Peter    |Yu      |William     |Smith      |Iron       |
+|>  |1006    |1999-06-12|Peter    |Yu      |William     |Smith      |Mixer      |
+|>  |1006    |1999-06-12|Peter    |Yu      |William     |Smith      |Skates     |
+|>  |1006    |1999-06-12|Peter    |Yu      |William     |Smith      |Stove      |
+|>  |1006    |1999-06-12|Peter    |Yu      |William     |Smith      |Washer     |
+|>  |1006    |1999-06-12|Robert   |McKenzie|Mary        |Jones      |Bike       |
+|>  |1006    |1999-06-12|Robert   |McKenzie|Mary        |Jones      |Iron       |
+|>  |1006    |1999-06-12|Robert   |McKenzie|Mary        |Jones      |Mixer      |
+|>  |1006    |1999-06-12|Robert   |McKenzie|Mary        |Jones      |Skates     |
+|>  |1006    |1999-06-12|Robert   |McKenzie|Mary        |Jones      |Stove      |
+|>  |1006    |1999-06-12|Robert   |McKenzie|Mary        |Jones      |Washer     |
+|>  |1006    |1999-06-12|Robert   |McKenzie|Sam         |Brown      |Bike       |
+|>  |1006    |1999-06-12|Robert   |McKenzie|Sam         |Brown      |Iron       |
+|>  |1006    |1999-06-12|Robert   |McKenzie|Sam         |Brown      |Mixer      |
+|>  |1006    |1999-06-12|Robert   |McKenzie|Sam         |Brown      |Skates     |
+|>  |1006    |1999-06-12|Robert   |McKenzie|Sam         |Brown      |Stove      |
+|>  |1006    |1999-06-12|Robert   |McKenzie|Sam         |Brown      |Washer     |
+|>  |1006    |1999-06-12|Robert   |McKenzie|William     |Smith      |Bike       |
+|>  |1006    |1999-06-12|Robert   |McKenzie|William     |Smith      |Iron       |
+|>  |1006    |1999-06-12|Robert   |McKenzie|William     |Smith      |Mixer      |
+|>  |1006    |1999-06-12|Robert   |McKenzie|William     |Smith      |Skates     |
+|>  |1006    |1999-06-12|Robert   |McKenzie|William     |Smith      |Stove      |
+|>  |1006    |1999-06-12|Robert   |McKenzie|William     |Smith      |Washer     |
+|>  |1006    |1999-06-12|Sally    |Adams   |Mary        |Jones      |Bike       |
+|>  |1006    |1999-06-12|Sally    |Adams   |Mary        |Jones      |Iron       |
+|>  |1006    |1999-06-12|Sally    |Adams   |Mary        |Jones      |Mixer      |
+|>  |1006    |1999-06-12|Sally    |Adams   |Mary        |Jones      |Skates     |
+|>  |1006    |1999-06-12|Sally    |Adams   |Mary        |Jones      |Stove      |
+|>  |1006    |1999-06-12|Sally    |Adams   |Mary        |Jones      |Washer     |
+|>  |1006    |1999-06-12|Sally    |Adams   |Sam         |Brown      |Bike       |
+|>  |1006    |1999-06-12|Sally    |Adams   |Sam         |Brown      |Iron       |
+|>  |1006    |1999-06-12|Sally    |Adams   |Sam         |Brown      |Mixer      |
+|>  |1006    |1999-06-12|Sally    |Adams   |Sam         |Brown      |Skates     |
+|>  |1006    |1999-06-12|Sally    |Adams   |Sam         |Brown      |Stove      |
+|>  |1006    |1999-06-12|Sally    |Adams   |Sam         |Brown      |Washer     |
+|>  |1006    |1999-06-12|Sally    |Adams   |William     |Smith      |Bike       |
+|>  |1006    |1999-06-12|Sally    |Adams   |William     |Smith      |Iron       |
+|>  |1006    |1999-06-12|Sally    |Adams   |William     |Smith      |Mixer      |
+|>  |1006    |1999-06-12|Sally    |Adams   |William     |Smith      |Skates     |
+|>  |1006    |1999-06-12|Sally    |Adams   |William     |Smith      |Stove      |
+|>  |1006    |1999-06-12|Sally    |Adams   |William     |Smith      |Washer     |
+|>  |1006    |1999-06-12|Sandra   |Adams   |Mary        |Jones      |Bike       |
+|>  |1006    |1999-06-12|Sandra   |Adams   |Mary        |Jones      |Iron       |
+|>  |1006    |1999-06-12|Sandra   |Adams   |Mary        |Jones      |Mixer      |
+|>  |1006    |1999-06-12|Sandra   |Adams   |Mary        |Jones      |Skates     |
+|>  |1006    |1999-06-12|Sandra   |Adams   |Mary        |Jones      |Stove      |
+|>  |1006    |1999-06-12|Sandra   |Adams   |Mary        |Jones      |Washer     |
+|>  |1006    |1999-06-12|Sandra   |Adams   |Sam         |Brown      |Bike       |
+|>  |1006    |1999-06-12|Sandra   |Adams   |Sam         |Brown      |Iron       |
+|>  |1006    |1999-06-12|Sandra   |Adams   |Sam         |Brown      |Mixer      |
+|>  |1006    |1999-06-12|Sandra   |Adams   |Sam         |Brown      |Skates     |
+|>  |1006    |1999-06-12|Sandra   |Adams   |Sam         |Brown      |Stove      |
+|>  |1006    |1999-06-12|Sandra   |Adams   |Sam         |Brown      |Washer     |
+|>  |1006    |1999-06-12|Sandra   |Adams   |William     |Smith      |Bike       |
+|>  |1006    |1999-06-12|Sandra   |Adams   |William     |Smith      |Iron       |
+|>  |1006    |1999-06-12|Sandra   |Adams   |William     |Smith      |Mixer      |
+|>  |1006    |1999-06-12|Sandra   |Adams   |William     |Smith      |Skates     |
+|>  |1006    |1999-06-12|Sandra   |Adams   |William     |Smith      |Stove      |
+|>  |1006    |1999-06-12|Sandra   |Adams   |William     |Smith      |Washer     |
+|>  |1006    |1999-06-12|Tom      |Daniels |Mary        |Jones      |Bike       |
+|>  |1006    |1999-06-12|Tom      |Daniels |Mary        |Jones      |Iron       |
+|>  |1006    |1999-06-12|Tom      |Daniels |Mary        |Jones      |Mixer      |
+|>  |1006    |1999-06-12|Tom      |Daniels |Mary        |Jones      |Skates     |
+|>  |1006    |1999-06-12|Tom      |Daniels |Mary        |Jones      |Stove      |
+|>  |1006    |1999-06-12|Tom      |Daniels |Mary        |Jones      |Washer     |
+|>  |1006    |1999-06-12|Tom      |Daniels |Sam         |Brown      |Bike       |
+|>  |1006    |1999-06-12|Tom      |Daniels |Sam         |Brown      |Iron       |
+|>  |1006    |1999-06-12|Tom      |Daniels |Sam         |Brown      |Mixer      |
+|>  |1006    |1999-06-12|Tom      |Daniels |Sam         |Brown      |Skates     |
+|>  |1006    |1999-06-12|Tom      |Daniels |Sam         |Brown      |Stove      |
+|>  |1006    |1999-06-12|Tom      |Daniels |Sam         |Brown      |Washer     |
+|>  |1006    |1999-06-12|Tom      |Daniels |William     |Smith      |Bike       |
+|>  |1006    |1999-06-12|Tom      |Daniels |William     |Smith      |Iron       |
+|>  |1006    |1999-06-12|Tom      |Daniels |William     |Smith      |Mixer      |
+|>  |1006    |1999-06-12|Tom      |Daniels |William     |Smith      |Skates     |
+|>  |1006    |1999-06-12|Tom      |Daniels |William     |Smith      |Stove      |
+|>  |1006    |1999-06-12|Tom      |Daniels |William     |Smith      |Washer     |
+|>  |1007    |1999-06-13|Al       |Williams|Mary        |Jones      |Bike       |
+|>  |1007    |1999-06-13|Al       |Williams|Mary        |Jones      |Iron       |
+|>  |1007    |1999-06-13|Al       |Williams|Mary        |Jones      |Mixer      |
+|>  |1007    |1999-06-13|Al       |Williams|Mary        |Jones      |Skates     |
+|>  |1007    |1999-06-13|Al       |Williams|Mary        |Jones      |Stove      |
+|>  |1007    |1999-06-13|Al       |Williams|Mary        |Jones      |Washer     |
+|>  |1007    |1999-06-13|Al       |Williams|Sam         |Brown      |Bike       |
+|>  |1007    |1999-06-13|Al       |Williams|Sam         |Brown      |Iron       |
+|>  |1007    |1999-06-13|Al       |Williams|Sam         |Brown      |Mixer      |
+|>  |1007    |1999-06-13|Al       |Williams|Sam         |Brown      |Skates     |
+|>  |1007    |1999-06-13|Al       |Williams|Sam         |Brown      |Stove      |
+|>  |1007    |1999-06-13|Al       |Williams|Sam         |Brown      |Washer     |
+|>  |1007    |1999-06-13|Al       |Williams|William     |Smith      |Bike       |
+|>  |1007    |1999-06-13|Al       |Williams|William     |Smith      |Iron       |
+|>  |1007    |1999-06-13|Al       |Williams|William     |Smith      |Mixer      |
+|>  |1007    |1999-06-13|Al       |Williams|William     |Smith      |Skates     |
+|>  |1007    |1999-06-13|Al       |Williams|William     |Smith      |Stove      |
+|>  |1007    |1999-06-13|Al       |Williams|William     |Smith      |Washer     |
+|>  |1007    |1999-06-13|Ann      |Samuals |Mary        |Jones      |Bike       |
+|>  |1007    |1999-06-13|Ann      |Samuals |Mary        |Jones      |Iron       |
+|>  |1007    |1999-06-13|Ann      |Samuals |Mary        |Jones      |Mixer      |
+|>  |1007    |1999-06-13|Ann      |Samuals |Mary        |Jones      |Skates     |
+|>  |1007    |1999-06-13|Ann      |Samuals |Mary        |Jones      |Stove      |
+|>  |1007    |1999-06-13|Ann      |Samuals |Mary        |Jones      |Washer     |
+|>  |1007    |1999-06-13|Ann      |Samuals |Sam         |Brown      |Bike       |
+|>  |1007    |1999-06-13|Ann      |Samuals |Sam         |Brown      |Iron       |
+|>  |1007    |1999-06-13|Ann      |Samuals |Sam         |Brown      |Mixer      |
+|>  |1007    |1999-06-13|Ann      |Samuals |Sam         |Brown      |Skates     |
+|>  |1007    |1999-06-13|Ann      |Samuals |Sam         |Brown      |Stove      |
+|>  |1007    |1999-06-13|Ann      |Samuals |Sam         |Brown      |Washer     |
+|>  |1007    |1999-06-13|Ann      |Samuals |William     |Smith      |Bike       |
+|>  |1007    |1999-06-13|Ann      |Samuals |William     |Smith      |Iron       |
+|>  |1007    |1999-06-13|Ann      |Samuals |William     |Smith      |Mixer      |
+|>  |1007    |1999-06-13|Ann      |Samuals |William     |Smith      |Skates     |
+|>  |1007    |1999-06-13|Ann      |Samuals |William     |Smith      |Stove      |
+|>  |1007    |1999-06-13|Ann      |Samuals |William     |Smith      |Washer     |
+|>  |1007    |1999-06-13|Dan      |Martin  |Mary        |Jones      |Bike       |
+|>  |1007    |1999-06-13|Dan      |Martin  |Mary        |Jones      |Iron       |
+|>  |1007    |1999-06-13|Dan      |Martin  |Mary        |Jones      |Mixer      |
+|>  |1007    |1999-06-13|Dan      |Martin  |Mary        |Jones      |Skates     |
+|>  |1007    |1999-06-13|Dan      |Martin  |Mary        |Jones      |Stove      |
+|>  |1007    |1999-06-13|Dan      |Martin  |Mary        |Jones      |Washer     |
+|>  |1007    |1999-06-13|Dan      |Martin  |Sam         |Brown      |Bike       |
+|>  |1007    |1999-06-13|Dan      |Martin  |Sam         |Brown      |Iron       |
+|>  |1007    |1999-06-13|Dan      |Martin  |Sam         |Brown      |Mixer      |
+|>  |1007    |1999-06-13|Dan      |Martin  |Sam         |Brown      |Skates     |
+|>  |1007    |1999-06-13|Dan      |Martin  |Sam         |Brown      |Stove      |
+|>  |1007    |1999-06-13|Dan      |Martin  |Sam         |Brown      |Washer     |
+|>  |1007    |1999-06-13|Dan      |Martin  |William     |Smith      |Bike       |
+|>  |1007    |1999-06-13|Dan      |Martin  |William     |Smith      |Iron       |
+|>  |1007    |1999-06-13|Dan      |Martin  |William     |Smith      |Mixer      |
+|>  |1007    |1999-06-13|Dan      |Martin  |William     |Smith      |Skates     |
+|>  |1007    |1999-06-13|Dan      |Martin  |William     |Smith      |Stove      |
+|>  |1007    |1999-06-13|Dan      |Martin  |William     |Smith      |Washer     |
+|>  |1007    |1999-06-13|Don      |Charles |Mary        |Jones      |Bike       |
+|>  |1007    |1999-06-13|Don      |Charles |Mary        |Jones      |Iron       |
+|>  |1007    |1999-06-13|Don      |Charles |Mary        |Jones      |Mixer      |
+|>  |1007    |1999-06-13|Don      |Charles |Mary        |Jones      |Skates     |
+|>  |1007    |1999-06-13|Don      |Charles |Mary        |Jones      |Stove      |
+|>  |1007    |1999-06-13|Don      |Charles |Mary        |Jones      |Washer     |
+|>  |1007    |1999-06-13|Don      |Charles |Sam         |Brown      |Bike       |
+|>  |1007    |1999-06-13|Don      |Charles |Sam         |Brown      |Iron       |
+|>  |1007    |1999-06-13|Don      |Charles |Sam         |Brown      |Mixer      |
+|>  |1007    |1999-06-13|Don      |Charles |Sam         |Brown      |Skates     |
+|>  |1007    |1999-06-13|Don      |Charles |Sam         |Brown      |Stove      |
+|>  |1007    |1999-06-13|Don      |Charles |Sam         |Brown      |Washer     |
+|>  |1007    |1999-06-13|Don      |Charles |William     |Smith      |Bike       |
+|>  |1007    |1999-06-13|Don      |Charles |William     |Smith      |Iron       |
+|>  |1007    |1999-06-13|Don      |Charles |William     |Smith      |Mixer      |
+|>  |1007    |1999-06-13|Don      |Charles |William     |Smith      |Skates     |
+|>  |1007    |1999-06-13|Don      |Charles |William     |Smith      |Stove      |
+|>  |1007    |1999-06-13|Don      |Charles |William     |Smith      |Washer     |
+|>  |1007    |1999-06-13|Greg     |Johnson |Mary        |Jones      |Bike       |
+|>  |1007    |1999-06-13|Greg     |Johnson |Mary        |Jones      |Iron       |
+|>  |1007    |1999-06-13|Greg     |Johnson |Mary        |Jones      |Mixer      |
+|>  |1007    |1999-06-13|Greg     |Johnson |Mary        |Jones      |Skates     |
+|>  |1007    |1999-06-13|Greg     |Johnson |Mary        |Jones      |Stove      |
+|>  |1007    |1999-06-13|Greg     |Johnson |Mary        |Jones      |Washer     |
+|>  |1007    |1999-06-13|Greg     |Johnson |Sam         |Brown      |Bike       |
+|>  |1007    |1999-06-13|Greg     |Johnson |Sam         |Brown      |Iron       |
+|>  |1007    |1999-06-13|Greg     |Johnson |Sam         |Brown      |Mixer      |
+|>  |1007    |1999-06-13|Greg     |Johnson |Sam         |Brown      |Skates     |
+|>  |1007    |1999-06-13|Greg     |Johnson |Sam         |Brown      |Stove      |
+|>  |1007    |1999-06-13|Greg     |Johnson |Sam         |Brown      |Washer     |
+|>  |1007    |1999-06-13|Greg     |Johnson |William     |Smith      |Bike       |
+|>  |1007    |1999-06-13|Greg     |Johnson |William     |Smith      |Iron       |
+|>  |1007    |1999-06-13|Greg     |Johnson |William     |Smith      |Mixer      |
+|>  |1007    |1999-06-13|Greg     |Johnson |William     |Smith      |Skates     |
+|>  |1007    |1999-06-13|Greg     |Johnson |William     |Smith      |Stove      |
+|>  |1007    |1999-06-13|Greg     |Johnson |William     |Smith      |Washer     |
+|>  |1007    |1999-06-13|Jo       |Baker   |Mary        |Jones      |Bike       |
+|>  |1007    |1999-06-13|Jo       |Baker   |Mary        |Jones      |Iron       |
+|>  |1007    |1999-06-13|Jo       |Baker   |Mary        |Jones      |Mixer      |
+|>  |1007    |1999-06-13|Jo       |Baker   |Mary        |Jones      |Skates     |
+|>  |1007    |1999-06-13|Jo       |Baker   |Mary        |Jones      |Stove      |
+|>  |1007    |1999-06-13|Jo       |Baker   |Mary        |Jones      |Washer     |
+|>  |1007    |1999-06-13|Jo       |Baker   |Sam         |Brown      |Bike       |
+|>  |1007    |1999-06-13|Jo       |Baker   |Sam         |Brown      |Iron       |
+|>  |1007    |1999-06-13|Jo       |Baker   |Sam         |Brown      |Mixer      |
+|>  |1007    |1999-06-13|Jo       |Baker   |Sam         |Brown      |Skates     |
+|>  |1007    |1999-06-13|Jo       |Baker   |Sam         |Brown      |Stove      |
+|>  |1007    |1999-06-13|Jo       |Baker   |Sam         |Brown      |Washer     |
+|>  |1007    |1999-06-13|Jo       |Baker   |William     |Smith      |Bike       |
+|>  |1007    |1999-06-13|Jo       |Baker   |William     |Smith      |Iron       |
+|>  |1007    |1999-06-13|Jo       |Baker   |William     |Smith      |Mixer      |
+|>  |1007    |1999-06-13|Jo       |Baker   |William     |Smith      |Skates     |
+|>  |1007    |1999-06-13|Jo       |Baker   |William     |Smith      |Stove      |
+|>  |1007    |1999-06-13|Jo       |Baker   |William     |Smith      |Washer     |
+|>  |1007    |1999-06-13|Judy     |Roberts |Mary        |Jones      |Bike       |
+|>  |1007    |1999-06-13|Judy     |Roberts |Mary        |Jones      |Iron       |
+|>  |1007    |1999-06-13|Judy     |Roberts |Mary        |Jones      |Mixer      |
+|>  |1007    |1999-06-13|Judy     |Roberts |Mary        |Jones      |Skates     |
+|>  |1007    |1999-06-13|Judy     |Roberts |Mary        |Jones      |Stove      |
+|>  |1007    |1999-06-13|Judy     |Roberts |Mary        |Jones      |Washer     |
+|>  |1007    |1999-06-13|Judy     |Roberts |Sam         |Brown      |Bike       |
+|>  |1007    |1999-06-13|Judy     |Roberts |Sam         |Brown      |Iron       |
+|>  |1007    |1999-06-13|Judy     |Roberts |Sam         |Brown      |Mixer      |
+|>  |1007    |1999-06-13|Judy     |Roberts |Sam         |Brown      |Skates     |
+|>  |1007    |1999-06-13|Judy     |Roberts |Sam         |Brown      |Stove      |
+|>  |1007    |1999-06-13|Judy     |Roberts |Sam         |Brown      |Washer     |
+|>  |1007    |1999-06-13|Judy     |Roberts |William     |Smith      |Stove      |
+|>  |1007    |1999-06-13|Judy     |Roberts |William     |Smith      |Washer     |
+|>  |1007    |1999-06-13|Margaret |Jones   |Mary        |Jones      |Bike       |
+|>  |1007    |1999-06-13|Margaret |Jones   |Mary        |Jones      |Iron       |
+|>  |1007    |1999-06-13|Margaret |Jones   |Mary        |Jones      |Mixer      |
+|>  |1007    |1999-06-13|Margaret |Jones   |Mary        |Jones      |Skates     |
+|>  |1007    |1999-06-13|Margaret |Jones   |Mary        |Jones      |Stove      |
+|>  |1007    |1999-06-13|Margaret |Jones   |Mary        |Jones      |Washer     |
+|>  |1007    |1999-06-13|Margaret |Jones   |Sam         |Brown      |Bike       |
+|>  |1007    |1999-06-13|Margaret |Jones   |Sam         |Brown      |Iron       |
+|>  |1007    |1999-06-13|Margaret |Jones   |Sam         |Brown      |Mixer      |
+|>  |1007    |1999-06-13|Margaret |Jones   |Sam         |Brown      |Skates     |
+|>  |1007    |1999-06-13|Margaret |Jones   |Sam         |Brown      |Stove      |
+|>  |1007    |1999-06-13|Margaret |Jones   |Sam         |Brown      |Washer     |
+|>  |1007    |1999-06-13|Margaret |Jones   |William     |Smith      |Bike       |
+|>  |1007    |1999-06-13|Margaret |Jones   |William     |Smith      |Iron       |
+|>  |1007    |1999-06-13|Margaret |Jones   |William     |Smith      |Mixer      |
+|>  |1007    |1999-06-13|Margaret |Jones   |William     |Smith      |Skates     |
+|>  |1007    |1999-06-13|Margaret |Jones   |William     |Smith      |Stove      |
+|>  |1007    |1999-06-13|Margaret |Jones   |William     |Smith      |Washer     |
+|>  |1007    |1999-06-13|Mary     |Nelson  |Mary        |Jones      |Bike       |
+|>  |1007    |1999-06-13|Mary     |Nelson  |Mary        |Jones      |Iron       |
+|>  |1007    |1999-06-13|Mary     |Nelson  |Mary        |Jones      |Mixer      |
+|>  |1007    |1999-06-13|Mary     |Nelson  |Mary        |Jones      |Skates     |
+|>  |1007    |1999-06-13|Mary     |Nelson  |Mary        |Jones      |Stove      |
+|>  |1007    |1999-06-13|Mary     |Nelson  |Mary        |Jones      |Washer     |
+|>  |1007    |1999-06-13|Mary     |Nelson  |Sam         |Brown      |Bike       |
+|>  |1007    |1999-06-13|Mary     |Nelson  |Sam         |Brown      |Iron       |
+|>  |1007    |1999-06-13|Mary     |Nelson  |Sam         |Brown      |Mixer      |
+|>  |1007    |1999-06-13|Mary     |Nelson  |Sam         |Brown      |Skates     |
+|>  |1007    |1999-06-13|Mary     |Nelson  |Sam         |Brown      |Stove      |
+|>  |1007    |1999-06-13|Mary     |Nelson  |Sam         |Brown      |Washer     |
+|>  |1007    |1999-06-13|Mary     |Nelson  |William     |Smith      |Bike       |
+|>  |1007    |1999-06-13|Mary     |Nelson  |William     |Smith      |Iron       |
+|>  |1007    |1999-06-13|Mary     |Nelson  |William     |Smith      |Mixer      |
+|>  |1007    |1999-06-13|Mary     |Nelson  |William     |Smith      |Skates     |
+|>  |1007    |1999-06-13|Mary     |Nelson  |William     |Smith      |Stove      |
+|>  |1007    |1999-06-13|Mary     |Nelson  |William     |Smith      |Washer     |
+|>  |1007    |1999-06-13|Peter    |Paulls  |Mary        |Jones      |Bike       |
+|>  |1007    |1999-06-13|Peter    |Paulls  |Mary        |Jones      |Iron       |
+|>  |1007    |1999-06-13|Peter    |Paulls  |Mary        |Jones      |Mixer      |
+|>  |1007    |1999-06-13|Peter    |Paulls  |Mary        |Jones      |Skates     |
+|>  |1007    |1999-06-13|Peter    |Paulls  |Mary        |Jones      |Stove      |
+|>  |1007    |1999-06-13|Peter    |Paulls  |Mary        |Jones      |Washer     |
+|>  |1007    |1999-06-13|Peter    |Paulls  |Sam         |Brown      |Bike       |
+|>  |1007    |1999-06-13|Peter    |Paulls  |Sam         |Brown      |Iron       |
+|>  |1007    |1999-06-13|Peter    |Paulls  |Sam         |Brown      |Mixer      |
+|>  |1007    |1999-06-13|Peter    |Paulls  |Sam         |Brown      |Skates     |
+|>  |1007    |1999-06-13|Peter    |Paulls  |Sam         |Brown      |Stove      |
+|>  |1007    |1999-06-13|Peter    |Paulls  |Sam         |Brown      |Washer     |
+|>  |1007    |1999-06-13|Peter    |Paulls  |William     |Smith      |Bike       |
+|>  |1007    |1999-06-13|Peter    |Paulls  |William     |Smith      |Iron       |
+|>  |1007    |1999-06-13|Peter    |Paulls  |William     |Smith      |Mixer      |
+|>  |1007    |1999-06-13|Peter    |Paulls  |William     |Smith      |Skates     |
+|>  |1007    |1999-06-13|Peter    |Paulls  |William     |Smith      |Stove      |
+|>  |1007    |1999-06-13|Peter    |Paulls  |William     |Smith      |Washer     |
+|>  |1007    |1999-06-13|Peter    |Yu      |Mary        |Jones      |Bike       |
+|>  |1007    |1999-06-13|Peter    |Yu      |Mary        |Jones      |Iron       |
+|>  |1007    |1999-06-13|Peter    |Yu      |Mary        |Jones      |Mixer      |
+|>  |1007    |1999-06-13|Peter    |Yu      |Mary        |Jones      |Skates     |
+|>  |1007    |1999-06-13|Peter    |Yu      |Mary        |Jones      |Stove      |
+|>  |1007    |1999-06-13|Peter    |Yu      |Mary        |Jones      |Washer     |
+|>  |1007    |1999-06-13|Peter    |Yu      |Sam         |Brown      |Bike       |
+|>  |1007    |1999-06-13|Peter    |Yu      |Sam         |Brown      |Iron       |
+|>  |1007    |1999-06-13|Peter    |Yu      |Sam         |Brown      |Mixer      |
+|>  |1007    |1999-06-13|Peter    |Yu      |Sam         |Brown      |Skates     |
+|>  |1007    |1999-06-13|Peter    |Yu      |Sam         |Brown      |Stove      |
+|>  |1007    |1999-06-13|Peter    |Yu      |Sam         |Brown      |Washer     |
+|>  |1007    |1999-06-13|Peter    |Yu      |William     |Smith      |Bike       |
+|>  |1007    |1999-06-13|Peter    |Yu      |William     |Smith      |Iron       |
+|>  |1007    |1999-06-13|Peter    |Yu      |William     |Smith      |Mixer      |
+|>  |1007    |1999-06-13|Peter    |Yu      |William     |Smith      |Skates     |
+|>  |1007    |1999-06-13|Peter    |Yu      |William     |Smith      |Stove      |
+|>  |1007    |1999-06-13|Peter    |Yu      |William     |Smith      |Washer     |
+|>  |1007    |1999-06-13|Robert   |McKenzie|Mary        |Jones      |Bike       |
+|>  |1007    |1999-06-13|Robert   |McKenzie|Mary        |Jones      |Iron       |
+|>  |1007    |1999-06-13|Robert   |McKenzie|Mary        |Jones      |Mixer      |
+|>  |1007    |1999-06-13|Robert   |McKenzie|Mary        |Jones      |Skates     |
+|>  |1007    |1999-06-13|Robert   |McKenzie|Mary        |Jones      |Stove      |
+|>  |1007    |1999-06-13|Robert   |McKenzie|Mary        |Jones      |Washer     |
+|>  |1007    |1999-06-13|Robert   |McKenzie|Sam         |Brown      |Bike       |
+|>  |1007    |1999-06-13|Robert   |McKenzie|Sam         |Brown      |Iron       |
+|>  |1007    |1999-06-13|Robert   |McKenzie|Sam         |Brown      |Mixer      |
+|>  |1007    |1999-06-13|Robert   |McKenzie|Sam         |Brown      |Skates     |
+|>  |1007    |1999-06-13|Robert   |McKenzie|Sam         |Brown      |Stove      |
+|>  |1007    |1999-06-13|Robert   |McKenzie|Sam         |Brown      |Washer     |
+|>  |1007    |1999-06-13|Robert   |McKenzie|William     |Smith      |Bike       |
+|>  |1007    |1999-06-13|Robert   |McKenzie|William     |Smith      |Iron       |
+|>  |1007    |1999-06-13|Robert   |McKenzie|William     |Smith      |Mixer      |
+|>  |1007    |1999-06-13|Robert   |McKenzie|William     |Smith      |Skates     |
+|>  |1007    |1999-06-13|Robert   |McKenzie|William     |Smith      |Stove      |
+|>  |1007    |1999-06-13|Robert   |McKenzie|William     |Smith      |Washer     |
+|>  |1007    |1999-06-13|Sally    |Adams   |Mary        |Jones      |Bike       |
+|>  |1007    |1999-06-13|Sally    |Adams   |Mary        |Jones      |Iron       |
+|>  |1007    |1999-06-13|Sally    |Adams   |Mary        |Jones      |Mixer      |
+|>  |1007    |1999-06-13|Sally    |Adams   |Mary        |Jones      |Skates     |
+|>  |1007    |1999-06-13|Sally    |Adams   |Mary        |Jones      |Stove      |
+|>  |1007    |1999-06-13|Sally    |Adams   |Mary        |Jones      |Washer     |
+|>  |1007    |1999-06-13|Sally    |Adams   |Sam         |Brown      |Bike       |
+|>  |1007    |1999-06-13|Sally    |Adams   |Sam         |Brown      |Iron       |
+|>  |1007    |1999-06-13|Sally    |Adams   |Sam         |Brown      |Mixer      |
+|>  |1007    |1999-06-13|Sally    |Adams   |Sam         |Brown      |Skates     |
+|>  |1007    |1999-06-13|Sally    |Adams   |Sam         |Brown      |Stove      |
+|>  |1007    |1999-06-13|Sally    |Adams   |Sam         |Brown      |Washer     |
+|>  |1007    |1999-06-13|Sally    |Adams   |William     |Smith      |Bike       |
+|>  |1007    |1999-06-13|Sally    |Adams   |William     |Smith      |Iron       |
+|>  |1007    |1999-06-13|Sally    |Adams   |William     |Smith      |Mixer      |
+|>  |1007    |1999-06-13|Sally    |Adams   |William     |Smith      |Skates     |
+|>  |1007    |1999-06-13|Sally    |Adams   |William     |Smith      |Stove      |
+|>  |1007    |1999-06-13|Sally    |Adams   |William     |Smith      |Washer     |
+|>  |1007    |1999-06-13|Sandra   |Adams   |Mary        |Jones      |Bike       |
+|>  |1007    |1999-06-13|Sandra   |Adams   |Mary        |Jones      |Iron       |
+|>  |1007    |1999-06-13|Sandra   |Adams   |Mary        |Jones      |Mixer      |
+|>  |1007    |1999-06-13|Sandra   |Adams   |Mary        |Jones      |Skates     |
+|>  |1007    |1999-06-13|Sandra   |Adams   |Mary        |Jones      |Stove      |
+|>  |1007    |1999-06-13|Sandra   |Adams   |Mary        |Jones      |Washer     |
+|>  |1007    |1999-06-13|Sandra   |Adams   |Sam         |Brown      |Bike       |
+|>  |1007    |1999-06-13|Sandra   |Adams   |Sam         |Brown      |Iron       |
+|>  |1007    |1999-06-13|Sandra   |Adams   |Sam         |Brown      |Mixer      |
+|>  |1007    |1999-06-13|Sandra   |Adams   |Sam         |Brown      |Skates     |
+|>  |1007    |1999-06-13|Sandra   |Adams   |Sam         |Brown      |Stove      |
+|>  |1007    |1999-06-13|Sandra   |Adams   |Sam         |Brown      |Washer     |
+|>  |1007    |1999-06-13|Sandra   |Adams   |William     |Smith      |Bike       |
+|>  |1007    |1999-06-13|Sandra   |Adams   |William     |Smith      |Iron       |
+|>  |1007    |1999-06-13|Sandra   |Adams   |William     |Smith      |Mixer      |
+|>  |1007    |1999-06-13|Sandra   |Adams   |William     |Smith      |Skates     |
+|>  |1007    |1999-06-13|Sandra   |Adams   |William     |Smith      |Stove      |
+|>  |1007    |1999-06-13|Sandra   |Adams   |William     |Smith      |Washer     |
+|>  |1007    |1999-06-13|Tom      |Daniels |Mary        |Jones      |Bike       |
+|>  |1007    |1999-06-13|Tom      |Daniels |Mary        |Jones      |Iron       |
+|>  |1007    |1999-06-13|Tom      |Daniels |Mary        |Jones      |Mixer      |
+|>  |1007    |1999-06-13|Tom      |Daniels |Mary        |Jones      |Skates     |
+|>  |1007    |1999-06-13|Tom      |Daniels |Mary        |Jones      |Stove      |
+|>  |1007    |1999-06-13|Tom      |Daniels |Mary        |Jones      |Washer     |
+|>  |1007    |1999-06-13|Tom      |Daniels |Sam         |Brown      |Bike       |
+|>  |1007    |1999-06-13|Tom      |Daniels |Sam         |Brown      |Iron       |
+|>  |1007    |1999-06-13|Tom      |Daniels |Sam         |Brown      |Mixer      |
+|>  |1007    |1999-06-13|Tom      |Daniels |Sam         |Brown      |Skates     |
+|>  |1007    |1999-06-13|Tom      |Daniels |Sam         |Brown      |Stove      |
+|>  |1007    |1999-06-13|Tom      |Daniels |Sam         |Brown      |Washer     |
+|>  |1007    |1999-06-13|Tom      |Daniels |William     |Smith      |Bike       |
+|>  |1007    |1999-06-13|Tom      |Daniels |William     |Smith      |Iron       |
+|>  |1007    |1999-06-13|Tom      |Daniels |William     |Smith      |Mixer      |
+|>  |1007    |1999-06-13|Tom      |Daniels |William     |Smith      |Skates     |
+|>  |1007    |1999-06-13|Tom      |Daniels |William     |Smith      |Stove      |
+|>  |1007    |1999-06-13|Tom      |Daniels |William     |Smith      |Washer     |
+|>  |1003    |1999-05-18|Sally    |Adams   |Sam         |Brown      |Bike       |
+|>  |1003    |1999-05-18|Sally    |Adams   |Sam         |Brown      |Iron       |
+|>  |1003    |1999-05-18|Sally    |Adams   |Sam         |Brown      |Mixer      |
+|>  |1003    |1999-05-18|Sally    |Adams   |Sam         |Brown      |Skates     |
+|>  |1003    |1999-05-18|Sally    |Adams   |Sam         |Brown      |Stove      |
+|>  |1003    |1999-05-18|Sally    |Adams   |Sam         |Brown      |Washer     |
+|>  |1003    |1999-05-18|Sally    |Adams   |William     |Smith      |Bike       |
+|>  |1003    |1999-05-18|Sally    |Adams   |William     |Smith      |Iron       |
+|>  |1003    |1999-05-18|Sally    |Adams   |William     |Smith      |Mixer      |
+|>  |1003    |1999-05-18|Sally    |Adams   |William     |Smith      |Skates     |
+|>  |1003    |1999-05-18|Sally    |Adams   |William     |Smith      |Stove      |
+|>  |1003    |1999-05-18|Sally    |Adams   |William     |Smith      |Washer     |
+|>  |1003    |1999-05-18|Sandra   |Adams   |Mary        |Jones      |Bike       |
+|>  |1003    |1999-05-18|Sandra   |Adams   |Mary        |Jones      |Iron       |
+|>  |1003    |1999-05-18|Sandra   |Adams   |Mary        |Jones      |Mixer      |
+|>  |1003    |1999-05-18|Sandra   |Adams   |Mary        |Jones      |Skates     |
+|>  |1003    |1999-05-18|Sandra   |Adams   |Mary        |Jones      |Stove      |
+|>  |1003    |1999-05-18|Sandra   |Adams   |Mary        |Jones      |Washer     |
+|>  |1003    |1999-05-18|Sandra   |Adams   |Sam         |Brown      |Bike       |
+|>  |1003    |1999-05-18|Sandra   |Adams   |Sam         |Brown      |Iron       |
+|>  |1003    |1999-05-18|Sandra   |Adams   |Sam         |Brown      |Mixer      |
+|>  |1003    |1999-05-18|Sandra   |Adams   |Sam         |Brown      |Skates     |
+|>  |1003    |1999-05-18|Sandra   |Adams   |Sam         |Brown      |Stove      |
+|>  |1003    |1999-05-18|Sandra   |Adams   |Sam         |Brown      |Washer     |
+|>  |1003    |1999-05-18|Sandra   |Adams   |William     |Smith      |Bike       |
+|>  |1003    |1999-05-18|Sandra   |Adams   |William     |Smith      |Iron       |
+|>  |1003    |1999-05-18|Sandra   |Adams   |William     |Smith      |Mixer      |
+|>  |1003    |1999-05-18|Sandra   |Adams   |William     |Smith      |Skates     |
+|>  |1003    |1999-05-18|Sandra   |Adams   |William     |Smith      |Stove      |
+|>  |1003    |1999-05-18|Sandra   |Adams   |William     |Smith      |Washer     |
+|>  |1003    |1999-05-18|Tom      |Daniels |Mary        |Jones      |Bike       |
+|>  |1003    |1999-05-18|Tom      |Daniels |Mary        |Jones      |Iron       |
+|>  |1003    |1999-05-18|Tom      |Daniels |Mary        |Jones      |Mixer      |
+|>  |1003    |1999-05-18|Tom      |Daniels |Mary        |Jones      |Skates     |
+|>  |1003    |1999-05-18|Tom      |Daniels |Mary        |Jones      |Stove      |
+|>  |1003    |1999-05-18|Tom      |Daniels |Mary        |Jones      |Washer     |
+|>  |1003    |1999-05-18|Tom      |Daniels |Sam         |Brown      |Bike       |
+|>  |1003    |1999-05-18|Tom      |Daniels |Sam         |Brown      |Iron       |
+|>  |1003    |1999-05-18|Tom      |Daniels |Sam         |Brown      |Mixer      |
+|>  |1003    |1999-05-18|Tom      |Daniels |Sam         |Brown      |Skates     |
+|>  |1003    |1999-05-18|Tom      |Daniels |Sam         |Brown      |Stove      |
+|>  |1003    |1999-05-18|Tom      |Daniels |Sam         |Brown      |Washer     |
+|>  |1003    |1999-05-18|Tom      |Daniels |William     |Smith      |Bike       |
+|>  |1003    |1999-05-18|Tom      |Daniels |William     |Smith      |Iron       |
+|>  |1003    |1999-05-18|Tom      |Daniels |William     |Smith      |Mixer      |
+|>  |1003    |1999-05-18|Tom      |Daniels |William     |Smith      |Skates     |
+|>  |1003    |1999-05-18|Tom      |Daniels |William     |Smith      |Stove      |
+|>  |1003    |1999-05-18|Tom      |Daniels |William     |Smith      |Washer     |
+|>  |1004    |1999-05-18|Al       |Williams|Mary        |Jones      |Bike       |
+|>  |1004    |1999-05-18|Al       |Williams|Mary        |Jones      |Iron       |
+|>  |1004    |1999-05-18|Al       |Williams|Mary        |Jones      |Mixer      |
+|>  |1004    |1999-05-18|Al       |Williams|Mary        |Jones      |Skates     |
+|>  |1004    |1999-05-18|Al       |Williams|Mary        |Jones      |Stove      |
+|>  |1004    |1999-05-18|Al       |Williams|Mary        |Jones      |Washer     |
+|>  |1004    |1999-05-18|Al       |Williams|Sam         |Brown      |Bike       |
+|>  |1004    |1999-05-18|Al       |Williams|Sam         |Brown      |Iron       |
+|>  |1004    |1999-05-18|Al       |Williams|Sam         |Brown      |Mixer      |
+|>  |1004    |1999-05-18|Al       |Williams|Sam         |Brown      |Skates     |
+|>  |1004    |1999-05-18|Al       |Williams|Sam         |Brown      |Stove      |
+|>  |1004    |1999-05-18|Al       |Williams|Sam         |Brown      |Washer     |
+|>  |1004    |1999-05-18|Al       |Williams|William     |Smith      |Bike       |
+|>  |1004    |1999-05-18|Al       |Williams|William     |Smith      |Iron       |
+|>  |1004    |1999-05-18|Al       |Williams|William     |Smith      |Mixer      |
+|>  |1004    |1999-05-18|Al       |Williams|William     |Smith      |Skates     |
+|>  |1004    |1999-05-18|Al       |Williams|William     |Smith      |Stove      |
+|>  |1004    |1999-05-18|Al       |Williams|William     |Smith      |Washer     |
+|>  |1004    |1999-05-18|Ann      |Samuals |Mary        |Jones      |Bike       |
+|>  |1004    |1999-05-18|Ann      |Samuals |Mary        |Jones      |Iron       |
+|>  |1004    |1999-05-18|Ann      |Samuals |Mary        |Jones      |Mixer      |
+|>  |1004    |1999-05-18|Ann      |Samuals |Mary        |Jones      |Skates     |
+|>  |1004    |1999-05-18|Ann      |Samuals |Mary        |Jones      |Stove      |
+|>  |1004    |1999-05-18|Ann      |Samuals |Mary        |Jones      |Washer     |
+|>  |1004    |1999-05-18|Ann      |Samuals |Sam         |Brown      |Bike       |
+|>  |1004    |1999-05-18|Ann      |Samuals |Sam         |Brown      |Iron       |
+|>  |1004    |1999-05-18|Ann      |Samuals |Sam         |Brown      |Mixer      |
+|>  |1004    |1999-05-18|Ann      |Samuals |Sam         |Brown      |Skates     |
+|>  |1005    |1999-06-06|Sally    |Adams   |Mary        |Jones      |Mixer      |
+|>  |1007    |1999-06-13|Judy     |Roberts |William     |Smith      |Iron       |
+|>  |1007    |1999-06-13|Judy     |Roberts |William     |Smith      |Mixer      |
+[testSQLPracticalTest].[TEST QUESTION 21] failed: (Error) Could not find stored procedure 'Question21'.[16,62]{testSQLPracticalTest.TEST QUESTION 21,16}
+[testSQLPracticalTest].[TEST QUESTION 22] failed: (Failure) Incorrect Answer!
+Unexpected/missing resultset rows!
+|_m_|orderref|Total Linetotal|
++---+--------+---------------+
+|<  |1006    |402.99         |
+|<  |1004    |805.98         |
+|<  |1007    |1072.25        |
+|<  |1005    |1362.35        |
+|<  |1003    |3275.00        |
+ 
++----------------------+
+|Test Execution Summary|
++----------------------+
+ 
+|No|Test Case Name                           |Dur(ms)|Result |
++--+-----------------------------------------+-------+-------+
+|1 |[testSQLPracticalTest].[TEST QUESTION 02]|     13|Success|
+|2 |[testSQLPracticalTest].[TEST QUESTION 03]|     13|Success|
+|3 |[testSQLPracticalTest].[TEST QUESTION 04]|     17|Success|
+|4 |[testSQLPracticalTest].[TEST QUESTION 05]|     17|Success|
+|5 |[testSQLPracticalTest].[TEST QUESTION 06]|     17|Success|
+|6 |[testSQLPracticalTest].[TEST QUESTION 07]|     17|Success|
+|7 |[testSQLPracticalTest].[TEST QUESTION 08]|     16|Success|
+|8 |[testSQLPracticalTest].[TEST QUESTION 09]|     13|Success|
+|9 |[testSQLPracticalTest].[TEST QUESTION 10]|     14|Success|
+|10|[testSQLPracticalTest].[TEST QUESTION 11]|      4|Error  |
+|11|[testSQLPracticalTest].[TEST QUESTION 12]|      3|Error  |
+|12|[testSQLPracticalTest].[TEST QUESTION 13]|      0|Error  |
+|13|[testSQLPracticalTest].[TEST QUESTION 14]|      4|Error  |
+|14|[testSQLPracticalTest].[TEST QUESTION 15]|     16|Failure|
+|15|[testSQLPracticalTest].[TEST QUESTION 16]|     30|Failure|
+|16|[testSQLPracticalTest].[TEST QUESTION 17]|     17|Failure|
+|17|[testSQLPracticalTest].[TEST QUESTION 18]|     20|Failure|
+|18|[testSQLPracticalTest].[TEST QUESTION 19]|     40|Failure|
+|19|[testSQLPracticalTest].[TEST QUESTION 20]|     60|Failure|
+|20|[testSQLPracticalTest].[TEST QUESTION 21]|      3|Error  |
+|21|[testSQLPracticalTest].[TEST QUESTION 22]|     13|Failure|
+-----------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------

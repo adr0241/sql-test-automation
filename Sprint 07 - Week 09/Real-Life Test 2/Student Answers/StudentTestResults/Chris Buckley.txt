@@ -1,0 +1,145 @@
+C:\PROJECT\Sprint 07 - Week 09\Real-Life Test 2\Student Answers\Chris Buckley.sql
+Test Case Summary: 21 test case(s) executed, 11 succeeded, 0 skipped, 9 failed, 1 errored.
+[testSQLPracticalTest].[TEST QUESTION 11] failed: (Failure) Incorrect Answer!
+Unexpected/missing resultset rows!
+|_m_|repref|Total balance|
++---+------+-------------+
+|<  |11    |412.50       |
+|<  |3     |1205.32      |
+|<  |6     |1767.10      |
+[testSQLPracticalTest].[TEST QUESTION 13] failed: (Failure) Incorrect Answer!
+Unexpected/missing resultset rows!
+|_m_|Client name    |Rep name     |
++---+---------------+-------------+
+|<  |Jo Baker       |Mary Jones   |
+|<  |Margaret Jones |Mary Jones   |
+|<  |Mary Nelson    |Mary Jones   |
+|<  |Peter Paulls   |Mary Jones   |
+|<  |Sally Adams    |Mary Jones   |
+|<  |Tom Daniels    |Mary Jones   |
+|<  |Al Williams    |Sam Brown    |
+|<  |Ann Samuals    |Sam Brown    |
+|<  |Robert McKenzie|Sam Brown    |
+|<  |Dan Martin     |William Smith|
+|<  |Don Charles    |William Smith|
+|<  |Greg Johnson   |William Smith|
+|<  |Judy Roberts   |William Smith|
+|<  |Peter Yu       |William Smith|
+|<  |Sandra Adams   |William Smith|
+[testSQLPracticalTest].[TEST QUESTION 14] failed: (Failure) Incorrect Answer!
+Unexpected/missing resultset rows!
+|_m_|orderref|firstname|lastname|orderdate |
++---+--------+---------+--------+----------+
+|=  |1003    |Sally    |Adams   |1999-05-18|
+|=  |1004    |Ann      |Samuals |1999-05-18|
+|=  |1005    |Sally    |Adams   |1999-06-06|
+|=  |1006    |Mary     |Nelson  |1999-06-12|
+|=  |1007    |Judy     |Roberts |1999-06-13|
+|>  |!NULL!  |Al       |Williams|!NULL!    |
+|>  |!NULL!  |Dan      |Martin  |!NULL!    |
+|>  |!NULL!  |Don      |Charles |!NULL!    |
+|>  |!NULL!  |Greg     |Johnson |!NULL!    |
+|>  |!NULL!  |Jo       |Baker   |!NULL!    |
+|>  |!NULL!  |Margaret |Jones   |!NULL!    |
+|>  |!NULL!  |Peter    |Paulls  |!NULL!    |
+|>  |!NULL!  |Peter    |Yu      |!NULL!    |
+|>  |!NULL!  |Robert   |McKenzie|!NULL!    |
+|>  |!NULL!  |Sandra   |Adams   |!NULL!    |
+|>  |!NULL!  |Tom      |Daniels |!NULL!    |
+[testSQLPracticalTest].[TEST QUESTION 16] failed: (Failure) Incorrect Answer!
+Unexpected/missing resultset rows!
+|_m_|orderref|description|quotedPrice|quantity|
++---+--------+-----------+-----------+--------+
+|<  |1003    |Stove      |399.00     |5       |
+|<  |1003    |Washer     |320.00     |4       |
+|<  |1004    |Stove      |402.99     |2       |
+|<  |1005    |Bike       |187.50     |5       |
+|<  |1005    |Iron       |17.50      |20      |
+|<  |1005    |Skates     |24.95      |3       |
+|<  |1006    |Stove      |402.99     |1       |
+|<  |1007    |Bike       |199.00     |1       |
+|<  |1007    |Skates     |24.95      |35      |
+|>  |1007    |Skates     |302.00     |24      |
+|>  |1003    |Stove      |12.00      |399     |
+|>  |1007    |Bike       |35.00      |199     |
+|>  |1005    |Skates     |302.00     |24      |
+|>  |1006    |Stove      |12.00      |402     |
+|>  |1005    |Iron       |200.00     |17      |
+|>  |1005    |Bike       |35.00      |187     |
+|>  |1004    |Stove      |12.00      |402     |
+|>  |1003    |Washer     |15.00      |320     |
+[testSQLPracticalTest].[TEST QUESTION 17] failed: (Failure) Incorrect Answer!
+Unexpected/missing resultset rows!
+|_m_|orderref|description|quotedPrice|quantity|
++---+--------+-----------+-----------+--------+
+|<  |1003    |Stove      |399.00     |5       |
+|<  |1003    |Washer     |320.00     |4       |
+|<  |1004    |Stove      |402.99     |2       |
+|<  |1006    |Stove      |402.99     |1       |
+[testSQLPracticalTest].[TEST QUESTION 18] failed: (Failure) Incorrect Answer!
+Unexpected/missing resultset rows!
+|_m_|orderref|orderdate |firstname|lastname|description|unitprice|
++---+--------+----------+---------+--------+-----------+---------+
+|<  |1003    |1999-05-18|Sally    |Adams   |Stove      |402.99   |
+|<  |1003    |1999-05-18|Sally    |Adams   |Washer     |311.95   |
+|<  |1004    |1999-05-18|Ann      |Samuals |Stove      |402.99   |
+|<  |1005    |1999-06-06|Sally    |Adams   |Bike       |187.50   |
+|<  |1005    |1999-06-06|Sally    |Adams   |Iron       |17.95    |
+|<  |1005    |1999-06-06|Sally    |Adams   |Skates     |24.95    |
+|<  |1006    |1999-06-12|Mary     |Nelson  |Stove      |402.99   |
+|<  |1007    |1999-06-13|Judy     |Roberts |Bike       |187.50   |
+|<  |1007    |1999-06-13|Judy     |Roberts |Skates     |24.95    |
+[testSQLPracticalTest].[TEST QUESTION 19] failed: (Failure) Incorrect Answer!
+Unexpected/missing resultset rows!
+|_m_|orderref|orderdate |firstname|lastname|description|unitprice|
++---+--------+----------+---------+--------+-----------+---------+
+|<  |1006    |1999-06-12|Mary     |Nelson  |Stove      |402.99   |
+|<  |1007    |1999-06-13|Judy     |Roberts |Bike       |187.50   |
+|<  |1007    |1999-06-13|Judy     |Roberts |Skates     |24.95    |
+[testSQLPracticalTest].[TEST QUESTION 20] failed: (Error) Column name or number of supplied values does not match table definition.[16,7]{Question20,4} (There was also a ROLLBACK ERROR --> The current transaction cannot be committed and cannot be rolled back to a savepoint. Roll back the entire transaction.{tSQLt.Private_RunTest,187})
+[testSQLPracticalTest].[TEST QUESTION 21] failed: (Failure) Incorrect Answer!
+Unexpected/missing resultset rows!
+|_m_|Rep Name     |Total balance|
++---+-------------+-------------+
+|<  |Sam Brown    |412.50       |
+|<  |Mary Jones   |1205.32      |
+|<  |William Smith|1767.10      |
+[testSQLPracticalTest].[TEST QUESTION 22] failed: (Failure) Incorrect Answer!
+Unexpected/missing resultset rows!
+|_m_|orderref|Total Linetotal|
++---+--------+---------------+
+|<  |1006    |402.99         |
+|<  |1004    |805.98         |
+|<  |1007    |1072.25        |
+|<  |1005    |1362.35        |
+|<  |1003    |3275.00        |
+ 
++----------------------+
+|Test Execution Summary|
++----------------------+
+ 
+|No|Test Case Name                           |Dur(ms)|Result |
++--+-----------------------------------------+-------+-------+
+|1 |[testSQLPracticalTest].[TEST QUESTION 02]|     13|Success|
+|2 |[testSQLPracticalTest].[TEST QUESTION 03]|     30|Success|
+|3 |[testSQLPracticalTest].[TEST QUESTION 04]|     17|Success|
+|4 |[testSQLPracticalTest].[TEST QUESTION 05]|     14|Success|
+|5 |[testSQLPracticalTest].[TEST QUESTION 06]|     17|Success|
+|6 |[testSQLPracticalTest].[TEST QUESTION 07]|     17|Success|
+|7 |[testSQLPracticalTest].[TEST QUESTION 08]|     17|Success|
+|8 |[testSQLPracticalTest].[TEST QUESTION 09]|     13|Success|
+|9 |[testSQLPracticalTest].[TEST QUESTION 10]|     13|Success|
+|10|[testSQLPracticalTest].[TEST QUESTION 11]|     24|Failure|
+|11|[testSQLPracticalTest].[TEST QUESTION 12]|     13|Success|
+|12|[testSQLPracticalTest].[TEST QUESTION 13]|     13|Failure|
+|13|[testSQLPracticalTest].[TEST QUESTION 14]|     16|Failure|
+|14|[testSQLPracticalTest].[TEST QUESTION 15]|     13|Success|
+|15|[testSQLPracticalTest].[TEST QUESTION 16]|     20|Failure|
+|16|[testSQLPracticalTest].[TEST QUESTION 17]|     17|Failure|
+|17|[testSQLPracticalTest].[TEST QUESTION 18]|     13|Failure|
+|18|[testSQLPracticalTest].[TEST QUESTION 19]|     13|Failure|
+|19|[testSQLPracticalTest].[TEST QUESTION 20]|      3|Error  |
+|20|[testSQLPracticalTest].[TEST QUESTION 21]|     13|Failure|
+|21|[testSQLPracticalTest].[TEST QUESTION 22]|     14|Failure|
+------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------

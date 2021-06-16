@@ -1,0 +1,34 @@
+C:\PROJECT\Sprint 07 - Week 09\Real-Life Test 2\Student Answers\JulanRayAvilaGutierrez.sql
+Test Case Summary: 21 test case(s) executed, 19 succeeded, 0 skipped, 0 failed, 2 errored.
+[testSQLPracticalTest].[TEST QUESTION 07] failed: (Error) Column name or number of supplied values does not match table definition.[16,7]{Question7,4} (There was also a ROLLBACK ERROR --> The current transaction cannot be committed and cannot be rolled back to a savepoint. Roll back the entire transaction.{tSQLt.Private_RunTest,187})
+[testSQLPracticalTest].[TEST QUESTION 20] failed: (Error) Column name or number of supplied values does not match table definition.[16,7]{Question20,4} (There was also a ROLLBACK ERROR --> The current transaction cannot be committed and cannot be rolled back to a savepoint. Roll back the entire transaction.{tSQLt.Private_RunTest,187})
+ 
++----------------------+
+|Test Execution Summary|
++----------------------+
+ 
+|No|Test Case Name                           |Dur(ms)|Result |
++--+-----------------------------------------+-------+-------+
+|1 |[testSQLPracticalTest].[TEST QUESTION 02]|     20|Success|
+|2 |[testSQLPracticalTest].[TEST QUESTION 03]|     13|Success|
+|3 |[testSQLPracticalTest].[TEST QUESTION 04]|     13|Success|
+|4 |[testSQLPracticalTest].[TEST QUESTION 05]|     13|Success|
+|5 |[testSQLPracticalTest].[TEST QUESTION 06]|     14|Success|
+|6 |[testSQLPracticalTest].[TEST QUESTION 07]|      4|Error  |
+|7 |[testSQLPracticalTest].[TEST QUESTION 08]|     17|Success|
+|8 |[testSQLPracticalTest].[TEST QUESTION 09]|     13|Success|
+|9 |[testSQLPracticalTest].[TEST QUESTION 10]|     13|Success|
+|10|[testSQLPracticalTest].[TEST QUESTION 11]|     14|Success|
+|11|[testSQLPracticalTest].[TEST QUESTION 12]|     13|Success|
+|12|[testSQLPracticalTest].[TEST QUESTION 13]|     13|Success|
+|13|[testSQLPracticalTest].[TEST QUESTION 14]|     16|Success|
+|14|[testSQLPracticalTest].[TEST QUESTION 15]|     16|Success|
+|15|[testSQLPracticalTest].[TEST QUESTION 16]|     16|Success|
+|16|[testSQLPracticalTest].[TEST QUESTION 17]|     16|Success|
+|17|[testSQLPracticalTest].[TEST QUESTION 18]|     20|Success|
+|18|[testSQLPracticalTest].[TEST QUESTION 19]|     17|Success|
+|19|[testSQLPracticalTest].[TEST QUESTION 20]|      3|Error  |
+|20|[testSQLPracticalTest].[TEST QUESTION 21]|     14|Success|
+|21|[testSQLPracticalTest].[TEST QUESTION 22]|     14|Success|
+------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------

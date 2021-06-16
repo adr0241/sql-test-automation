@@ -1,0 +1,57 @@
+C:\PROJECT\Sprint 07 - Week 09\Real-Life Test 2\Student Answers\LoganFindlater.sql
+Test Case Summary: 21 test case(s) executed, 14 succeeded, 0 skipped, 2 failed, 5 errored.
+[testSQLPracticalTest].[TEST QUESTION 11] failed: (Error) Column name or number of supplied values does not match table definition.[16,7]{Question11,4} (There was also a ROLLBACK ERROR --> The current transaction cannot be committed and cannot be rolled back to a savepoint. Roll back the entire transaction.{tSQLt.Private_RunTest,187})
+[testSQLPracticalTest].[TEST QUESTION 12] failed: (Failure) Incorrect Answer!
+Unexpected/missing resultset rows!
+|_m_|city        |Maximum balance|
++---+------------+---------------+
+|<  |Christchurch|320.75         |
+|<  |Dunedin     |575.50         |
+|<  |Palmerston  |908.75         |
+|>  |Palmerston  |1119.50        |
+|>  |Dunedin     |1478.32        |
+|>  |Christchurch|787.10         |
+[testSQLPracticalTest].[TEST QUESTION 14] failed: (Error) Error converting data type varchar to date.[16,1]{Question14,4} (There was also a ROLLBACK ERROR --> The current transaction cannot be committed and cannot be rolled back to a savepoint. Roll back the entire transaction.{tSQLt.Private_RunTest,187})
+[testSQLPracticalTest].[TEST QUESTION 18] failed: (Error) Column name or number of supplied values does not match table definition.[16,7]{Question18,4} (There was also a ROLLBACK ERROR --> The current transaction cannot be committed and cannot be rolled back to a savepoint. Roll back the entire transaction.{tSQLt.Private_RunTest,187})
+[testSQLPracticalTest].[TEST QUESTION 19] failed: (Error) Column name or number of supplied values does not match table definition.[16,7]{Question19,4} (There was also a ROLLBACK ERROR --> The current transaction cannot be committed and cannot be rolled back to a savepoint. Roll back the entire transaction.{tSQLt.Private_RunTest,187})
+[testSQLPracticalTest].[TEST QUESTION 20] failed: (Error) Column name or number of supplied values does not match table definition.[16,7]{Question20,4} (There was also a ROLLBACK ERROR --> The current transaction cannot be committed and cannot be rolled back to a savepoint. Roll back the entire transaction.{tSQLt.Private_RunTest,187})
+[testSQLPracticalTest].[TEST QUESTION 21] failed: (Failure) Incorrect Answer!
+Unexpected/missing resultset rows!
+|_m_|Rep Name     |Total balance|
++---+-------------+-------------+
+|<  |Sam Brown    |412.50       |
+|<  |Mary Jones   |1205.32      |
+|<  |William Smith|1767.10      |
+|>  |Mary Jones   |5040.34      |
+|>  |Sam Brown    |805.98       |
+|>  |William Smith|1072.25      |
+ 
++----------------------+
+|Test Execution Summary|
++----------------------+
+ 
+|No|Test Case Name                           |Dur(ms)|Result |
++--+-----------------------------------------+-------+-------+
+|1 |[testSQLPracticalTest].[TEST QUESTION 02]|     16|Success|
+|2 |[testSQLPracticalTest].[TEST QUESTION 03]|     13|Success|
+|3 |[testSQLPracticalTest].[TEST QUESTION 04]|     14|Success|
+|4 |[testSQLPracticalTest].[TEST QUESTION 05]|     17|Success|
+|5 |[testSQLPracticalTest].[TEST QUESTION 06]|     17|Success|
+|6 |[testSQLPracticalTest].[TEST QUESTION 07]|     17|Success|
+|7 |[testSQLPracticalTest].[TEST QUESTION 08]|     17|Success|
+|8 |[testSQLPracticalTest].[TEST QUESTION 09]|     13|Success|
+|9 |[testSQLPracticalTest].[TEST QUESTION 10]|     13|Success|
+|10|[testSQLPracticalTest].[TEST QUESTION 11]|      7|Error  |
+|11|[testSQLPracticalTest].[TEST QUESTION 12]|     14|Failure|
+|12|[testSQLPracticalTest].[TEST QUESTION 13]|     14|Success|
+|13|[testSQLPracticalTest].[TEST QUESTION 14]|      4|Error  |
+|14|[testSQLPracticalTest].[TEST QUESTION 15]|     13|Success|
+|15|[testSQLPracticalTest].[TEST QUESTION 16]|     16|Success|
+|16|[testSQLPracticalTest].[TEST QUESTION 17]|     16|Success|
+|17|[testSQLPracticalTest].[TEST QUESTION 18]|      6|Error  |
+|18|[testSQLPracticalTest].[TEST QUESTION 19]|      6|Error  |
+|19|[testSQLPracticalTest].[TEST QUESTION 20]|      3|Error  |
+|20|[testSQLPracticalTest].[TEST QUESTION 21]|     17|Failure|
+|21|[testSQLPracticalTest].[TEST QUESTION 22]|     14|Success|
+------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------

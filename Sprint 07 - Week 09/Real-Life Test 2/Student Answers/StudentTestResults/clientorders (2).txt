@@ -1,0 +1,121 @@
+C:\PROJECT\Sprint 07 - Week 09\Real-Life Test 2\Student Answers\clientorders (2).sql
+Test Case Summary: 21 test case(s) executed, 0 succeeded, 0 skipped, 9 failed, 12 errored.
+[testSQLPracticalTest].[TEST QUESTION 02] failed: (Error) Column name or number of supplied values does not match table definition.[16,7]{Question2,4} (There was also a ROLLBACK ERROR --> The current transaction cannot be committed and cannot be rolled back to a savepoint. Roll back the entire transaction.{tSQLt.Private_RunTest,187})
+[testSQLPracticalTest].[TEST QUESTION 03] failed: (Error) Column name or number of supplied values does not match table definition.[16,7]{Question3,4} (There was also a ROLLBACK ERROR --> The current transaction cannot be committed and cannot be rolled back to a savepoint. Roll back the entire transaction.{tSQLt.Private_RunTest,187})
+[testSQLPracticalTest].[TEST QUESTION 04] failed: (Error) Error converting data type varchar to decimal.[16,1]{Question4,4} (There was also a ROLLBACK ERROR --> The current transaction cannot be committed and cannot be rolled back to a savepoint. Roll back the entire transaction.{tSQLt.Private_RunTest,187})
+[testSQLPracticalTest].[TEST QUESTION 05] failed: (Error) Column name or number of supplied values does not match table definition.[16,7]{Question5,4} (There was also a ROLLBACK ERROR --> The current transaction cannot be committed and cannot be rolled back to a savepoint. Roll back the entire transaction.{tSQLt.Private_RunTest,187})
+[testSQLPracticalTest].[TEST QUESTION 06] failed: (Error) Column name or number of supplied values does not match table definition.[16,7]{Question6,4} (There was also a ROLLBACK ERROR --> The current transaction cannot be committed and cannot be rolled back to a savepoint. Roll back the entire transaction.{tSQLt.Private_RunTest,187})
+[testSQLPracticalTest].[TEST QUESTION 07] failed: (Error) Column name or number of supplied values does not match table definition.[16,7]{Question7,4} (There was also a ROLLBACK ERROR --> The current transaction cannot be committed and cannot be rolled back to a savepoint. Roll back the entire transaction.{tSQLt.Private_RunTest,187})
+[testSQLPracticalTest].[TEST QUESTION 08] failed: (Error) Column name or number of supplied values does not match table definition.[16,7]{Question8,4} (There was also a ROLLBACK ERROR --> The current transaction cannot be committed and cannot be rolled back to a savepoint. Roll back the entire transaction.{tSQLt.Private_RunTest,187})
+[testSQLPracticalTest].[TEST QUESTION 09] failed: (Error) Operand type clash: int is incompatible with date[16,2]{Question9,4}
+[testSQLPracticalTest].[TEST QUESTION 10] failed: (Failure) Incorrect Answer!
+Unexpected/missing resultset rows!
+|_m_|city        |Number in each city|
++---+------------+-------------------+
+|<  |Christchurch|5                  |
+|<  |Dunedin     |7                  |
+[testSQLPracticalTest].[TEST QUESTION 11] failed: (Error) Error converting data type varchar to int.[16,1]{Question11,4} (There was also a ROLLBACK ERROR --> The current transaction cannot be committed and cannot be rolled back to a savepoint. Roll back the entire transaction.{tSQLt.Private_RunTest,187})
+[testSQLPracticalTest].[TEST QUESTION 12] failed: (Failure) Incorrect Answer!
+Unexpected/missing resultset rows!
+|_m_|city        |Maximum balance|
++---+------------+---------------+
+|<  |Christchurch|320.75         |
+|<  |Dunedin     |575.50         |
+|<  |Palmerston  |908.75         |
+[testSQLPracticalTest].[TEST QUESTION 13] failed: (Error) Column name or number of supplied values does not match table definition.[16,7]{Question13,4} (There was also a ROLLBACK ERROR --> The current transaction cannot be committed and cannot be rolled back to a savepoint. Roll back the entire transaction.{tSQLt.Private_RunTest,187})
+[testSQLPracticalTest].[TEST QUESTION 14] failed: (Failure) Incorrect Answer!
+Unexpected/missing resultset rows!
+|_m_|orderref|firstname|lastname|orderdate |
++---+--------+---------+--------+----------+
+|<  |1003    |Sally    |Adams   |1999-05-18|
+|<  |1004    |Ann      |Samuals |1999-05-18|
+|<  |1005    |Sally    |Adams   |1999-06-06|
+|<  |1006    |Mary     |Nelson  |1999-06-12|
+|<  |1007    |Judy     |Roberts |1999-06-13|
+[testSQLPracticalTest].[TEST QUESTION 15] failed: (Failure) Incorrect Answer!
+Unexpected/missing resultset rows!
+|_m_|orderref|description|onhand|
++---+--------+-----------+------+
+|<  |1007    |Bike       |35    |
+|<  |1007    |Skates     |302   |
+[testSQLPracticalTest].[TEST QUESTION 16] failed: (Failure) Incorrect Answer!
+Unexpected/missing resultset rows!
+|_m_|orderref|description|quotedPrice|quantity|
++---+--------+-----------+-----------+--------+
+|<  |1003    |Stove      |399.00     |5       |
+|<  |1003    |Washer     |320.00     |4       |
+|<  |1004    |Stove      |402.99     |2       |
+|<  |1005    |Bike       |187.50     |5       |
+|<  |1005    |Iron       |17.50      |20      |
+|<  |1005    |Skates     |24.95      |3       |
+|<  |1006    |Stove      |402.99     |1       |
+|<  |1007    |Bike       |199.00     |1       |
+|<  |1007    |Skates     |24.95      |35      |
+[testSQLPracticalTest].[TEST QUESTION 17] failed: (Error) Column name or number of supplied values does not match table definition.[16,7]{Question17,4} (There was also a ROLLBACK ERROR --> The current transaction cannot be committed and cannot be rolled back to a savepoint. Roll back the entire transaction.{tSQLt.Private_RunTest,187})
+[testSQLPracticalTest].[TEST QUESTION 18] failed: (Failure) Incorrect Answer!
+Unexpected/missing resultset rows!
+|_m_|orderref|orderdate |firstname|lastname|description|unitprice|
++---+--------+----------+---------+--------+-----------+---------+
+|<  |1003    |1999-05-18|Sally    |Adams   |Stove      |402.99   |
+|<  |1003    |1999-05-18|Sally    |Adams   |Washer     |311.95   |
+|<  |1004    |1999-05-18|Ann      |Samuals |Stove      |402.99   |
+|<  |1005    |1999-06-06|Sally    |Adams   |Bike       |187.50   |
+|<  |1005    |1999-06-06|Sally    |Adams   |Iron       |17.95    |
+|<  |1005    |1999-06-06|Sally    |Adams   |Skates     |24.95    |
+|<  |1006    |1999-06-12|Mary     |Nelson  |Stove      |402.99   |
+|<  |1007    |1999-06-13|Judy     |Roberts |Bike       |187.50   |
+|<  |1007    |1999-06-13|Judy     |Roberts |Skates     |24.95    |
+[testSQLPracticalTest].[TEST QUESTION 19] failed: (Failure) Incorrect Answer!
+Unexpected/missing resultset rows!
+|_m_|orderref|orderdate |firstname|lastname|description|unitprice|
++---+--------+----------+---------+--------+-----------+---------+
+|<  |1006    |1999-06-12|Mary     |Nelson  |Stove      |402.99   |
+|<  |1007    |1999-06-13|Judy     |Roberts |Bike       |187.50   |
+|<  |1007    |1999-06-13|Judy     |Roberts |Skates     |24.95    |
+[testSQLPracticalTest].[TEST QUESTION 20] failed: (Error) Column name or number of supplied values does not match table definition.[16,7]{Question20,4} (There was also a ROLLBACK ERROR --> The current transaction cannot be committed and cannot be rolled back to a savepoint. Roll back the entire transaction.{tSQLt.Private_RunTest,187})
+[testSQLPracticalTest].[TEST QUESTION 21] failed: (Failure) Incorrect Answer!
+Unexpected/missing resultset rows!
+|_m_|Rep Name     |Total balance|
++---+-------------+-------------+
+|<  |Sam Brown    |412.50       |
+|<  |Mary Jones   |1205.32      |
+|<  |William Smith|1767.10      |
+[testSQLPracticalTest].[TEST QUESTION 22] failed: (Failure) Incorrect Answer!
+Unexpected/missing resultset rows!
+|_m_|orderref|Total Linetotal|
++---+--------+---------------+
+|<  |1006    |402.99         |
+|<  |1004    |805.98         |
+|<  |1007    |1072.25        |
+|<  |1005    |1362.35        |
+|<  |1003    |3275.00        |
+ 
++----------------------+
+|Test Execution Summary|
++----------------------+
+ 
+|No|Test Case Name                           |Dur(ms)|Result |
++--+-----------------------------------------+-------+-------+
+|1 |[testSQLPracticalTest].[TEST QUESTION 02]|      3|Error  |
+|2 |[testSQLPracticalTest].[TEST QUESTION 03]|      6|Error  |
+|3 |[testSQLPracticalTest].[TEST QUESTION 04]|      0|Error  |
+|4 |[testSQLPracticalTest].[TEST QUESTION 05]|      7|Error  |
+|5 |[testSQLPracticalTest].[TEST QUESTION 06]|      3|Error  |
+|6 |[testSQLPracticalTest].[TEST QUESTION 07]|      3|Error  |
+|7 |[testSQLPracticalTest].[TEST QUESTION 08]|      4|Error  |
+|8 |[testSQLPracticalTest].[TEST QUESTION 09]|      3|Error  |
+|9 |[testSQLPracticalTest].[TEST QUESTION 10]|     10|Failure|
+|10|[testSQLPracticalTest].[TEST QUESTION 11]|      4|Error  |
+|11|[testSQLPracticalTest].[TEST QUESTION 12]|     10|Failure|
+|12|[testSQLPracticalTest].[TEST QUESTION 13]|      3|Error  |
+|13|[testSQLPracticalTest].[TEST QUESTION 14]|     14|Failure|
+|14|[testSQLPracticalTest].[TEST QUESTION 15]|     13|Failure|
+|15|[testSQLPracticalTest].[TEST QUESTION 16]|     13|Failure|
+|16|[testSQLPracticalTest].[TEST QUESTION 17]|      3|Error  |
+|17|[testSQLPracticalTest].[TEST QUESTION 18]|     17|Failure|
+|18|[testSQLPracticalTest].[TEST QUESTION 19]|     17|Failure|
+|19|[testSQLPracticalTest].[TEST QUESTION 20]|      4|Error  |
+|20|[testSQLPracticalTest].[TEST QUESTION 21]|     17|Failure|
+|21|[testSQLPracticalTest].[TEST QUESTION 22]|     13|Failure|
+------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------
