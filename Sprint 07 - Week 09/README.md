@@ -12,6 +12,10 @@ Now also included are templates of the Model answer script, Student answer scrip
 
 Another increment of SQL Test Automation is version 3 has been created. This version has been packaged as a portable exe format, there is no need to install the program, it can run instantly using the **SQLTestAutomation_V3.exe** file in *SQL Test Automation v3.0* directory.
 
+### **Issued 17th June 2021**
+
+The product manual documentation is now complete. Please see the word document or PDF file named **SQLTestAutomationV3_Manual**.
+
 ### **Required Programs to Run SQL Test Automation**
 - Microsoft SQL Server 2017 or later: https://www.microsoft.com/en-us/sql-server/sql-server-downloads
 - Microsoft SQL Server Management Studio: https://docs.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms?view=sql-server-ver15
