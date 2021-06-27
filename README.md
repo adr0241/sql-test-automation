@@ -1,5 +1,7 @@
 # SQL Test Automation
-*by Aditya Raj - Student at Ara Institute of Canterbury*
+*by Aditya Raj - Student at Ara Institute of Canterbury Ltd*
+Industry Supervisors - Amitrajit Sarkar and Alister Macgregor
+Academic Supervisor - Robert Oliver
 
 The tutors of the Department of Enterprise and Digital Innovation at Ara Institute of Canterbury in Christchurch, New Zealand are the industry clients of this project.
 
