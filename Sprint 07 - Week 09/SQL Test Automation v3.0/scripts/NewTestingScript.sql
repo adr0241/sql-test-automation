@@ -1,2 +1,0 @@
-
-EXEC tSQLt.Run 'testPracticalSQLQueries';
